@@ -1,0 +1,5602 @@
+[
+    {
+        "model": "dictionary.term",
+        "pk": 1,
+        "fields": {
+            "text": "1-2",
+            "slug": "1-2",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2,
+        "fields": {
+            "text": "12th man",
+            "slug": "12th-man",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 3,
+        "fields": {
+            "text": "2-3-5",
+            "slug": "2-3-5",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 4,
+        "fields": {
+            "text": "3 points for a win",
+            "slug": "3-points-for-a-win",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 5,
+        "fields": {
+            "text": "39th game",
+            "slug": "39th-game",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 6,
+        "fields": {
+            "text": "4-4-2",
+            "slug": "4-4-2",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 7,
+        "fields": {
+            "text": "4-5-1",
+            "slug": "4-5-1",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 8,
+        "fields": {
+            "text": "4th place trophy",
+            "slug": "4th-place-trophy",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 9,
+        "fields": {
+            "text": "50-50",
+            "slug": "50-50",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 10,
+        "fields": {
+            "text": "6+5 rule",
+            "slug": "6-5-rule",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 11,
+        "fields": {
+            "text": "Academy",
+            "slug": "academy",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 12,
+        "fields": {
+            "text": "Added time",
+            "slug": "added-time",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 13,
+        "fields": {
+            "text": "Administration",
+            "slug": "administration",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 14,
+        "fields": {
+            "text": "Advantage",
+            "slug": "advantage",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 15,
+        "fields": {
+            "text": "AFC",
+            "slug": "afc",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 16,
+        "fields": {
+            "text": "Against the run of play",
+            "slug": "against-the-run-of-play",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 17,
+        "fields": {
+            "text": "Aggregate",
+            "slug": "aggregate",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 18,
+        "fields": {
+            "text": "Anti-football",
+            "slug": "anti-football",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 19,
+        "fields": {
+            "text": "Apertura and Clausura",
+            "slug": "apertura-and-clausura",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 20,
+        "fields": {
+            "text": "Apprentice",
+            "slug": "apprentice",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 21,
+        "fields": {
+            "text": "Arena football",
+            "slug": "arena-football",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 22,
+        "fields": {
+            "text": "Armband",
+            "slug": "armband",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 23,
+        "fields": {
+            "text": "Assist",
+            "slug": "assist",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 24,
+        "fields": {
+            "text": "Assistant referee",
+            "slug": "assistant-referee",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 25,
+        "fields": {
+            "text": "Attacker",
+            "slug": "attacker",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 26,
+        "fields": {
+            "text": "Away",
+            "slug": "away",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 27,
+        "fields": {
+            "text": "Away goals rule",
+            "slug": "away-goals-rule",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 28,
+        "fields": {
+            "text": "Back-pass rule",
+            "slug": "back-pass-rule",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 29,
+        "fields": {
+            "text": "Backheel",
+            "slug": "backheel",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 30,
+        "fields": {
+            "text": "Ball",
+            "slug": "ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 31,
+        "fields": {
+            "text": "Ball boy/girl",
+            "slug": "ball-boy-girl",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 32,
+        "fields": {
+            "text": "Ballon d'Or",
+            "slug": "ballon-d-or",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 33,
+        "fields": {
+            "text": "Barras bravas",
+            "slug": "barras-bravas",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 34,
+        "fields": {
+            "text": "Beach football",
+            "slug": "beach-football",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 35,
+        "fields": {
+            "text": "Behind closed doors",
+            "slug": "behind-closed-doors",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 36,
+        "fields": {
+            "text": "Bench",
+            "slug": "bench",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 37,
+        "fields": {
+            "text": "Bend",
+            "slug": "bend",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 38,
+        "fields": {
+            "text": "Bicycle kick",
+            "slug": "bicycle-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 39,
+        "fields": {
+            "text": "Booking",
+            "slug": "booking",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 40,
+        "fields": {
+            "text": "Boot boy",
+            "slug": "boot-boy",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 41,
+        "fields": {
+            "text": "Bosman ruling",
+            "slug": "bosman-ruling",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 42,
+        "fields": {
+            "text": "Bottler",
+            "slug": "bottler",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 43,
+        "fields": {
+            "text": "Box",
+            "slug": "box",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 44,
+        "fields": {
+            "text": "Box-to-box",
+            "slug": "box-to-box",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 45,
+        "fields": {
+            "text": "Brace",
+            "slug": "brace",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 46,
+        "fields": {
+            "text": "Break",
+            "slug": "break",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 47,
+        "fields": {
+            "text": "Bung",
+            "slug": "bung",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 48,
+        "fields": {
+            "text": "Byline",
+            "slug": "byline",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 49,
+        "fields": {
+            "text": "Confederation of African Football (CAF)",
+            "slug": "confederation-of-african-football-caf",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 50,
+        "fields": {
+            "text": "Cap",
+            "slug": "cap",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 51,
+        "fields": {
+            "text": "Cap-tied",
+            "slug": "cap-tied",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 52,
+        "fields": {
+            "text": "Captain",
+            "slug": "captain",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 53,
+        "fields": {
+            "text": "Caretaker manager",
+            "slug": "caretaker-manager",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 54,
+        "fields": {
+            "text": "Catenaccio",
+            "slug": "catenaccio",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 55,
+        "fields": {
+            "text": "Caution",
+            "slug": "caution",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 56,
+        "fields": {
+            "text": "Centre circle",
+            "slug": "centre-circle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 57,
+        "fields": {
+            "text": "Centre spot",
+            "slug": "centre-spot",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 58,
+        "fields": {
+            "text": "Challenge",
+            "slug": "challenge",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 59,
+        "fields": {
+            "text": "Channel",
+            "slug": "channel",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 60,
+        "fields": {
+            "text": "Champions League",
+            "slug": "champions-league",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 61,
+        "fields": {
+            "text": "Chance",
+            "slug": "chance",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 62,
+        "fields": {
+            "text": "Chip",
+            "slug": "chip",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 63,
+        "fields": {
+            "text": "Christmas tree",
+            "slug": "christmas-tree",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 64,
+        "fields": {
+            "text": "Clausura",
+            "slug": "clausura",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 65,
+        "fields": {
+            "text": "Clean sheet",
+            "slug": "clean-sheet",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 66,
+        "fields": {
+            "text": "Clearance",
+            "slug": "clearance",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 67,
+        "fields": {
+            "text": "Club",
+            "slug": "club",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 68,
+        "fields": {
+            "text": "Co-ownership",
+            "slug": "co-ownership",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 69,
+        "fields": {
+            "text": "CONCACAF",
+            "slug": "concacaf",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 70,
+        "fields": {
+            "text": "CONMEBOL",
+            "slug": "conmebol",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 71,
+        "fields": {
+            "text": "Corner flag",
+            "slug": "corner-flag",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 72,
+        "fields": {
+            "text": "Corner kick",
+            "slug": "corner-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 73,
+        "fields": {
+            "text": "Corridor of uncertainty",
+            "slug": "corridor-of-uncertainty",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 74,
+        "fields": {
+            "text": "Counter-attack",
+            "slug": "counter-attack",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 75,
+        "fields": {
+            "text": "Cross",
+            "slug": "cross",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 76,
+        "fields": {
+            "text": "Crossbar",
+            "slug": "crossbar",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 77,
+        "fields": {
+            "text": "Cruyff turn",
+            "slug": "cruyff-turn",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 78,
+        "fields": {
+            "text": "Cuauhtemina",
+            "slug": "cuauhtemina",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 79,
+        "fields": {
+            "text": "Cup",
+            "slug": "cup",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 80,
+        "fields": {
+            "text": "Cup run",
+            "slug": "cup-run",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 81,
+        "fields": {
+            "text": "Cup-tied",
+            "slug": "cup-tied",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 82,
+        "fields": {
+            "text": "Cupset",
+            "slug": "cupset",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 83,
+        "fields": {
+            "text": "Curl",
+            "slug": "curl",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 84,
+        "fields": {
+            "text": "Curva",
+            "slug": "curva",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 85,
+        "fields": {
+            "text": "Custodian",
+            "slug": "custodian",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 86,
+        "fields": {
+            "text": "D",
+            "slug": "d",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 87,
+        "fields": {
+            "text": "Dead ball",
+            "slug": "dead-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 88,
+        "fields": {
+            "text": "Deep",
+            "slug": "deep",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 89,
+        "fields": {
+            "text": "Defender",
+            "slug": "defender",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 90,
+        "fields": {
+            "text": "Defensive wall",
+            "slug": "defensive-wall",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 91,
+        "fields": {
+            "text": "Derby",
+            "slug": "derby",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 92,
+        "fields": {
+            "text": "Designated player rule",
+            "slug": "designated-player-rule",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 93,
+        "fields": {
+            "text": "Direct free kick",
+            "slug": "direct-free-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 94,
+        "fields": {
+            "text": "Dirty work",
+            "slug": "dirty-work",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 95,
+        "fields": {
+            "text": "Dissent",
+            "slug": "dissent",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 96,
+        "fields": {
+            "text": "Diving",
+            "slug": "diving",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 97,
+        "fields": {
+            "text": "Doing a Leeds",
+            "slug": "doing-a-leeds",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 98,
+        "fields": {
+            "text": "Double",
+            "slug": "double",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 99,
+        "fields": {
+            "text": "Dribbling",
+            "slug": "dribbling",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 100,
+        "fields": {
+            "text": "Drop ball",
+            "slug": "drop-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 101,
+        "fields": {
+            "text": "Dugout",
+            "slug": "dugout",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 102,
+        "fields": {
+            "text": "Dummy",
+            "slug": "dummy",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 103,
+        "fields": {
+            "text": "El Clasico",
+            "slug": "el-clasico",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 104,
+        "fields": {
+            "text": "Elevator team",
+            "slug": "elevator-team",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 105,
+        "fields": {
+            "text": "Equaliser",
+            "slug": "equaliser",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 106,
+        "fields": {
+            "text": "European night",
+            "slug": "european-night",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 107,
+        "fields": {
+            "text": "Exhibition match",
+            "slug": "exhibition-match",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 108,
+        "fields": {
+            "text": "Extra time",
+            "slug": "extra-time",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 109,
+        "fields": {
+            "text": "FA Cup",
+            "slug": "fa-cup",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 110,
+        "fields": {
+            "text": "False nine",
+            "slug": "false-nine",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 111,
+        "fields": {
+            "text": "Fan",
+            "slug": "fan",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 112,
+        "fields": {
+            "text": "Fan park",
+            "slug": "fan-park",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 113,
+        "fields": {
+            "text": "Fans' favourite",
+            "slug": "fans-favourite",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 114,
+        "fields": {
+            "text": "Favourite",
+            "slug": "favourite",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 115,
+        "fields": {
+            "text": "FC",
+            "slug": "fc",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 116,
+        "fields": {
+            "text": "Feeder club",
+            "slug": "feeder-club",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 117,
+        "fields": {
+            "text": "Feign injury",
+            "slug": "feign-injury",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 118,
+        "fields": {
+            "text": "Fergie time",
+            "slug": "fergie-time",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 119,
+        "fields": {
+            "text": "Field of play",
+            "slug": "field-of-play",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 120,
+        "fields": {
+            "text": "Federation Internationale de Football Association",
+            "slug": "federation-internationale-de-football-association",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 121,
+        "fields": {
+            "text": "FIFA",
+            "slug": "fifa",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 122,
+        "fields": {
+            "text": "Fifty-fifty",
+            "slug": "fifty-fifty",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 123,
+        "fields": {
+            "text": "Final whistle",
+            "slug": "final-whistle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 124,
+        "fields": {
+            "text": "First eleven",
+            "slug": "first-eleven",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 125,
+        "fields": {
+            "text": "First team",
+            "slug": "first-team",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 126,
+        "fields": {
+            "text": "First touch",
+            "slug": "first-touch",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 127,
+        "fields": {
+            "text": "Fixture congestion",
+            "slug": "fixture-congestion",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 128,
+        "fields": {
+            "text": "Flag",
+            "slug": "flag",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 129,
+        "fields": {
+            "text": "Fixture",
+            "slug": "fixture",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 130,
+        "fields": {
+            "text": "Flat back four",
+            "slug": "flat-back-four",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 131,
+        "fields": {
+            "text": "Flick-on",
+            "slug": "flick-on",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 132,
+        "fields": {
+            "text": "Football",
+            "slug": "football",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 133,
+        "fields": {
+            "text": "Football League",
+            "slug": "football-league",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 134,
+        "fields": {
+            "text": "Football programme",
+            "slug": "football-programme",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 135,
+        "fields": {
+            "text": "Football pyramid",
+            "slug": "football-pyramid",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 136,
+        "fields": {
+            "text": "Formation",
+            "slug": "formation",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 137,
+        "fields": {
+            "text": "Forward",
+            "slug": "forward",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 138,
+        "fields": {
+            "text": "Fourth official",
+            "slug": "fourth-official",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 139,
+        "fields": {
+            "text": "Fox in the box",
+            "slug": "fox-in-the-box",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 140,
+        "fields": {
+            "text": "Foul",
+            "slug": "foul",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 141,
+        "fields": {
+            "text": "Free kick",
+            "slug": "free-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 142,
+        "fields": {
+            "text": "Freestyle football",
+            "slug": "freestyle-football",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 143,
+        "fields": {
+            "text": "Friendly",
+            "slug": "friendly",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 144,
+        "fields": {
+            "text": "Fullback",
+            "slug": "fullback",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 145,
+        "fields": {
+            "text": "Full-time",
+            "slug": "full-time",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 146,
+        "fields": {
+            "text": "Futsal",
+            "slug": "futsal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 147,
+        "fields": {
+            "text": "Game of two halves",
+            "slug": "game-of-two-halves",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 148,
+        "fields": {
+            "text": "Game 39",
+            "slug": "game-39",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 149,
+        "fields": {
+            "text": "Ghost game",
+            "slug": "ghost-game",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 150,
+        "fields": {
+            "text": "Ghost goal",
+            "slug": "ghost-goal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 151,
+        "fields": {
+            "text": "Giant-killing",
+            "slug": "giant-killing",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 152,
+        "fields": {
+            "text": "Give-and-go",
+            "slug": "give-and-go",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 153,
+        "fields": {
+            "text": "Goal",
+            "slug": "goal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 154,
+        "fields": {
+            "text": "Goal average",
+            "slug": "goal-average",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 155,
+        "fields": {
+            "text": "Goal difference",
+            "slug": "goal-difference",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 156,
+        "fields": {
+            "text": "Goal from open play",
+            "slug": "goal-from-open-play",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 157,
+        "fields": {
+            "text": "Goal hanger",
+            "slug": "goal-hanger",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 158,
+        "fields": {
+            "text": "Goalkeeper",
+            "slug": "goalkeeper",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 159,
+        "fields": {
+            "text": "Goal kick",
+            "slug": "goal-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 160,
+        "fields": {
+            "text": "Goal line",
+            "slug": "goal-line",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 161,
+        "fields": {
+            "text": "Goal-line clearance",
+            "slug": "goal-line-clearance",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 162,
+        "fields": {
+            "text": "Goal-line technology",
+            "slug": "goal-line-technology",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 163,
+        "fields": {
+            "text": "Goal poacher",
+            "slug": "goal-poacher",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 164,
+        "fields": {
+            "text": "Goalmouth",
+            "slug": "goalmouth",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 165,
+        "fields": {
+            "text": "Goalmouth scramble",
+            "slug": "goalmouth-scramble",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 166,
+        "fields": {
+            "text": "Goal of the century",
+            "slug": "goal-of-the-century",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 167,
+        "fields": {
+            "text": "Goalpost",
+            "slug": "goalpost",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 168,
+        "fields": {
+            "text": "Goalside",
+            "slug": "goalside",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 169,
+        "fields": {
+            "text": "Golden Generation",
+            "slug": "golden-generation",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 170,
+        "fields": {
+            "text": "Golden goal",
+            "slug": "golden-goal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 171,
+        "fields": {
+            "text": "Grand Slam",
+            "slug": "grand-slam",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 172,
+        "fields": {
+            "text": "Green card",
+            "slug": "green-card",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 173,
+        "fields": {
+            "text": "Groundhopping",
+            "slug": "groundhopping",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 174,
+        "fields": {
+            "text": "Group of death",
+            "slug": "group-of-death",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 175,
+        "fields": {
+            "text": "Half-back",
+            "slug": "half-back",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 176,
+        "fields": {
+            "text": "Half-time",
+            "slug": "half-time",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 177,
+        "fields": {
+            "text": "Half-volley",
+            "slug": "half-volley",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 178,
+        "fields": {
+            "text": "Hammer",
+            "slug": "hammer",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 179,
+        "fields": {
+            "text": "Handbags",
+            "slug": "handbags",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 180,
+        "fields": {
+            "text": "Handball",
+            "slug": "handball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 181,
+        "fields": {
+            "text": "Hand of God",
+            "slug": "hand-of-god",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 182,
+        "fields": {
+            "text": "Hard man",
+            "slug": "hard-man",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 183,
+        "fields": {
+            "text": "Hat-trick",
+            "slug": "hat-trick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 184,
+        "fields": {
+            "text": "Header",
+            "slug": "header",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 185,
+        "fields": {
+            "text": "High foot",
+            "slug": "high-foot",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 186,
+        "fields": {
+            "text": "Holding role",
+            "slug": "holding-role",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 187,
+        "fields": {
+            "text": "Hold up the ball",
+            "slug": "hold-up-the-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 188,
+        "fields": {
+            "text": "Hole",
+            "slug": "hole",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 189,
+        "fields": {
+            "text": "Hollywood ball",
+            "slug": "hollywood-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 190,
+        "fields": {
+            "text": "Home and away",
+            "slug": "home-and-away",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 191,
+        "fields": {
+            "text": "Hooligans",
+            "slug": "hooligans",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 192,
+        "fields": {
+            "text": "Hospital ball",
+            "slug": "hospital-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 193,
+        "fields": {
+            "text": "Howler",
+            "slug": "howler",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 194,
+        "fields": {
+            "text": "International Football Association Board (IFAB)",
+            "slug": "international-football-association-board-ifab",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 195,
+        "fields": {
+            "text": "Indirect free kick",
+            "slug": "indirect-free-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 196,
+        "fields": {
+            "text": "Indoor football",
+            "slug": "indoor-football",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 197,
+        "fields": {
+            "text": "Injury time",
+            "slug": "injury-time",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 198,
+        "fields": {
+            "text": "Inside forward",
+            "slug": "inside-forward",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 199,
+        "fields": {
+            "text": "Intercept",
+            "slug": "intercept",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 200,
+        "fields": {
+            "text": "International break",
+            "slug": "international-break",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 201,
+        "fields": {
+            "text": "International clearance",
+            "slug": "international-clearance",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 202,
+        "fields": {
+            "text": "Journeyman",
+            "slug": "journeyman",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 203,
+        "fields": {
+            "text": "Jumpers for goalposts",
+            "slug": "jumpers-for-goalposts",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 204,
+        "fields": {
+            "text": "Keeper",
+            "slug": "keeper",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 205,
+        "fields": {
+            "text": "Keepie-uppie",
+            "slug": "keepie-uppie",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 206,
+        "fields": {
+            "text": "Kick and rush",
+            "slug": "kick-and-rush",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 207,
+        "fields": {
+            "text": "Kick-off",
+            "slug": "kick-off",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 208,
+        "fields": {
+            "text": "Kit",
+            "slug": "kit",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 209,
+        "fields": {
+            "text": "Kop",
+            "slug": "kop",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 210,
+        "fields": {
+            "text": "Last man",
+            "slug": "last-man",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 211,
+        "fields": {
+            "text": "Last-minute goal",
+            "slug": "last-minute-goal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 212,
+        "fields": {
+            "text": "Lay-off pass",
+            "slug": "lay-off-pass",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 213,
+        "fields": {
+            "text": "Laws of the Game",
+            "slug": "laws-of-the-game",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 214,
+        "fields": {
+            "text": "League",
+            "slug": "league",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 215,
+        "fields": {
+            "text": "Libero",
+            "slug": "libero",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 216,
+        "fields": {
+            "text": "Linesman",
+            "slug": "linesman",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 217,
+        "fields": {
+            "text": "Loan",
+            "slug": "loan",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 218,
+        "fields": {
+            "text": "Long ball",
+            "slug": "long-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 219,
+        "fields": {
+            "text": "Lost the dressing room",
+            "slug": "lost-the-dressing-room",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 220,
+        "fields": {
+            "text": "Magic sponge",
+            "slug": "magic-sponge",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 221,
+        "fields": {
+            "text": "Manager",
+            "slug": "manager",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 222,
+        "fields": {
+            "text": "Man of the match (MOTM)",
+            "slug": "man-of-the-match-motm",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 223,
+        "fields": {
+            "text": "Man on!",
+            "slug": "man-on",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 224,
+        "fields": {
+            "text": "Man-to-man marking",
+            "slug": "man-to-man-marking",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 225,
+        "fields": {
+            "text": "Marking",
+            "slug": "marking",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 226,
+        "fields": {
+            "text": "Match fixing",
+            "slug": "match-fixing",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 227,
+        "fields": {
+            "text": "Mazy run",
+            "slug": "mazy-run",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 228,
+        "fields": {
+            "text": "Medical",
+            "slug": "medical",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 229,
+        "fields": {
+            "text": "Mexican wave",
+            "slug": "mexican-wave",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 230,
+        "fields": {
+            "text": "Mickey Mouse cup",
+            "slug": "mickey-mouse-cup",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 231,
+        "fields": {
+            "text": "Midfielder",
+            "slug": "midfielder",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 232,
+        "fields": {
+            "text": "Minnow",
+            "slug": "minnow",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 233,
+        "fields": {
+            "text": "Multiball system",
+            "slug": "multiball-system",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 234,
+        "fields": {
+            "text": "Near post/Back post",
+            "slug": "near-post-back-post",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 235,
+        "fields": {
+            "text": "Neutral ground",
+            "slug": "neutral-ground",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 236,
+        "fields": {
+            "text": "Nutmeg",
+            "slug": "nutmeg",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 237,
+        "fields": {
+            "text": "Obstruction",
+            "slug": "obstruction",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 238,
+        "fields": {
+            "text": "Offside",
+            "slug": "offside",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 239,
+        "fields": {
+            "text": "Offside trap",
+            "slug": "offside-trap",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 240,
+        "fields": {
+            "text": "Olympic goal",
+            "slug": "olympic-goal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 241,
+        "fields": {
+            "text": "One touch",
+            "slug": "one-touch",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 242,
+        "fields": {
+            "text": "One-club man",
+            "slug": "one-club-man",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 243,
+        "fields": {
+            "text": "One-on-one",
+            "slug": "one-on-one",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 244,
+        "fields": {
+            "text": "One-two",
+            "slug": "one-two",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 245,
+        "fields": {
+            "text": "Open goal",
+            "slug": "open-goal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 246,
+        "fields": {
+            "text": "Opportunity",
+            "slug": "opportunity",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 247,
+        "fields": {
+            "text": "Outfield player",
+            "slug": "outfield-player",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 248,
+        "fields": {
+            "text": "Outside forward",
+            "slug": "outside-forward",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 249,
+        "fields": {
+            "text": "Overhead kick",
+            "slug": "overhead-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 250,
+        "fields": {
+            "text": "Overlap",
+            "slug": "overlap",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 251,
+        "fields": {
+            "text": "Own goal",
+            "slug": "own-goal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 252,
+        "fields": {
+            "text": "Panenka",
+            "slug": "panenka",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 253,
+        "fields": {
+            "text": "Parachute payment",
+            "slug": "parachute-payment",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 254,
+        "fields": {
+            "text": "Paralympic football",
+            "slug": "paralympic-football",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 255,
+        "fields": {
+            "text": "Parking the bus",
+            "slug": "parking-the-bus",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 256,
+        "fields": {
+            "text": "Pass",
+            "slug": "pass",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 257,
+        "fields": {
+            "text": "Passive offside",
+            "slug": "passive-offside",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 258,
+        "fields": {
+            "text": "Penalty area",
+            "slug": "penalty-area",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 259,
+        "fields": {
+            "text": "Penalty kick",
+            "slug": "penalty-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 260,
+        "fields": {
+            "text": "Penalty shootout",
+            "slug": "penalty-shootout",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 261,
+        "fields": {
+            "text": "Perfect hat-trick",
+            "slug": "perfect-hat-trick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 262,
+        "fields": {
+            "text": "Phantom goal",
+            "slug": "phantom-goal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 263,
+        "fields": {
+            "text": "Phoenix club",
+            "slug": "phoenix-club",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 264,
+        "fields": {
+            "text": "Pitch",
+            "slug": "pitch",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 265,
+        "fields": {
+            "text": "Pitch invasion",
+            "slug": "pitch-invasion",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 266,
+        "fields": {
+            "text": "Play-acting",
+            "slug": "play-acting",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 267,
+        "fields": {
+            "text": "Play to the whistle",
+            "slug": "play-to-the-whistle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 268,
+        "fields": {
+            "text": "Playing advantage",
+            "slug": "playing-advantage",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 269,
+        "fields": {
+            "text": "Playmaker",
+            "slug": "playmaker",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 270,
+        "fields": {
+            "text": "Playoff",
+            "slug": "playoff",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 271,
+        "fields": {
+            "text": "Points deduction",
+            "slug": "points-deduction",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 272,
+        "fields": {
+            "text": "Post",
+            "slug": "post",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 273,
+        "fields": {
+            "text": "The Poznan",
+            "slug": "the-poznan",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 274,
+        "fields": {
+            "text": "Pre-season",
+            "slug": "pre-season",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 275,
+        "fields": {
+            "text": "Premier League",
+            "slug": "premier-league",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 276,
+        "fields": {
+            "text": "Pressing",
+            "slug": "pressing",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 277,
+        "fields": {
+            "text": "Professional",
+            "slug": "professional",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 278,
+        "fields": {
+            "text": "Professional foul",
+            "slug": "professional-foul",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 279,
+        "fields": {
+            "text": "Promedios",
+            "slug": "promedios",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 280,
+        "fields": {
+            "text": "Promotion",
+            "slug": "promotion",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 281,
+        "fields": {
+            "text": "Pyramid",
+            "slug": "pyramid",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 282,
+        "fields": {
+            "text": "Rabona",
+            "slug": "rabona",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 283,
+        "fields": {
+            "text": "Red card",
+            "slug": "red-card",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 284,
+        "fields": {
+            "text": "Reducer",
+            "slug": "reducer",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 285,
+        "fields": {
+            "text": "Referee",
+            "slug": "referee",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 286,
+        "fields": {
+            "text": "Replacement",
+            "slug": "replacement",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 287,
+        "fields": {
+            "text": "Relegation",
+            "slug": "relegation",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 288,
+        "fields": {
+            "text": "Reserve team",
+            "slug": "reserve-team",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 289,
+        "fields": {
+            "text": "Retired number",
+            "slug": "retired-number",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 290,
+        "fields": {
+            "text": "Ronglish",
+            "slug": "ronglish",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 291,
+        "fields": {
+            "text": "Round-robin tournament",
+            "slug": "round-robin-tournament",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 292,
+        "fields": {
+            "text": "Rounding the keeper",
+            "slug": "rounding-the-keeper",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 293,
+        "fields": {
+            "text": "Route one",
+            "slug": "route-one",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 294,
+        "fields": {
+            "text": "Roy of the Rovers",
+            "slug": "roy-of-the-rovers",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 295,
+        "fields": {
+            "text": "Row Z",
+            "slug": "row-z",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 296,
+        "fields": {
+            "text": "Safety",
+            "slug": "safety",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 297,
+        "fields": {
+            "text": "Save",
+            "slug": "save",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 298,
+        "fields": {
+            "text": "Scissor kick",
+            "slug": "scissor-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 299,
+        "fields": {
+            "text": "Scorpion kick",
+            "slug": "scorpion-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 300,
+        "fields": {
+            "text": "Scrimmage",
+            "slug": "scrimmage",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 301,
+        "fields": {
+            "text": "Seal dribble",
+            "slug": "seal-dribble",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 302,
+        "fields": {
+            "text": "Season",
+            "slug": "season",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 303,
+        "fields": {
+            "text": "Second season syndrome",
+            "slug": "second-season-syndrome",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 304,
+        "fields": {
+            "text": "Sending off",
+            "slug": "sending-off",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 305,
+        "fields": {
+            "text": "Set piece",
+            "slug": "set-piece",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 306,
+        "fields": {
+            "text": "Shielding",
+            "slug": "shielding",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 307,
+        "fields": {
+            "text": "Shin pads",
+            "slug": "shin-pads",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 308,
+        "fields": {
+            "text": "Shoot",
+            "slug": "shoot",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 309,
+        "fields": {
+            "text": "Shootout",
+            "slug": "shootout",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 310,
+        "fields": {
+            "text": "Shutout",
+            "slug": "shutout",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 311,
+        "fields": {
+            "text": "Side netting",
+            "slug": "side-netting",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 312,
+        "fields": {
+            "text": "Silver goal",
+            "slug": "silver-goal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 313,
+        "fields": {
+            "text": "Silverware",
+            "slug": "silverware",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 314,
+        "fields": {
+            "text": "Simulation",
+            "slug": "simulation",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 315,
+        "fields": {
+            "text": "Six-a-side football",
+            "slug": "six-a-side-football",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 316,
+        "fields": {
+            "text": "Six-pointer",
+            "slug": "six-pointer",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 317,
+        "fields": {
+            "text": "Slide tackle",
+            "slug": "slide-tackle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 318,
+        "fields": {
+            "text": "Soccer",
+            "slug": "soccer",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 319,
+        "fields": {
+            "text": "Spion Kop",
+            "slug": "spion-kop",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 320,
+        "fields": {
+            "text": "Spot-kick",
+            "slug": "spot-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 321,
+        "fields": {
+            "text": "Squad numbers",
+            "slug": "squad-numbers",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 322,
+        "fields": {
+            "text": "Squad rotation system",
+            "slug": "squad-rotation-system",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 323,
+        "fields": {
+            "text": "Square ball",
+            "slug": "square-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 324,
+        "fields": {
+            "text": "Squeaky-bum time",
+            "slug": "squeaky-bum-time",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 325,
+        "fields": {
+            "text": "Stanchion",
+            "slug": "stanchion",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 326,
+        "fields": {
+            "text": "Stepover",
+            "slug": "stepover",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 327,
+        "fields": {
+            "text": "Stoppage-time",
+            "slug": "stoppage-time",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 328,
+        "fields": {
+            "text": "Straight red",
+            "slug": "straight-red",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 329,
+        "fields": {
+            "text": "Street football",
+            "slug": "street-football",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 330,
+        "fields": {
+            "text": "Striker",
+            "slug": "striker",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 331,
+        "fields": {
+            "text": "Studs",
+            "slug": "studs",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 332,
+        "fields": {
+            "text": "Substitute",
+            "slug": "substitute",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 333,
+        "fields": {
+            "text": "Subbed",
+            "slug": "subbed",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 334,
+        "fields": {
+            "text": "Sudden death",
+            "slug": "sudden-death",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 335,
+        "fields": {
+            "text": "Super Hat-trick",
+            "slug": "super-hat-trick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 336,
+        "fields": {
+            "text": "Supporter",
+            "slug": "supporter",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 337,
+        "fields": {
+            "text": "Survive",
+            "slug": "survive",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 338,
+        "fields": {
+            "text": "Suspension",
+            "slug": "suspension",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 339,
+        "fields": {
+            "text": "Sweeper",
+            "slug": "sweeper",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 340,
+        "fields": {
+            "text": "Tackle",
+            "slug": "tackle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 341,
+        "fields": {
+            "text": "(to) Take a touch",
+            "slug": "to-take-a-touch",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 342,
+        "fields": {
+            "text": "(it) Takes a touch",
+            "slug": "it-takes-a-touch",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 343,
+        "fields": {
+            "text": "Target man",
+            "slug": "target-man",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 344,
+        "fields": {
+            "text": "Taylor Report",
+            "slug": "taylor-report",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 345,
+        "fields": {
+            "text": "Technical area",
+            "slug": "technical-area",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 346,
+        "fields": {
+            "text": "Terrace",
+            "slug": "terrace",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 347,
+        "fields": {
+            "text": "Testimonial match",
+            "slug": "testimonial-match",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 348,
+        "fields": {
+            "text": "The FA",
+            "slug": "the-fa",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 349,
+        "fields": {
+            "text": "The Football Association",
+            "slug": "the-football-association",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 350,
+        "fields": {
+            "text": "Third man running",
+            "slug": "third-man-running",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 351,
+        "fields": {
+            "text": "Three points for a win",
+            "slug": "three-points-for-a-win",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 352,
+        "fields": {
+            "text": "Through-ball",
+            "slug": "through-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 353,
+        "fields": {
+            "text": "Throw-in",
+            "slug": "throw-in",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 354,
+        "fields": {
+            "text": "Tifo",
+            "slug": "tifo",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 355,
+        "fields": {
+            "text": "Tiki-taka",
+            "slug": "tiki-taka",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 356,
+        "fields": {
+            "text": "Toe punt",
+            "slug": "toe-punt",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 357,
+        "fields": {
+            "text": "Too good to go down",
+            "slug": "too-good-to-go-down",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 358,
+        "fields": {
+            "text": "Top corner",
+            "slug": "top-corner",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 359,
+        "fields": {
+            "text": "Top flight",
+            "slug": "top-flight",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 360,
+        "fields": {
+            "text": "Total Football",
+            "slug": "total-football",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 361,
+        "fields": {
+            "text": "Touch-line",
+            "slug": "touch-line",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 362,
+        "fields": {
+            "text": "Tracksuit manager",
+            "slug": "tracksuit-manager",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 363,
+        "fields": {
+            "text": "Transfer window",
+            "slug": "transfer-window",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 364,
+        "fields": {
+            "text": "Trap",
+            "slug": "trap",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 365,
+        "fields": {
+            "text": "Travelling army",
+            "slug": "travelling-army",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 366,
+        "fields": {
+            "text": "Treble",
+            "slug": "treble",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 367,
+        "fields": {
+            "text": "Trialist",
+            "slug": "trialist",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 368,
+        "fields": {
+            "text": "Two-footed tackle",
+            "slug": "two-footed-tackle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 369,
+        "fields": {
+            "text": "Union of European Football Associations (UEFA)",
+            "slug": "union-of-european-football-associations-uefa",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 370,
+        "fields": {
+            "text": "UEFA",
+            "slug": "uefa",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 371,
+        "fields": {
+            "text": "Underdog",
+            "slug": "underdog",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 372,
+        "fields": {
+            "text": "Under the cosh",
+            "slug": "under-the-cosh",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 373,
+        "fields": {
+            "text": "Ultras",
+            "slug": "ultras",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 374,
+        "fields": {
+            "text": "Upset",
+            "slug": "upset",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 375,
+        "fields": {
+            "text": "Utility player",
+            "slug": "utility-player",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 376,
+        "fields": {
+            "text": "VAR",
+            "slug": "var",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 377,
+        "fields": {
+            "text": "Video assistant referee (VAR)",
+            "slug": "video-assistant-referee-var",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 378,
+        "fields": {
+            "text": "Vanishing spray",
+            "slug": "vanishing-spray",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 379,
+        "fields": {
+            "text": "Video technology",
+            "slug": "video-technology",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 380,
+        "fields": {
+            "text": "Volley",
+            "slug": "volley",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 381,
+        "fields": {
+            "text": "Vuvuzela",
+            "slug": "vuvuzela",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 382,
+        "fields": {
+            "text": "Wall",
+            "slug": "wall",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 383,
+        "fields": {
+            "text": "Want-away",
+            "slug": "want-away",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 384,
+        "fields": {
+            "text": "War chest",
+            "slug": "war-chest",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 385,
+        "fields": {
+            "text": "Webster ruling",
+            "slug": "webster-ruling",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 386,
+        "fields": {
+            "text": "Wing",
+            "slug": "wing",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 387,
+        "fields": {
+            "text": "Winger",
+            "slug": "winger",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 388,
+        "fields": {
+            "text": "Winter break",
+            "slug": "winter-break",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 389,
+        "fields": {
+            "text": "Withdrawn",
+            "slug": "withdrawn",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 390,
+        "fields": {
+            "text": "Woodwork",
+            "slug": "woodwork",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 391,
+        "fields": {
+            "text": "Worldy",
+            "slug": "worldy",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 392,
+        "fields": {
+            "text": "Work rate",
+            "slug": "work-rate",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 393,
+        "fields": {
+            "text": "World Cup",
+            "slug": "world-cup",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 394,
+        "fields": {
+            "text": "X-rated challenge",
+            "slug": "x-rated-challenge",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 395,
+        "fields": {
+            "text": "Yellow card",
+            "slug": "yellow-card",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 396,
+        "fields": {
+            "text": "Youth",
+            "slug": "youth",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 397,
+        "fields": {
+            "text": "Youth academy",
+            "slug": "youth-academy",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 398,
+        "fields": {
+            "text": "Yo-yo club",
+            "slug": "yo-yo-club",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 399,
+        "fields": {
+            "text": "Zonal marking",
+            "slug": "zonal-marking",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 400,
+        "fields": {
+            "text": "Zona mist",
+            "slug": "zona-mist",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Football"
+            ]
+        }
+    }
+]

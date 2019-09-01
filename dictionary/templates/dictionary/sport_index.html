@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1>Sport Index</h1>
+    {% for term in terms %}
+    <a href="{{ term.get_absolute_url }}"><p>{{ term.text }} - <span>{{term.num_approved_definitions}} definitions</span></p></a>
+    {% endfor %}
+</body>
+</html>

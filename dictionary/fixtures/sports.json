@@ -1,0 +1,74 @@
+[
+  {
+    "model": "dictionary.sport",
+    "pk": 1,
+    "fields": {
+      "name": "Football",
+      "slug": "football"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 2,
+    "fields": {
+      "name": "Basketball",
+      "slug": "basketball"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 3,
+    "fields": {
+      "name": "Tennis",
+      "slug": "tennis"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 4,
+    "fields": {
+      "name": "American Football",
+      "slug": "american-football"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 5,
+    "fields": {
+      "name": "Golf",
+      "slug": "golf"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 6,
+    "fields": {
+      "name": "Cricket",
+      "slug": "cricket"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 7,
+    "fields": {
+      "name": "Baseball",
+      "slug": "baseball"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 8,
+    "fields": {
+      "name": "Rugby",
+      "slug": "rugby"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 9,
+    "fields": {
+      "name": "Hockey",
+      "slug": "hockey"
+    }
+  }
+]

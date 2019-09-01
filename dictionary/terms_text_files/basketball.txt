@@ -1,0 +1,259 @@
+1-3-1 Zone Defense
+2-3 Zone Defense
+24 Second Violation
+50-40-90 Club
+Air Ball
+Alley-oop
+Amnesty Clause
+Amoeba Defense
+And One
+Ankle Breaker
+Assist
+Assist Percentage
+Assist to Turnover Ratio
+Assists per Game
+Attempt
+Attempts per Game
+BEEF
+Back Screen
+Backboard
+Backcourt
+Backcourt Violation
+Backdoor Cut
+Ball Fake
+Ball Hog
+Ball Reversal
+Banana Cut
+Bank Shot
+Baseline
+Basket Interference
+Basketball Court
+Basketball Plus-Minus
+Bench
+Benchwarmer
+Bi-annual Exception
+Big Man
+Block
+Block Percentage
+Blocking Foul
+Blocks per Game
+Bounce Pass
+Box Out
+Box-and-One Defense
+Brick
+Buzzer Beater
+Carrying
+Center (C)
+Charging
+Chase-Down Block
+Cherry Picking
+Chest Pass
+Clear Path to the Basket Foul
+Close-Out
+Coast to Coast
+Collapsing Defense
+Combo Guard
+Continuity Offense
+Cornerman
+Crash the Boards
+Crossover Dribble
+Crunch Time
+Cut
+Dead-ball Foul
+Death Valley
+Defensive Four Factors
+Defensive Player of the Year
+Defensive Rating - DRtg
+Defensive Rebound
+Defensive Rebound Percentage
+Defensive Three-Second Violation
+Defensive Win Shares - DWS
+Deny the Ball
+Dime
+Dipsy-doo
+Dirty Work
+Disabled Player Exception
+Dish
+Disqualification
+Double Dribble
+Double Foul
+Double Pump
+Double Team
+Double-Double
+Downtown
+Dribble
+Dribble Drive Motion
+Dribbling
+Drop Step
+Dunk
+Early Bird Exception
+Effective Field Goal Percentage - eFG%
+Efficiency
+Ejection
+Euro Step
+Fadeaway
+Fast Break
+Field Goal
+Field Goal Percentage
+Finger Roll
+Flagrant Foul
+Flex Offense
+Flop
+Forward-Center
+Foul
+Foul Lanes
+Foul Trouble
+Four-Point Play
+Free Agent
+Free Throw
+Free Throw Attempts
+Front Court
+Full-Court Press
+Game Score statistic
+Give-And-Go
+Glass Cleaner
+Goaltending
+Guard
+Hack-A-Shaq
+Halfcourt Defense
+Halfcourt Offense
+Halfcourt Trap
+Halftime
+Hand-checking
+Hang Time
+Held Ball
+Help-Side Defense
+High Post
+Hook Shot
+Inbound Pass
+Inbound Pass Violation
+Incidental Contact
+Jump Ball
+Jump Shot
+Key
+Kicking
+Lane
+Lane Violation
+Larry Bird Exception
+Lay-Up
+Lay-in
+Linsanity
+Loose-ball Foul
+Lottery
+Low Post
+Luckboxing the Draft
+Luxury Tax
+Man-to-Man Defense
+Match-Up Zone Defense
+Metric
+Mid-level Exception
+Minimum Salary Exception
+Minutes per Game
+Motion Offense
+NBA Collective Bargaining Agreement
+National Basketball Association - NBA
+Nellie Ball
+Non-Bird Exception
+Off-the-Ball Foul
+Offensive Foul
+Offensive Four Factors
+Offensive Rating - ORtg
+Offensive Rebound Percentage
+Offensive Rebounds
+Offensive Win Shares - OWS
+On the Bench
+Out of Bounds
+Outlet Pass
+Over the Limit
+Overtime
+Pace Factor
+Penalty
+Per-Minute Statistics
+Perimeter
+Personal Foul
+Pick
+Pick And Pop
+Pick And Roll
+Pivot
+Player Efficiency Rating - PER
+Point
+Point Guard (PG)
+Points Produced
+Points per Field Goal Attempt
+Points per Game
+Possession
+Possession Arrow
+Post Up
+Posterize
+Power Forward (PF)
+Princeton Offense
+Pump Fake
+Putback
+Pythagorean Record (Expected Wins)
+Quadruple-Double
+Rainbow Shot
+Rebound
+Rebound Percentage
+Rebounds per Game
+Rejected
+Restricted Area
+Reverse Lay-Up
+Role Player
+Rookie Exception
+Run-And-Gun
+Screen
+Second Chance Points
+Set Shot
+Shooting Guard (SG)
+Shot Clock
+Shot Clock Usage
+Sign and Trade Agreements
+Simple Rating
+Simple Rating System Statistics
+Sixth Man
+Sky Hook
+Small Ball
+Small Forward (SF)
+Soft Cap System
+Steal
+Steal Percentage
+Steal to Turnover Ratio
+Steals per Game
+Stripped Ball
+Strong Side
+Swingman
+Swish
+Team Foul
+Technical Foul
+The Four
+The Four Factors
+The Five
+The One
+The Paint
+The Two
+The Three
+Three Point Field Goal
+Three Point Field Goal Percentage
+Three-Second Violation
+Ticky-Tacky Foul
+Time-Out
+Tip-in
+Total Rebound Percentage - TRB%
+Transition Defense
+Transition Offense
+Traveling
+Triangle Offense
+Triple-Double
+True Shooting Percentage - TS%
+Turnover Percentage
+Turnovers per Game
+Turrible
+Tweener
+Twin Towers
+UCLA High Post Offense
+Usage Percentage
+Volume Shooter
+WARP (Wins Above Replacement Player)
+Win Shares - WS
+Win Shares Per 48 Minutes
+Zone Defense
