@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib.contenttypes.models import ContentType
 from django.test import TestCase
 
-from dictionary.models import *
+from dictionary.models import Term, Definition, Sport, Vote
 
 
 def create_django_contrib_auth_models_user(**kwargs):
