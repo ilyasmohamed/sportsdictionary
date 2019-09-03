@@ -1,6 +1,7 @@
 import re
 
 from django.conf import settings
+from django.core.exceptions import ObjectDoesNotExist
 from django.db import models as models
 from django.template.defaultfilters import slugify
 from django.urls import reverse
@@ -116,29 +117,46 @@ class Sport(models.Model):
 # endregion
 
 
-# region Term Model & Managers
+# region Suggested Term & Term Models & Managers
+class AbstractTerm(models.Model):
+    # Fields
+    text = models.CharField(max_length=50)
+    created = models.DateTimeField(auto_now_add=True)
+    last_updated = models.DateTimeField(auto_now=True)
+
+    # Relationship Fields
+    sport = models.ForeignKey(
+        'dictionary.Sport',
+        on_delete=models.CASCADE, related_name="%(class)ss",
+    )
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE, related_name="%(class)ss",
+        null=True, blank=True
+    )
+
+    class Meta:
+        abstract = True
+
+    # Methods
+    def __str__(self):
+        return f'{self.text} - {self.sport}'
+
+
 class ApprovedTermManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(approvedFl=True)
 
 
-class Term(models.Model):
+class Term(AbstractTerm):
     # Fields
-    text = models.CharField(max_length=50)
     slug = models.SlugField()
-    created = models.DateTimeField(auto_now_add=True, editable=False)
-    last_updated = models.DateTimeField(auto_now=True, editable=False)
-    approvedFl = models.BooleanField(default=False)
+    approvedFl = models.BooleanField(default=True)
 
     # Relationship Fields
-    sport = models.ForeignKey(
-        'dictionary.Sport',
-        on_delete=models.CASCADE, related_name="terms_text_files",
-    )
-    user = models.ForeignKey(
-        settings.AUTH_USER_MODEL,
-        on_delete=models.CASCADE, related_name="terms_text_files",
-        null=True, blank=True
+    suggested_term = models.OneToOneField(
+        'dictionary.SuggestedTerm',
+        on_delete=models.CASCADE, null=True
     )
 
     # Managers
@@ -147,12 +165,12 @@ class Term(models.Model):
 
     class Meta:
         ordering = ('text',)
+        constraints = [
+            models.UniqueConstraint(fields=['text', 'sport'], name='unique_term_in_sport'),
+        ]
         permissions = [
             ("can_approve_term", "Can approve a term"),
             ("can_disapprove_term", "Can disapprove a term"),
-        ]
-        constraints = [
-            models.UniqueConstraint(fields=['text', 'sport'], name='unique_term_in_sport'),
         ]
 
     # Methods
@@ -162,9 +180,6 @@ class Term(models.Model):
             unique_slugify(self, value, queryset=Term.objects.filter(sport=self.sport))
         super().save(*args, **kwargs)
 
-    def __str__(self):
-        return f'{self.text} - {self.sport}'
-
     def get_absolute_url(self):
         return reverse('term_detail', args=(self.sport.slug, self.slug))
 
@@ -173,6 +188,78 @@ class Term(models.Model):
 
     def num_approved_definitions(self):
         return self.definitions.filter(approvedFl=True).count()
+
+
+class PendingSuggestedTermManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(review_status='PEN')
+
+
+class SuggestedTerm(AbstractTerm):
+    definitionText = models.TextField()
+    example_usage = models.TextField(null=True, blank=True)
+
+    ACCEPTED = 'ACC'
+    REJECTED = 'REJ'
+    PENDING = 'PEN'
+    REVIEW_STATUS_CHOICES = [
+        (ACCEPTED, 'Accepted'),
+        (REJECTED, 'Rejected'),
+        (PENDING, 'Pending'),
+    ]
+    review_status = models.CharField(
+        max_length=3,
+        choices=REVIEW_STATUS_CHOICES,
+        default=PENDING,
+    )
+
+    # Managers
+    objects = models.Manager()
+    pending_terms = PendingSuggestedTermManager()
+
+    class Meta:
+        permissions = [
+            ("can_accept_suggested_term", "Can accept a suggested term"),
+            ("can_reject_suggested_term", "Can reject a suggested term"),
+        ]
+
+    # Methods
+    def save(self, *args, **kwargs):
+        created = self.pk is None
+        super().save(*args, **kwargs)
+        if not created:
+            if self.is_accepted() and not self.term_exists():
+                # create the term
+                term = Term.objects.create(
+                    text=self.text,
+                    user=self.user,
+                    sport=self.sport
+                )
+                # create the definition
+                definition = Definition.objects.create(
+                    text=self.definitionText,
+                    example_usage=self.example_usage,
+                    user=self.user,
+                    term=term
+                )
+
+    def term_exists(self):
+        try:
+            term = Term.objects.get(suggested_term=self)
+            return True
+        except ObjectDoesNotExist:
+            return False
+
+    def is_pending_review(self):
+        return self.review_status == self.PENDING
+
+    def is_accepted(self):
+        return self.review_status == self.ACCEPTED
+
+    def is_rejected(self):
+        return self.review_status == self.REJECTED
+
+
 # endregion
 
 
@@ -184,11 +271,11 @@ class ApprovedDefinitionManager(models.Manager):
 
 class Definition(models.Model):
     # Fields
-    text = models.CharField(max_length=255)
-    example_usage = models.CharField(max_length=255, null=True, blank=True)
+    text = models.TextField()
+    example_usage = models.TextField(null=True, blank=True)
     created = models.DateTimeField(auto_now_add=True, editable=False)
+    last_updated = models.DateTimeField(auto_now=True, editable=False)
     approvedFl = models.BooleanField(default=True)
-    updated = models.DateTimeField(auto_now=True, editable=False)
 
     # Relationship Fields
     term = models.ForeignKey(

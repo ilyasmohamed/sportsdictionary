@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django import forms
-from .models import Term, Sport, Definition, Vote
+from .models import Term, SuggestedTerm, Sport, Definition, Vote
 
 
 # region Sport
@@ -40,6 +40,21 @@ class TermAdmin(admin.ModelAdmin):
 # endregion
 
 
+# region SuggestedTerm
+class SuggestedTermAdminForm(forms.ModelForm):
+    class Meta:
+        model = SuggestedTerm
+        fields = ['text', 'definitionText', 'example_usage', 'review_status', 'sport', 'user']
+
+
+@admin.register(SuggestedTerm)
+class SuggestedTermAdmin(admin.ModelAdmin):
+    form = SuggestedTermAdminForm
+    list_display = ['text', 'sport', 'review_status', 'created', 'last_updated']
+    list_filter = ('review_status',)
+# endregion
+
+
 # region Definition
 class DefinitionAdminForm(forms.ModelForm):
     class Meta:
@@ -50,7 +65,7 @@ class DefinitionAdminForm(forms.ModelForm):
 @admin.register(Definition)
 class DefinitionAdmin(admin.ModelAdmin):
     form = DefinitionAdminForm
-    list_display = ['text', 'created',  'updated', 'approvedFl']
+    list_display = ['text', 'created',  'last_updated', 'approvedFl']
     list_filter = ('created', 'approvedFl')
 # endregion
 
