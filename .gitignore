@@ -4,9 +4,12 @@ sportsdictionary/settings/local.py
 #Migrations
 **/migrations/
 
-# .Idea files
-**/.idea/workspace.xml
-**/.idea/tasks.xml
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
