@@ -1,6 +1,8 @@
 from django.test import TestCase
+from django.core.exceptions import ObjectDoesNotExist
 
-from dictionary.factories import SportFactory, UserFactory, TermFactory, DefinitionFactory, VoteFactory
+from dictionary.factories import SportFactory, UserFactory, TermFactory, SuggestedTermFactory, DefinitionFactory, VoteFactory
+from dictionary.models import SuggestedTerm
 
 
 class BaseModelTest(TestCase):
@@ -75,6 +77,35 @@ class TermModelTest(BaseModelTest):
         DefinitionFactory.create(term=term, user=self.user, approvedFl=False)
 
         self.assertEqual(term.num_approved_definitions(), 2)
+# endregion
+
+
+# region Suggested Term
+class SuggestedTermModelTest(BaseModelTest):
+
+    def test_is_pending_review(self):
+        suggested_term = SuggestedTermFactory.create(review_status=SuggestedTerm.PENDING)
+        self.assertTrue(suggested_term.is_pending_review())
+
+    def test_is_accepted(self):
+        suggested_term = SuggestedTermFactory.create(review_status=SuggestedTerm.ACCEPTED)
+        self.assertTrue(suggested_term.is_accepted())
+
+    def test_is_rejected(self):
+        suggested_term = SuggestedTermFactory.create(review_status=SuggestedTerm.REJECTED)
+        self.assertTrue(suggested_term.is_rejected())
+
+    def test_term_and_definitions_create_upon_accepting_suggested_term(self):
+        suggested_term = SuggestedTermFactory.create()
+        suggested_term.review_status = SuggestedTerm.ACCEPTED
+        suggested_term.save()
+
+        try:
+            created_term = suggested_term.term
+            self.assertEqual(created_term.definitions.count(), 1)
+        except ObjectDoesNotExist:
+            # if we're here it means the term was not created
+            self.fail('SuggestedTerm has no term')
 # endregion
 
 

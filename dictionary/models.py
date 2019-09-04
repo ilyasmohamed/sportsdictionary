@@ -236,7 +236,8 @@ class SuggestedTerm(AbstractTerm):
                 term = Term.objects.create(
                     text=self.text,
                     user=self.user,
-                    sport=self.sport
+                    sport=self.sport,
+                    suggested_term=self
                 )
                 # create the definition
                 Definition.objects.create(
