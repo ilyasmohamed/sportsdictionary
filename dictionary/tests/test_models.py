@@ -127,9 +127,9 @@ class TermModelTest(BaseModelTest):
         term2 = create_term(text='Rebound', sport=sport2, user=self.user)
         self.assertEqual(term.slug, term2.slug)
 
-    def test_term_unapproved_by_default(self):
+    def test_term_approved_by_default(self):
         term = self.term
-        self.assertFalse(term.approvedFl)
+        self.assertTrue(term.approvedFl)
 
     def test_num_approved_definitions(self):
         term = create_term(text='term to test number of approved definitions', sport=self.sport, user=self.user)

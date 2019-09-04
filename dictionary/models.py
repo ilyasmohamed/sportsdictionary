@@ -135,6 +135,9 @@ class AbstractTerm(models.Model):
         null=True, blank=True
     )
 
+    # Managers
+    objects = models.Manager()
+
     class Meta:
         abstract = True
 
@@ -160,10 +163,10 @@ class Term(AbstractTerm):
     )
 
     # Managers
-    objects = models.Manager()
     approved_terms = ApprovedTermManager()
 
     class Meta:
+        default_manager_name = 'objects'
         ordering = ('text',)
         constraints = [
             models.UniqueConstraint(fields=['text', 'sport'], name='unique_term_in_sport'),
@@ -214,10 +217,10 @@ class SuggestedTerm(AbstractTerm):
     )
 
     # Managers
-    objects = models.Manager()
     pending_terms = PendingSuggestedTermManager()
 
     class Meta:
+        default_manager_name = 'objects'
         permissions = [
             ("can_accept_suggested_term", "Can accept a suggested term"),
             ("can_reject_suggested_term", "Can reject a suggested term"),
@@ -236,7 +239,7 @@ class SuggestedTerm(AbstractTerm):
                     sport=self.sport
                 )
                 # create the definition
-                definition = Definition.objects.create(
+                Definition.objects.create(
                     text=self.definitionText,
                     example_usage=self.example_usage,
                     user=self.user,
@@ -245,7 +248,7 @@ class SuggestedTerm(AbstractTerm):
 
     def term_exists(self):
         try:
-            term = Term.objects.get(suggested_term=self)
+            Term.objects.get(suggested_term=self)
             return True
         except ObjectDoesNotExist:
             return False
@@ -258,8 +261,6 @@ class SuggestedTerm(AbstractTerm):
 
     def is_rejected(self):
         return self.review_status == self.REJECTED
-
-
 # endregion
 
 
