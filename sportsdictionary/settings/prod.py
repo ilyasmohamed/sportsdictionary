@@ -1,5 +1,8 @@
 from sportsdictionary.settings.base import *
 
+ENVIRONMENT_NAME = 'Production'
+ENVIRONMENT_COLOR = '#FF0000'
+
 # Override base.py settings here
 DEBUG = False
 ALLOWED_HOSTS = ['*']

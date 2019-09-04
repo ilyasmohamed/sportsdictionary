@@ -1,5 +1,8 @@
 from sportsdictionary.settings.base import *
 
+ENVIRONMENT_NAME = 'Development'
+ENVIRONMENT_COLOR = '#228B22'
+
 # Override base.py settings here
 DATABASES = {
     'default': {

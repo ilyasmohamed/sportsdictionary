@@ -3,6 +3,12 @@ from django import forms
 from .models import Term, SuggestedTerm, Sport, Definition, Vote
 
 
+# region admin config
+admin.site.site_title = 'Sports Dictionary Admin'
+admin.site.site_header = 'Sports Dictionary Administration'
+# endregion
+
+
 # region Sport
 class SportAdminForm(forms.ModelForm):
     class Meta:
@@ -37,6 +43,7 @@ class TermAdmin(admin.ModelAdmin):
     list_filter = ('sport', 'created', 'approvedFl')
     inlines = [DefinitionInline]
     readonly_fields = ['slug']
+    search_fields = ['text']
 # endregion
 
 
