@@ -3,6 +3,7 @@ from django.test import TestCase
 from django.urls import reverse
 
 from dictionary.models import Term, Definition, Sport
+from dictionary.factories import SportFactory, UserFactory, TermFactory, DefinitionFactory, VoteFactory
 
 
 class IndexView(TestCase):
@@ -11,12 +12,7 @@ class IndexView(TestCase):
         # Create 200 Terms
         num_terms = 200
 
-        for i in range(num_terms):
-            sport_i = Sport.objects.create(name=f'Sport {i}')
-            Term.objects.create(
-                sport=sport_i,
-                text=f'Term {i}'
-            )
+        TermFactory.create_batch(num_terms)
 
     def test_view_url_exists_at_desired_location(self):
         response = self.client.get('/')
@@ -54,13 +50,9 @@ class SportView(TestCase):
     def setUpTestData(cls):
         # Create 100 Terms in a single belonging to a single sport
         num_terms = 100
-        cls.sport = Sport.objects.create(name='Sport')
+        cls.sport = SportFactory.create()
 
-        for i in range(num_terms):
-            Term.objects.create(
-                sport=cls.sport,
-                text=f'Term {i}'
-            )
+        TermFactory.create_batch(num_terms, sport=cls.sport)
 
     def test_view_url_exists_at_desired_location(self):
         response = self.client.get('/' + self.sport.slug + '/')
@@ -93,19 +85,18 @@ class SportView(TestCase):
         self.assertEqual(response.context['paginator'].count, 100)
 
     def test_paginator_only_holds_terms_from_sport(self):
-        another_sport = Sport.objects.create(name='Another Sport')
-        Term.objects.create(
+        another_sport = SportFactory.create(name='Another Sport')
+        TermFactory.create(
             sport=another_sport,
             text='Term in another sport'
         )
-
-        terms = Term.objects.all()
 
         response = self.client.get(reverse('sport_index', kwargs={'sport_slug': self.sport.slug}))
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.context['paginator'].count, 100)
 
         # verify other term exists (total num of terms should = 101)
+        terms = Term.objects.all()
         self.assertEqual(terms.count(), 101)
 
 
@@ -113,19 +104,18 @@ class TermDetailView(TestCase):
     @classmethod
     def setUpTestData(cls):
         # Create a sport, a term belonging to that sport & 10 definitions for that term
-        sport = Sport.objects.create(name='Sport')
-        cls.term = Term.objects.create(
+        sport = SportFactory.create(name='Sport')
+        cls.term = TermFactory.create(
             sport=sport,
             text='Term for sport'
         )
 
-        cls.user = User.objects.create(username='username')
-        for i in range(10):
-            Definition.objects.create(
-                term=cls.term,
-                user=cls.user,
-                text=f'Definition {i} for sport {sport.name}'
-            )
+        cls.user = UserFactory.create(username='username')
+        DefinitionFactory.create_batch(
+            10,
+            term=cls.term,
+            user=cls.user
+        )
 
     def test_view_url_exists_at_desired_location(self):
         response = self.client.get('/' + self.term.sport.slug + '/' + self.term.slug)
