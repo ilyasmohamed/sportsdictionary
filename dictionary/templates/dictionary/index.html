@@ -6,8 +6,29 @@
 </head>
 <body>
     <h1>Index</h1>
-    {% for term in terms %}
-    <a href="{{ term.get_absolute_url }}"><p>{{ term.text }}</p></a>
-    {% endfor %}
+
+        <div class="pagination">
+
+        {% if page_obj.has_previous %}
+        <a href="?page=1">&laquo; First</a>
+        <a href="?page={{ page_obj.previous_page_number }}">Previous</a>
+        {% endif %}
+
+        <span>{{ page_obj.number }}</span>
+        <span>of</span>
+        <span>{{ page_obj.paginator.num_pages }}</span>
+
+        {% if page_obj.has_next %}
+        <a href="?page={{ page_obj.next_page_number }}">Next</a>
+        <a href="?page={{ page_obj.paginator.num_pages }}">Last &raquo;</a>
+        {% endif %}
+    </div>
+
+
+    <ul>
+        {% for term in terms %}
+            <li><a href="{{ term.get_absolute_url }}">{{ term.text }}</a></li>
+        {% endfor %}
+    </ul>
 </body>
 </html>
