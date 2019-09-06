@@ -76,7 +76,7 @@ def generate_json(input_file, output_path):
 
     line = f.readline()
     while line:
-        unaccented_string = unidecode.unidecode(line[:-1])
+        unaccented_string = unidecode.unidecode(line[:-1]) if line.endswith('\n') else unidecode.unidecode(line)
         term = {
             'model': 'dictionary.term',
             'pk': pk,

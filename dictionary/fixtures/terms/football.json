@@ -5589,8 +5589,8 @@
         "model": "dictionary.term",
         "pk": 400,
         "fields": {
-            "text": "Zona mist",
-            "slug": "zona-mist",
+            "text": "Zona mista",
+            "slug": "zona-mista",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,

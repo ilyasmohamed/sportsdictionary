@@ -3615,8 +3615,8 @@
         "model": "dictionary.term",
         "pk": 963,
         "fields": {
-            "text": "Zone Defens",
-            "slug": "zone-defens",
+            "text": "Zone Defense",
+            "slug": "zone-defense",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
