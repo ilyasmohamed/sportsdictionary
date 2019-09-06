@@ -5,10 +5,10 @@ from .models import Term, Definition, Sport
 
 
 class IndexView(generic.ListView):
-    model = Term
     context_object_name = 'terms'
     template_name = 'dictionary/index.html'
     paginate_by = 50
+    queryset = Term.approved_terms.all()
 
 
 class SearchResultsView(generic.ListView):
@@ -18,7 +18,7 @@ class SearchResultsView(generic.ListView):
 
     def get_queryset(self):
         search_key = self.request.GET.get('term')
-        terms = Term.objects.filter(text__icontains=search_key)
+        terms = Term.approved_terms.filter(text__icontains=search_key)
         return terms
 
     def get_context_data(self, **kwargs):
@@ -36,7 +36,7 @@ class SportIndexView(generic.ListView):
     def get_queryset(self):
         sport_slug = self.kwargs['sport_slug']
         sport = get_object_or_404(Sport, slug=sport_slug)
-        return Term.objects.filter(sport=sport)
+        return Term.approved_terms.filter(sport=sport)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
