@@ -1,0 +1,45 @@
+<div class="row">
+    <div class="col-sm">
+        <nav aria-label="...">
+            <ul class="pagination justify-content-center">
+                {% if is_search_pagination %}
+                <li class="page-item"><a class="page-link" href="?term={{ search_term }}&page=1">&laquo;</a></li>
+                {% else %}
+                <li class="page-item"><a class="page-link" href="?page=1">&laquo;</a></li>
+                {% endif %}
+
+
+                {% for i in page_range_to_display %}
+                {% if i == page_obj.number %}
+                <li class="page-item active">
+            <span class="page-link">
+                {{ page_obj.number }}
+                <span class="sr-only">(current)</span>
+            </span>
+                </li>
+                {% else %}
+                {% if is_search_pagination %}
+                <li class="page-item">
+                    <a class="page-link" href="?term={{ search_term }}&page={{ i }}">{{ i }}</a>
+                </li>
+                {% else %}
+                <li class="page-item">
+                    <a class="page-link" href="?page={{ i }}">{{ i }}</a>
+                </li>
+                {% endif %}
+                {% endif %}
+                {% endfor %}
+
+
+                {% if is_search_pagination %}
+                <li class="page-item"><a class="page-link"
+                                         href="?term={{ search_term }}&page={{ page_obj.paginator.num_pages }}">&raquo;</a>
+                </li>
+                {% else %}
+                <li class="page-item"><a class="page-link" href="?page={{ page_obj.paginator.num_pages }}">&raquo;</a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+    </div>
+</div>

@@ -1,13 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ term.text }}</title>
-</head>
-<body>
-    <h1>{{ term.text }}</h1>
-    {% for definition in definitions %}
-    <p>{{ definition.text }} posted by - {{definition.user.username}}</p>
-    {% endfor %}
-</body>
-</html>
+{% extends 'dictionary/base.html' %}
+
+{% block title %}Sports Dictionary - {{ term.text }}{% endblock %}
+
+{% block content %}
+<div class="row mb-3">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-body">
+                <h6>
+                    <h5 class="card-title mb-1">
+                        <a href="{{ term.get_absolute_url }}">{{ term.text }}</a>
+                        <a href="{{ term.sport.get_absolute_url }}"
+                           class="badge badge-{{ term.sport.slug }} float-right">{{ term.sport }}</a>
+                    </h5>
+                    {% if term.user %}
+                    <p class="mb-0">
+                        <small class="text-muted">Term posted by @{{ term.user }}</small>
+                    </p>
+                    {% endif %}
+                </h6>
+            </div>
+        </div>
+    </div>
+</div>
+{% for definition in definitions %}
+<div class="row mb-3">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-body">
+                <h6>
+                    <p class="card-text">{{ definition.text }}</p>
+                    <p class="mb-0">
+                        <small class="text-muted">by @{{ definition.user }}</small>
+                    </p>
+                </h6>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}
+{% endblock %}

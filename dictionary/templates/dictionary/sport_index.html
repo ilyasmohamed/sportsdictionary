@@ -1,34 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>{{ sport.name }}</title>
-</head>
-<body>
-    <h1>{{ sport.name }}</h1>
+{% extends 'dictionary/base.html' %}
 
-        <div class="pagination">
+{% block title %}Sports Dictionary - {{ sport.name }}{% endblock %}
 
-        {% if page_obj.has_previous %}
-        <a href="?page=1">&laquo; First</a>
-        <a href="?page={{ page_obj.previous_page_number }}">Previous</a>
-        {% endif %}
+{% block content %}
 
-        <span>{{ page_obj.number }}</span>
-        <span>of</span>
-        <span>{{ page_obj.paginator.num_pages }}</span>
+{% include "dictionary/pagination.html" %}
 
-        {% if page_obj.has_next %}
-        <a href="?page={{ page_obj.next_page_number }}">Next</a>
-        <a href="?page={{ page_obj.paginator.num_pages }}">Last &raquo;</a>
-        {% endif %}
-    </div>
+{% include "dictionary/render_term_rows.html" %}
 
+{% include "dictionary/pagination.html" %}
 
-    <ul>
-        {% for term in terms %}
-            <li><a href="{{ term.get_absolute_url }}">{{ term.text }}</a></li>
-        {% endfor %}
-    </ul>
-</body>
-</html>
+{% endblock %}

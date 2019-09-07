@@ -4,11 +4,42 @@ from django.views import generic
 from .models import Term, Definition, Sport
 
 
+def get_page_range_to_display_for_pagination(page_obj):
+    display_left = display_right = 5
+
+    current_page = page_obj.number
+    last_page = page_obj.paginator.page_range.stop - 1
+
+    if current_page <= display_left:
+        display_left = current_page - 1
+        display_right = display_right + (display_right - display_left)
+    if current_page + display_right > last_page:
+        left_over = display_right - (last_page - current_page)
+        display_right = display_right - left_over
+
+        pages_from_display_left_to_start = current_page - display_left - 1
+        if pages_from_display_left_to_start >= left_over:
+            display_left += left_over
+        else:
+            display_left += pages_from_display_left_to_start
+
+    return range(current_page - display_left, current_page + display_right + 1)
+
+
 class IndexView(generic.ListView):
     context_object_name = 'terms'
     template_name = 'dictionary/index.html'
     paginate_by = 50
     queryset = Term.approved_terms.all()
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+
+        page_obj = context['page_obj']
+        page_range_to_display = get_page_range_to_display_for_pagination(page_obj)
+        context['page_range_to_display'] = page_range_to_display
+
+        return context
 
 
 class SearchResultsView(generic.ListView):
@@ -25,6 +56,12 @@ class SearchResultsView(generic.ListView):
         context = super().get_context_data(**kwargs)
         context['search_term'] = self.request.GET.get('term')
         context['results_count'] = context['paginator'].count
+
+        page_obj = context['page_obj']
+        page_range_to_display = get_page_range_to_display_for_pagination(page_obj)
+        context['page_range_to_display'] = page_range_to_display
+        context['is_search_pagination'] = True
+
         return context
 
 
@@ -43,6 +80,11 @@ class SportIndexView(generic.ListView):
         sport_slug = self.kwargs['sport_slug']
         sport = get_object_or_404(Sport, slug=sport_slug)
         context['sport'] = sport
+
+        page_obj = context['page_obj']
+        page_range_to_display = get_page_range_to_display_for_pagination(page_obj)
+        context['page_range_to_display'] = page_range_to_display
+
         return context
 
 
