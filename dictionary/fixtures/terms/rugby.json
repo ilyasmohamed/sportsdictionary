@@ -1,0 +1,1276 @@
+[
+    {
+        "model": "dictionary.term",
+        "pk": 2397,
+        "fields": {
+            "text": "22 Metre Drop Out",
+            "slug": "22-metre-drop-out",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2398,
+        "fields": {
+            "text": "Advantage",
+            "slug": "advantage",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2399,
+        "fields": {
+            "text": "All Blacks",
+            "slug": "all-blacks",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2400,
+        "fields": {
+            "text": "Ankle Tap",
+            "slug": "ankle-tap",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2401,
+        "fields": {
+            "text": "Backs",
+            "slug": "backs",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2402,
+        "fields": {
+            "text": "Barbarians",
+            "slug": "barbarians",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2403,
+        "fields": {
+            "text": "Binding",
+            "slug": "binding",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2404,
+        "fields": {
+            "text": "Bledisloe Cup",
+            "slug": "bledisloe-cup",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2405,
+        "fields": {
+            "text": "Blindside",
+            "slug": "blindside",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2406,
+        "fields": {
+            "text": "Calcutta Cup",
+            "slug": "calcutta-cup",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2407,
+        "fields": {
+            "text": "Cap",
+            "slug": "cap",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2408,
+        "fields": {
+            "text": "Charge Down",
+            "slug": "charge-down",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2409,
+        "fields": {
+            "text": "Chip Kick",
+            "slug": "chip-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2410,
+        "fields": {
+            "text": "Clearance Kick",
+            "slug": "clearance-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2411,
+        "fields": {
+            "text": "Conversion",
+            "slug": "conversion",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2412,
+        "fields": {
+            "text": "Drop Goal",
+            "slug": "drop-goal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2413,
+        "fields": {
+            "text": "Drop Out",
+            "slug": "drop-out",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2414,
+        "fields": {
+            "text": "Dummy",
+            "slug": "dummy",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2415,
+        "fields": {
+            "text": "Eagles",
+            "slug": "eagles",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2416,
+        "fields": {
+            "text": "Ellis, William Webb",
+            "slug": "ellis-william-webb",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2417,
+        "fields": {
+            "text": "Feed",
+            "slug": "feed",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2418,
+        "fields": {
+            "text": "Foot Up",
+            "slug": "foot-up",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2419,
+        "fields": {
+            "text": "Forward Pass",
+            "slug": "forward-pass",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2420,
+        "fields": {
+            "text": "Forwards",
+            "slug": "forwards",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2421,
+        "fields": {
+            "text": "Free Kick",
+            "slug": "free-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2422,
+        "fields": {
+            "text": "Front Five",
+            "slug": "front-five",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2423,
+        "fields": {
+            "text": "Front Row",
+            "slug": "front-row",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2424,
+        "fields": {
+            "text": "Garryowen",
+            "slug": "garryowen",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2425,
+        "fields": {
+            "text": "Glossary home",
+            "slug": "glossary-home",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2426,
+        "fields": {
+            "text": "Grand Slam",
+            "slug": "grand-slam",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2427,
+        "fields": {
+            "text": "Grubber",
+            "slug": "grubber",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2428,
+        "fields": {
+            "text": "Haka",
+            "slug": "haka",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2429,
+        "fields": {
+            "text": "Half-back",
+            "slug": "half-back",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2430,
+        "fields": {
+            "text": "High Ball",
+            "slug": "high-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2431,
+        "fields": {
+            "text": "Home Nations",
+            "slug": "home-nations",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2432,
+        "fields": {
+            "text": "Hospital Pass",
+            "slug": "hospital-pass",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2433,
+        "fields": {
+            "text": "IRB",
+            "slug": "irb",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2434,
+        "fields": {
+            "text": "Injury Time",
+            "slug": "injury-time",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2435,
+        "fields": {
+            "text": "Jumper",
+            "slug": "jumper",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2436,
+        "fields": {
+            "text": "Knock On",
+            "slug": "knock-on",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2437,
+        "fields": {
+            "text": "League",
+            "slug": "league",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2438,
+        "fields": {
+            "text": "Lifting",
+            "slug": "lifting",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2439,
+        "fields": {
+            "text": "Lineout",
+            "slug": "lineout",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2440,
+        "fields": {
+            "text": "Loose Forwards",
+            "slug": "loose-forwards",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2441,
+        "fields": {
+            "text": "Mark",
+            "slug": "mark",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2442,
+        "fields": {
+            "text": "Maul",
+            "slug": "maul",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2443,
+        "fields": {
+            "text": "No side",
+            "slug": "no-side",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2444,
+        "fields": {
+            "text": "Offsides",
+            "slug": "offsides",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2445,
+        "fields": {
+            "text": "Pack",
+            "slug": "pack",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2446,
+        "fields": {
+            "text": "Penalty",
+            "slug": "penalty",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2447,
+        "fields": {
+            "text": "Penalty Kick",
+            "slug": "penalty-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2448,
+        "fields": {
+            "text": "Penalty Try",
+            "slug": "penalty-try",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2449,
+        "fields": {
+            "text": "Pill",
+            "slug": "pill",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2450,
+        "fields": {
+            "text": "Pitch",
+            "slug": "pitch",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2451,
+        "fields": {
+            "text": "Place Kick",
+            "slug": "place-kick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2452,
+        "fields": {
+            "text": "Pumas",
+            "slug": "pumas",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2453,
+        "fields": {
+            "text": "Pushover Try",
+            "slug": "pushover-try",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2454,
+        "fields": {
+            "text": "RWC",
+            "slug": "rwc",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2455,
+        "fields": {
+            "text": "Red Card",
+            "slug": "red-card",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2456,
+        "fields": {
+            "text": "Ruck",
+            "slug": "ruck",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2457,
+        "fields": {
+            "text": "Rugger",
+            "slug": "rugger",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2458,
+        "fields": {
+            "text": "Rugger Bugger",
+            "slug": "rugger-bugger",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2459,
+        "fields": {
+            "text": "Scrum",
+            "slug": "scrum",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2460,
+        "fields": {
+            "text": "Scrum down",
+            "slug": "scrum-down",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2461,
+        "fields": {
+            "text": "Scrum-half",
+            "slug": "scrum-half",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2462,
+        "fields": {
+            "text": "Scrummaging",
+            "slug": "scrummaging",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2463,
+        "fields": {
+            "text": "Sevens",
+            "slug": "sevens",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2464,
+        "fields": {
+            "text": "Sin Bin",
+            "slug": "sin-bin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2465,
+        "fields": {
+            "text": "Six Nations",
+            "slug": "six-nations",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2466,
+        "fields": {
+            "text": "Springboks",
+            "slug": "springboks",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2467,
+        "fields": {
+            "text": "Super 14",
+            "slug": "super-14",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2468,
+        "fields": {
+            "text": "Take",
+            "slug": "take",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2469,
+        "fields": {
+            "text": "Tap Penalty",
+            "slug": "tap-penalty",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2470,
+        "fields": {
+            "text": "Tap Tackle",
+            "slug": "tap-tackle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2471,
+        "fields": {
+            "text": "Tens",
+            "slug": "tens",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2472,
+        "fields": {
+            "text": "Test",
+            "slug": "test",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2473,
+        "fields": {
+            "text": "Tight Five",
+            "slug": "tight-five",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2474,
+        "fields": {
+            "text": "Touch judge",
+            "slug": "touch-judge",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2475,
+        "fields": {
+            "text": "Touch, touchline",
+            "slug": "touch-touchline",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2476,
+        "fields": {
+            "text": "Tri-Nations",
+            "slug": "tri-nations",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2477,
+        "fields": {
+            "text": "Try",
+            "slug": "try",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2478,
+        "fields": {
+            "text": "Try line",
+            "slug": "try-line",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2479,
+        "fields": {
+            "text": "Tunnel",
+            "slug": "tunnel",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2480,
+        "fields": {
+            "text": "Turnover",
+            "slug": "turnover",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2481,
+        "fields": {
+            "text": "Union",
+            "slug": "union",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2482,
+        "fields": {
+            "text": "Up and Under",
+            "slug": "up-and-under",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2483,
+        "fields": {
+            "text": "Wallabies",
+            "slug": "wallabies",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2484,
+        "fields": {
+            "text": "Weakside",
+            "slug": "weakside",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2485,
+        "fields": {
+            "text": "Webb Ellis Trophy",
+            "slug": "webb-ellis-trophy",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2486,
+        "fields": {
+            "text": "XV",
+            "slug": "xv",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2487,
+        "fields": {
+            "text": "Yellow card",
+            "slug": "yellow-card",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Rugby"
+            ]
+        }
+    }
+]

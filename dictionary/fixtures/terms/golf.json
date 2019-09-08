@@ -1,7 +1,7 @@
 [
     {
         "model": "dictionary.term",
-        "pk": 402,
+        "pk": 1630,
         "fields": {
             "text": "Ace",
             "slug": "ace",
@@ -9,153 +9,153 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 403,
+        "pk": 1631,
         "fields": {
-            "text": "Action",
-            "slug": "action",
+            "text": "Address",
+            "slug": "address",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 404,
+        "pk": 1632,
         "fields": {
-            "text": "Ad court",
-            "slug": "ad-court",
+            "text": "Aerosol",
+            "slug": "aerosol",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 405,
+        "pk": 1633,
         "fields": {
-            "text": "Ad",
-            "slug": "ad",
+            "text": "Aggregate",
+            "slug": "aggregate",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 406,
+        "pk": 1634,
         "fields": {
-            "text": "Advantage set",
-            "slug": "advantage-set",
+            "text": "Aim",
+            "slug": "aim",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 407,
+        "pk": 1635,
         "fields": {
-            "text": "Advantage",
-            "slug": "advantage",
+            "text": "Air shot",
+            "slug": "air-shot",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 408,
+        "pk": 1636,
         "fields": {
-            "text": "All-Comers",
-            "slug": "all-comers",
+            "text": "Albatross",
+            "slug": "albatross",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 409,
+        "pk": 1637,
         "fields": {
-            "text": "All-court",
-            "slug": "all-court",
+            "text": "Alignment",
+            "slug": "alignment",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 410,
+        "pk": 1638,
         "fields": {
-            "text": "All",
-            "slug": "all",
+            "text": "All square (AS)",
+            "slug": "all-square-as",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 411,
+        "pk": 1639,
         "fields": {
-            "text": "Alley",
-            "slug": "alley",
+            "text": "Ambrose",
+            "slug": "ambrose",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 412,
+        "pk": 1640,
         "fields": {
-            "text": "Alternate",
-            "slug": "alternate",
+            "text": "Angle of approach",
+            "slug": "angle-of-approach",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 413,
+        "pk": 1641,
         "fields": {
             "text": "Approach shot",
             "slug": "approach-shot",
@@ -163,111 +163,83 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 414,
+        "pk": 1642,
         "fields": {
-            "text": "ATP Champions' Race",
-            "slug": "atp-champions-race",
+            "text": "Apron",
+            "slug": "apron",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 415,
+        "pk": 1643,
         "fields": {
-            "text": "ATP Finals",
-            "slug": "atp-finals",
+            "text": "Artisan",
+            "slug": "artisan",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 416,
+        "pk": 1644,
         "fields": {
-            "text": "ATP",
-            "slug": "atp",
+            "text": "Attend (the flag-stick)",
+            "slug": "attend-the-flag-stick",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 417,
+        "pk": 1645,
         "fields": {
-            "text": "Australian formation",
-            "slug": "australian-formation",
+            "text": "Away",
+            "slug": "away",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 418,
+        "pk": 1646,
         "fields": {
-            "text": "Backcourt",
-            "slug": "backcourt",
+            "text": "Back nine",
+            "slug": "back-nine",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 419,
-        "fields": {
-            "text": "Backhand",
-            "slug": "backhand",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 420,
-        "fields": {
-            "text": "Backhand smash",
-            "slug": "backhand-smash",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 421,
+        "pk": 1647,
         "fields": {
             "text": "Backspin",
             "slug": "backspin",
@@ -275,111 +247,167 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 422,
+        "pk": 1648,
         "fields": {
-            "text": "Backswing",
-            "slug": "backswing",
+            "text": "Back-swing",
+            "slug": "back-swing",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 423,
+        "pk": 1649,
         "fields": {
-            "text": "Bagel",
-            "slug": "bagel",
+            "text": "Ball",
+            "slug": "ball",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 424,
+        "pk": 1650,
         "fields": {
-            "text": "Bagnall-Wild",
-            "slug": "bagnall-wild",
+            "text": "Ball-marker",
+            "slug": "ball-marker",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 425,
+        "pk": 1651,
         "fields": {
-            "text": "Ball boy",
-            "slug": "ball-boy",
+            "text": "Ball-washer",
+            "slug": "ball-washer",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 426,
+        "pk": 1652,
         "fields": {
-            "text": "Ball toss",
-            "slug": "ball-toss",
+            "text": "Banana-ball",
+            "slug": "banana-ball",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 427,
+        "pk": 1653,
         "fields": {
-            "text": "Baseline",
-            "slug": "baseline",
+            "text": "Bandit",
+            "slug": "bandit",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 428,
+        "pk": 1654,
         "fields": {
-            "text": "Big serve",
-            "slug": "big-serve",
+            "text": "Bare Lie",
+            "slug": "bare-lie",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 429,
+        "pk": 1655,
+        "fields": {
+            "text": "Best ball",
+            "slug": "best-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1656,
+        "fields": {
+            "text": "Biarritz",
+            "slug": "biarritz",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1657,
+        "fields": {
+            "text": "BIGGA",
+            "slug": "bigga",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1658,
+        "fields": {
+            "text": "Birdie",
+            "slug": "birdie",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1659,
         "fields": {
             "text": "Bisque",
             "slug": "bisque",
@@ -387,13 +415,69 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 430,
+        "pk": 1660,
+        "fields": {
+            "text": "Bite",
+            "slug": "bite",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1661,
+        "fields": {
+            "text": "Blade",
+            "slug": "blade",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1662,
+        "fields": {
+            "text": "Blast",
+            "slug": "blast",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1663,
+        "fields": {
+            "text": "Blind",
+            "slug": "blind",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1664,
         "fields": {
             "text": "Block",
             "slug": "block",
@@ -401,13 +485,41 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 431,
+        "pk": 1665,
+        "fields": {
+            "text": "Bogey",
+            "slug": "bogey",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1666,
+        "fields": {
+            "text": "Borrow",
+            "slug": "borrow",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1667,
         "fields": {
             "text": "Bounce",
             "slug": "bounce",
@@ -415,55 +527,27 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 432,
+        "pk": 1668,
         "fields": {
-            "text": "Breadstick",
-            "slug": "breadstick",
+            "text": "Bounce Back",
+            "slug": "bounce-back",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 433,
-        "fields": {
-            "text": "Break back",
-            "slug": "break-back",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 434,
-        "fields": {
-            "text": "Break point",
-            "slug": "break-point",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 435,
+        "pk": 1669,
         "fields": {
             "text": "Break",
             "slug": "break",
@@ -471,55 +555,83 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 436,
+        "pk": 1670,
         "fields": {
-            "text": "Breaker",
-            "slug": "breaker",
+            "text": "Bullarding",
+            "slug": "bullarding",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 437,
+        "pk": 1671,
         "fields": {
-            "text": "Buggy whip",
-            "slug": "buggy-whip",
+            "text": "Bump and run",
+            "slug": "bump-and-run",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 438,
+        "pk": 1672,
         "fields": {
-            "text": "Bumper guard",
-            "slug": "bumper-guard",
+            "text": "Bunker",
+            "slug": "bunker",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 439,
+        "pk": 1673,
+        "fields": {
+            "text": "Bunker, Green-side",
+            "slug": "bunker-green-side",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1674,
+        "fields": {
+            "text": "Bunker, Fairway",
+            "slug": "bunker-fairway",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1675,
         "fields": {
             "text": "Bye",
             "slug": "bye",
@@ -527,209 +639,97 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 440,
+        "pk": 1676,
         "fields": {
-            "text": "Bunt",
-            "slug": "bunt",
+            "text": "Caddie",
+            "slug": "caddie",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 441,
+        "pk": 1677,
         "fields": {
-            "text": "Call",
-            "slug": "call",
+            "text": "Calcutta",
+            "slug": "calcutta",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 442,
+        "pk": 1678,
         "fields": {
-            "text": "Can opener",
-            "slug": "can-opener",
+            "text": "Carry",
+            "slug": "carry",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 443,
+        "pk": 1679,
         "fields": {
-            "text": "Cannonball",
-            "slug": "cannonball",
+            "text": "Cart",
+            "slug": "cart",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 444,
+        "pk": 1680,
         "fields": {
-            "text": "Career Golden Slam",
-            "slug": "career-golden-slam",
+            "text": "Casual water",
+            "slug": "casual-water",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 445,
+        "pk": 1681,
         "fields": {
-            "text": "Career Grand Slam",
-            "slug": "career-grand-slam",
+            "text": "Cavity back",
+            "slug": "cavity-back",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 446,
-        "fields": {
-            "text": "Carpet",
-            "slug": "carpet",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 447,
-        "fields": {
-            "text": "Carve",
-            "slug": "carve",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 448,
-        "fields": {
-            "text": "Centre mark",
-            "slug": "centre-mark",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 449,
-        "fields": {
-            "text": "Challenge Round",
-            "slug": "challenge-round",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 450,
-        "fields": {
-            "text": "Challenge",
-            "slug": "challenge",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 451,
-        "fields": {
-            "text": "Challenger",
-            "slug": "challenger",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 452,
-        "fields": {
-            "text": "Change-over",
-            "slug": "change-over",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 453,
-        "fields": {
-            "text": "Chip and charge",
-            "slug": "chip-and-charge",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 454,
+        "pk": 1682,
         "fields": {
             "text": "Chip",
             "slug": "chip",
@@ -737,41 +737,69 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 455,
+        "pk": 1683,
         "fields": {
-            "text": "Chop",
-            "slug": "chop",
+            "text": "Champions Tour",
+            "slug": "champions-tour",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 456,
+        "pk": 1684,
         "fields": {
-            "text": "Clay",
-            "slug": "clay",
+            "text": "Chunk",
+            "slug": "chunk",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 457,
+        "pk": 1685,
+        "fields": {
+            "text": "Clone",
+            "slug": "clone",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1686,
+        "fields": {
+            "text": "Closed face",
+            "slug": "closed-face",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1687,
         "fields": {
             "text": "Closed stance",
             "slug": "closed-stance",
@@ -779,321 +807,377 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 458,
+        "pk": 1688,
         "fields": {
-            "text": "Consolidate",
-            "slug": "consolidate",
+            "text": "Club",
+            "slug": "club",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 459,
+        "pk": 1689,
         "fields": {
-            "text": "Continental grip",
-            "slug": "continental-grip",
+            "text": "Club-head",
+            "slug": "club-head",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 460,
+        "pk": 1690,
         "fields": {
-            "text": "Counterpuncher",
-            "slug": "counterpuncher",
+            "text": "Club-face",
+            "slug": "club-face",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 461,
+        "pk": 1691,
         "fields": {
-            "text": "Court",
-            "slug": "court",
+            "text": "Clubhouse",
+            "slug": "clubhouse",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 462,
+        "pk": 1692,
         "fields": {
-            "text": "Cross-over",
-            "slug": "cross-over",
+            "text": "Come-backer",
+            "slug": "come-backer",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 463,
+        "pk": 1693,
         "fields": {
-            "text": "Crosscourt shot",
-            "slug": "crosscourt-shot",
+            "text": "Compress",
+            "slug": "compress",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 464,
+        "pk": 1694,
         "fields": {
-            "text": "Cyclops",
-            "slug": "cyclops",
+            "text": "Compression",
+            "slug": "compression",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 465,
+        "pk": 1695,
         "fields": {
-            "text": "Dampener",
-            "slug": "dampener",
+            "text": "Condor",
+            "slug": "condor",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 466,
+        "pk": 1696,
         "fields": {
-            "text": "Davis Cup",
-            "slug": "davis-cup",
+            "text": "Count-back",
+            "slug": "count-back",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 467,
+        "pk": 1697,
         "fields": {
-            "text": "Dead net",
-            "slug": "dead-net",
+            "text": "Course",
+            "slug": "course",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 468,
+        "pk": 1698,
         "fields": {
-            "text": "Dead rubber",
-            "slug": "dead-rubber",
+            "text": "Course rating",
+            "slug": "course-rating",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 469,
+        "pk": 1699,
         "fields": {
-            "text": "Deciding point",
-            "slug": "deciding-point",
+            "text": "Courtesy of the course",
+            "slug": "courtesy-of-the-course",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 470,
+        "pk": 1700,
         "fields": {
-            "text": "Deep shot",
-            "slug": "deep-shot",
+            "text": "Cross-handed",
+            "slug": "cross-handed",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 471,
+        "pk": 1701,
         "fields": {
-            "text": "Default",
-            "slug": "default",
+            "text": "Cut",
+            "slug": "cut",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 472,
+        "pk": 1702,
         "fields": {
-            "text": "Deuce",
-            "slug": "deuce",
+            "text": "Dead",
+            "slug": "dead",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 473,
+        "pk": 1703,
         "fields": {
-            "text": "Dink",
-            "slug": "dink",
+            "text": "Dimples",
+            "slug": "dimples",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 474,
+        "pk": 1704,
         "fields": {
-            "text": "Dirtballer",
-            "slug": "dirtballer",
+            "text": "Divot",
+            "slug": "divot",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 475,
+        "pk": 1705,
         "fields": {
-            "text": "Disadvantage",
-            "slug": "disadvantage",
+            "text": "Dog-balls",
+            "slug": "dog-balls",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 476,
+        "pk": 1706,
         "fields": {
-            "text": "Double bagel",
-            "slug": "double-bagel",
+            "text": "Dogleg",
+            "slug": "dogleg",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 477,
+        "pk": 1707,
         "fields": {
-            "text": "Double fault",
-            "slug": "double-fault",
+            "text": "Dog licence",
+            "slug": "dog-licence",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 478,
+        "pk": 1708,
         "fields": {
-            "text": "Doubles",
-            "slug": "doubles",
+            "text": "Dormie",
+            "slug": "dormie",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 479,
+        "pk": 1709,
         "fields": {
-            "text": "Down the line",
-            "slug": "down-the-line",
+            "text": "Dormie house",
+            "slug": "dormie-house",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 480,
+        "pk": 1710,
+        "fields": {
+            "text": "Double bogey",
+            "slug": "double-bogey",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1711,
+        "fields": {
+            "text": "Double cross",
+            "slug": "double-cross",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1712,
+        "fields": {
+            "text": "Double eagle",
+            "slug": "double-eagle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1713,
+        "fields": {
+            "text": "Downswing",
+            "slug": "downswing",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1714,
         "fields": {
             "text": "Draw",
             "slug": "draw",
@@ -1101,195 +1185,237 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 481,
+        "pk": 1715,
         "fields": {
-            "text": "Drive volley",
-            "slug": "drive-volley",
+            "text": "Drive",
+            "slug": "drive",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 482,
+        "pk": 1716,
         "fields": {
-            "text": "Drop shot",
-            "slug": "drop-shot",
+            "text": "Duck-hook",
+            "slug": "duck-hook",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 483,
+        "pk": 1717,
         "fields": {
-            "text": "Drop volley",
-            "slug": "drop-volley",
+            "text": "Duff",
+            "slug": "duff",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 484,
+        "pk": 1718,
         "fields": {
-            "text": "Elbow",
-            "slug": "elbow",
+            "text": "Eagle",
+            "slug": "eagle",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 485,
+        "pk": 1719,
         "fields": {
-            "text": "Entry system",
-            "slug": "entry-system",
+            "text": "Even",
+            "slug": "even",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 486,
+        "pk": 1720,
         "fields": {
-            "text": "Error",
-            "slug": "error",
+            "text": "Explosion Bunker Shot",
+            "slug": "explosion-bunker-shot",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 487,
+        "pk": 1721,
         "fields": {
-            "text": "Exhibition",
-            "slug": "exhibition",
+            "text": "European Tour",
+            "slug": "european-tour",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 488,
+        "pk": 1722,
         "fields": {
-            "text": "Fault",
-            "slug": "fault",
+            "text": "Fade",
+            "slug": "fade",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 489,
+        "pk": 1723,
         "fields": {
-            "text": "Fed Cup",
-            "slug": "fed-cup",
+            "text": "Fairway",
+            "slug": "fairway",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 490,
+        "pk": 1724,
         "fields": {
-            "text": "First serve",
-            "slug": "first-serve",
+            "text": "Fairway hit (FH)",
+            "slug": "fairway-hit-fh",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 491,
+        "pk": 1725,
         "fields": {
-            "text": "Five",
-            "slug": "five",
+            "text": "Fairway markers",
+            "slug": "fairway-markers",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 492,
+        "pk": 1726,
         "fields": {
-            "text": "Flat",
-            "slug": "flat",
+            "text": "Fat",
+            "slug": "fat",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 493,
+        "pk": 1727,
         "fields": {
-            "text": "Flatliner",
-            "slug": "flatliner",
+            "text": "Ferret",
+            "slug": "ferret",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 494,
+        "pk": 1728,
+        "fields": {
+            "text": "Flag-stick",
+            "slug": "flag-stick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1729,
+        "fields": {
+            "text": "Flier",
+            "slug": "flier",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1730,
+        "fields": {
+            "text": "Flop shot",
+            "slug": "flop-shot",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1731,
         "fields": {
             "text": "Follow through",
             "slug": "follow-through",
@@ -1297,321 +1423,335 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 495,
+        "pk": 1732,
         "fields": {
-            "text": "Foot fault",
-            "slug": "foot-fault",
+            "text": "Fore",
+            "slug": "fore",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 496,
+        "pk": 1733,
         "fields": {
-            "text": "Forced error",
-            "slug": "forced-error",
+            "text": "Fore caddy",
+            "slug": "fore-caddy",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 497,
+        "pk": 1734,
         "fields": {
-            "text": "Forehand",
-            "slug": "forehand",
+            "text": "Four-ball",
+            "slug": "four-ball",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 498,
+        "pk": 1735,
         "fields": {
-            "text": "Frame shot",
-            "slug": "frame-shot",
+            "text": "Foursomes",
+            "slug": "foursomes",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 499,
+        "pk": 1736,
         "fields": {
-            "text": "Fry",
-            "slug": "fry",
+            "text": "Frenchie",
+            "slug": "frenchie",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 500,
+        "pk": 1737,
         "fields": {
-            "text": "Futures",
-            "slug": "futures",
+            "text": "Fringe",
+            "slug": "fringe",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 501,
+        "pk": 1738,
         "fields": {
-            "text": "Game point",
-            "slug": "game-point",
+            "text": "Front nine",
+            "slug": "front-nine",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 502,
+        "pk": 1739,
         "fields": {
-            "text": "Game",
-            "slug": "game",
+            "text": "Funnies",
+            "slug": "funnies",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 503,
+        "pk": 1740,
         "fields": {
-            "text": "Ghost in to the net",
-            "slug": "ghost-in-to-the-net",
+            "text": "GCSAA",
+            "slug": "gcsaa",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 504,
+        "pk": 1741,
         "fields": {
-            "text": "GOAT",
-            "slug": "goat",
+            "text": "Gimme",
+            "slug": "gimme",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 505,
+        "pk": 1742,
         "fields": {
-            "text": "Golden Bagel Award",
-            "slug": "golden-bagel-award",
+            "text": "Goldie Bounce",
+            "slug": "goldie-bounce",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 506,
+        "pk": 1743,
         "fields": {
-            "text": "Golden set",
-            "slug": "golden-set",
+            "text": "Golf club",
+            "slug": "golf-club",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 507,
+        "pk": 1744,
         "fields": {
-            "text": "Golden Slam",
-            "slug": "golden-slam",
+            "text": "Grain",
+            "slug": "grain",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 508,
+        "pk": 1745,
         "fields": {
-            "text": "Grand Slam",
+            "text": "Grand slam",
             "slug": "grand-slam",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 509,
+        "pk": 1746,
         "fields": {
-            "text": "Grass",
-            "slug": "grass",
+            "text": "Green",
+            "slug": "green",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 510,
+        "pk": 1747,
         "fields": {
-            "text": "Grinding",
-            "slug": "grinding",
+            "text": "Green Fee",
+            "slug": "green-fee",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 511,
+        "pk": 1748,
         "fields": {
-            "text": "Grip",
-            "slug": "grip",
+            "text": "Greensomes",
+            "slug": "greensomes",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 512,
+        "pk": 1749,
         "fields": {
-            "text": "Grommet strip",
-            "slug": "grommet-strip",
+            "text": "Green in regulation",
+            "slug": "green-in-regulation",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 513,
+        "pk": 1750,
         "fields": {
-            "text": "Groundie",
-            "slug": "groundie",
+            "text": "Grounding the club",
+            "slug": "grounding-the-club",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 514,
+        "pk": 1751,
         "fields": {
-            "text": "Groundstroke",
-            "slug": "groundstroke",
+            "text": "Ground under repair",
+            "slug": "ground-under-repair",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 515,
+        "pk": 1752,
         "fields": {
-            "text": "Grunting",
-            "slug": "grunting",
+            "text": "Groove",
+            "slug": "groove",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 516,
+        "pk": 1753,
         "fields": {
-            "text": "Gut",
-            "slug": "gut",
+            "text": "Golden Ferret",
+            "slug": "golden-ferret",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 517,
+        "pk": 1754,
+        "fields": {
+            "text": "Good-good",
+            "slug": "good-good",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1755,
         "fields": {
             "text": "Hacker",
             "slug": "hacker",
@@ -1619,433 +1759,349 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 518,
+        "pk": 1756,
         "fields": {
-            "text": "Hail Mary",
-            "slug": "hail-mary",
+            "text": "Half",
+            "slug": "half",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 519,
+        "pk": 1757,
         "fields": {
-            "text": "Half court",
-            "slug": "half-court",
+            "text": "Handicap",
+            "slug": "handicap",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 520,
+        "pk": 1758,
         "fields": {
-            "text": "Half volley",
-            "slug": "half-volley",
+            "text": "Halfway house",
+            "slug": "halfway-house",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 521,
+        "pk": 1759,
         "fields": {
-            "text": "Handicapping",
-            "slug": "handicapping",
+            "text": "Handsy",
+            "slug": "handsy",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 522,
+        "pk": 1760,
         "fields": {
-            "text": "Hardcourt",
-            "slug": "hardcourt",
+            "text": "Hard-pan",
+            "slug": "hard-pan",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 523,
+        "pk": 1761,
         "fields": {
-            "text": "Hawk-Eye",
-            "slug": "hawk-eye",
+            "text": "Hazard",
+            "slug": "hazard",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 524,
+        "pk": 1762,
         "fields": {
-            "text": "Head",
-            "slug": "head",
+            "text": "Heel",
+            "slug": "heel",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 525,
+        "pk": 1763,
         "fields": {
-            "text": "Heavy",
-            "slug": "heavy",
+            "text": "Hole",
+            "slug": "hole",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 526,
+        "pk": 1764,
         "fields": {
-            "text": "Hit and giggle",
-            "slug": "hit-and-giggle",
+            "text": "Hole in one",
+            "slug": "hole-in-one",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 527,
+        "pk": 1765,
         "fields": {
-            "text": "Hitting partner",
-            "slug": "hitting-partner",
+            "text": "Hole in one insurance",
+            "slug": "hole-in-one-insurance",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 528,
+        "pk": 1766,
         "fields": {
-            "text": "Hold",
-            "slug": "hold",
+            "text": "Hook",
+            "slug": "hook",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 529,
+        "pk": 1767,
         "fields": {
-            "text": "I-formation",
-            "slug": "i-formation",
+            "text": "Hosel",
+            "slug": "hosel",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 530,
+        "pk": 1768,
         "fields": {
-            "text": "Inside-in",
-            "slug": "inside-in",
+            "text": "Hybrid",
+            "slug": "hybrid",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 531,
+        "pk": 1769,
         "fields": {
-            "text": "Inside-out",
-            "slug": "inside-out",
+            "text": "In contention",
+            "slug": "in-contention",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 532,
+        "pk": 1770,
         "fields": {
-            "text": "Insurance break",
-            "slug": "insurance-break",
+            "text": "Interlocking grip",
+            "slug": "interlocking-grip",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 533,
+        "pk": 1771,
         "fields": {
-            "text": "IPIN",
-            "slug": "ipin",
+            "text": "Inward nine",
+            "slug": "inward-nine",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 534,
+        "pk": 1772,
         "fields": {
-            "text": "ITF entry",
-            "slug": "itf-entry",
+            "text": "Iron",
+            "slug": "iron",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 535,
+        "pk": 1773,
         "fields": {
-            "text": "ITF",
-            "slug": "itf",
+            "text": "Jab",
+            "slug": "jab",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 536,
+        "pk": 1774,
         "fields": {
-            "text": "Jamming",
-            "slug": "jamming",
+            "text": "Knock-down",
+            "slug": "knock-down",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 537,
+        "pk": 1775,
         "fields": {
-            "text": "Junior exempt",
-            "slug": "junior-exempt",
+            "text": "Lag",
+            "slug": "lag",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 538,
+        "pk": 1776,
         "fields": {
-            "text": "Junk ball",
-            "slug": "junk-ball",
+            "text": "Lay-up",
+            "slug": "lay-up",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 539,
+        "pk": 1777,
         "fields": {
-            "text": "Kick serve",
-            "slug": "kick-serve",
+            "text": "Lie",
+            "slug": "lie",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 540,
+        "pk": 1778,
         "fields": {
-            "text": "Knock-up",
-            "slug": "knock-up",
+            "text": "Line",
+            "slug": "line",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 541,
+        "pk": 1779,
         "fields": {
-            "text": "Lawn tennis",
-            "slug": "lawn-tennis",
+            "text": "Links",
+            "slug": "links",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 542,
-        "fields": {
-            "text": "Let-check",
-            "slug": "let-check",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 543,
-        "fields": {
-            "text": "Let",
-            "slug": "let",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 544,
-        "fields": {
-            "text": "Line call",
-            "slug": "line-call",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 545,
-        "fields": {
-            "text": "Line judge",
-            "slug": "line-judge",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 546,
-        "fields": {
-            "text": "Lingering death tiebreak",
-            "slug": "lingering-death-tiebreak",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 547,
-        "fields": {
-            "text": "Lob volley",
-            "slug": "lob-volley",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 548,
+        "pk": 1780,
         "fields": {
             "text": "Lob",
             "slug": "lob",
@@ -2053,433 +2109,363 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 549,
+        "pk": 1781,
         "fields": {
-            "text": "Love game",
-            "slug": "love-game",
+            "text": "Local rule",
+            "slug": "local-rule",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 550,
+        "pk": 1782,
         "fields": {
-            "text": "Love",
-            "slug": "love",
+            "text": "Loft",
+            "slug": "loft",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 551,
+        "pk": 1783,
         "fields": {
-            "text": "Lucky loser",
-            "slug": "lucky-loser",
+            "text": "Loose impediment",
+            "slug": "loose-impediment",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 552,
+        "pk": 1784,
         "fields": {
-            "text": "Mac-Cam",
-            "slug": "mac-cam",
+            "text": "LPGA",
+            "slug": "lpga",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 553,
+        "pk": 1785,
         "fields": {
-            "text": "Masters Cup",
-            "slug": "masters-cup",
+            "text": "Made cut did not finish (MDF)",
+            "slug": "made-cut-did-not-finish-mdf",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 554,
+        "pk": 1786,
         "fields": {
-            "text": "Match point",
-            "slug": "match-point",
+            "text": "Mainstream",
+            "slug": "mainstream",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 555,
+        "pk": 1787,
         "fields": {
-            "text": "Match",
-            "slug": "match",
+            "text": "Major(s)",
+            "slug": "major-s",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 556,
+        "pk": 1788,
         "fields": {
-            "text": "Mercedes Super 9",
-            "slug": "mercedes-super-9",
+            "text": "Marker",
+            "slug": "marker",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 557,
+        "pk": 1789,
         "fields": {
-            "text": "Mini-break",
-            "slug": "mini-break",
+            "text": "Mashie niblick",
+            "slug": "mashie-niblick",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 558,
+        "pk": 1790,
         "fields": {
-            "text": "Mini-hold",
-            "slug": "mini-hold",
+            "text": "Match play",
+            "slug": "match-play",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 559,
+        "pk": 1791,
         "fields": {
-            "text": "MIPTC",
-            "slug": "miptc",
+            "text": "Medal play",
+            "slug": "medal-play",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 560,
+        "pk": 1792,
         "fields": {
-            "text": "Mis-hit",
-            "slug": "mis-hit",
+            "text": "Medalist",
+            "slug": "medalist",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 561,
+        "pk": 1793,
         "fields": {
-            "text": "mixed doubles",
-            "slug": "mixed-doubles",
+            "text": "Member's bounce",
+            "slug": "member-s-bounce",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 562,
+        "pk": 1794,
         "fields": {
-            "text": "Moonball",
-            "slug": "moonball",
+            "text": "Mid-amateur",
+            "slug": "mid-amateur",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 563,
+        "pk": 1795,
         "fields": {
-            "text": "MOP",
-            "slug": "mop",
+            "text": "Misread",
+            "slug": "misread",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 564,
+        "pk": 1796,
         "fields": {
-            "text": "Main draw",
-            "slug": "main-draw",
+            "text": "Monday qualifier",
+            "slug": "monday-qualifier",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 565,
+        "pk": 1797,
         "fields": {
-            "text": "Net cord",
-            "slug": "net-cord",
+            "text": "Motor-caddy",
+            "slug": "motor-caddy",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 566,
+        "pk": 1798,
         "fields": {
-            "text": "Net point",
-            "slug": "net-point",
+            "text": "Moving day",
+            "slug": "moving-day",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 567,
+        "pk": 1799,
         "fields": {
-            "text": "Net posts",
-            "slug": "net-posts",
+            "text": "Mud ball",
+            "slug": "mud-ball",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 568,
+        "pk": 1800,
         "fields": {
-            "text": "Net sticks",
-            "slug": "net-sticks",
+            "text": "Mulligan",
+            "slug": "mulligan",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 569,
+        "pk": 1801,
         "fields": {
-            "text": "Net",
-            "slug": "net",
+            "text": "Nassau",
+            "slug": "nassau",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 570,
+        "pk": 1802,
         "fields": {
-            "text": "New balls",
-            "slug": "new-balls",
+            "text": "Nine-iron",
+            "slug": "nine-iron",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 571,
+        "pk": 1803,
         "fields": {
-            "text": "No-man's land",
-            "slug": "no-man-s-land",
+            "text": "No Card (NC)",
+            "slug": "no-card-nc",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 572,
+        "pk": 1804,
         "fields": {
-            "text": "Non-endemic products",
-            "slug": "non-endemic-products",
+            "text": "On the charge",
+            "slug": "on-the-charge",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 573,
+        "pk": 1805,
         "fields": {
-            "text": "Not up",
-            "slug": "not-up",
+            "text": "Open face",
+            "slug": "open-face",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 574,
-        "fields": {
-            "text": "NTRP rating",
-            "slug": "ntrp-rating",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 575,
-        "fields": {
-            "text": "Official",
-            "slug": "official",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 576,
-        "fields": {
-            "text": "on one's racket",
-            "slug": "on-one-s-racket",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 577,
-        "fields": {
-            "text": "On serve",
-            "slug": "on-serve",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 578,
-        "fields": {
-            "text": "Open Era",
-            "slug": "open-era",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 579,
+        "pk": 1806,
         "fields": {
             "text": "Open stance",
             "slug": "open-stance",
@@ -2487,769 +2473,769 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 580,
+        "pk": 1807,
         "fields": {
-            "text": "OP",
-            "slug": "op",
+            "text": "Outside agent",
+            "slug": "outside-agent",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 581,
+        "pk": 1808,
         "fields": {
-            "text": "Out",
-            "slug": "out",
+            "text": "Outward nine",
+            "slug": "outward-nine",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 582,
+        "pk": 1809,
         "fields": {
-            "text": "Overgrip",
-            "slug": "overgrip",
+            "text": "Out-of-bounds",
+            "slug": "out-of-bounds",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 583,
+        "pk": 1810,
         "fields": {
-            "text": "Overhead",
-            "slug": "overhead",
+            "text": "Overlapping grip",
+            "slug": "overlapping-grip",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 584,
+        "pk": 1811,
         "fields": {
-            "text": "Overrule",
-            "slug": "overrule",
+            "text": "Pace",
+            "slug": "pace",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 585,
+        "pk": 1812,
         "fields": {
-            "text": "Paint the lines",
-            "slug": "paint-the-lines",
+            "text": "Par",
+            "slug": "par",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 586,
+        "pk": 1813,
         "fields": {
-            "text": "Pass",
-            "slug": "pass",
+            "text": "Penal",
+            "slug": "penal",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 587,
+        "pk": 1814,
         "fields": {
-            "text": "Percentage tennis",
-            "slug": "percentage-tennis",
+            "text": "Perfect round",
+            "slug": "perfect-round",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 588,
+        "pk": 1815,
         "fields": {
-            "text": "Poaching",
-            "slug": "poaching",
+            "text": "PGA",
+            "slug": "pga",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 589,
+        "pk": 1816,
         "fields": {
-            "text": "Point",
-            "slug": "point",
+            "text": "PGA Tour",
+            "slug": "pga-tour",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 590,
+        "pk": 1817,
         "fields": {
-            "text": "Pre-qualifying",
-            "slug": "pre-qualifying",
+            "text": "PGA Tour Champions",
+            "slug": "pga-tour-champions",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 591,
+        "pk": 1818,
         "fields": {
-            "text": "Pressureless ball",
-            "slug": "pressureless-ball",
+            "text": "Pin",
+            "slug": "pin",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 592,
+        "pk": 1819,
         "fields": {
-            "text": "Protected ranking",
-            "slug": "protected-ranking",
+            "text": "Pick Up (PU)",
+            "slug": "pick-up-pu",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 593,
+        "pk": 1820,
         "fields": {
-            "text": "Pulp",
-            "slug": "pulp",
+            "text": "Pin-high",
+            "slug": "pin-high",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 594,
+        "pk": 1821,
         "fields": {
-            "text": "Pusher",
-            "slug": "pusher",
+            "text": "Pitch",
+            "slug": "pitch",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 595,
+        "pk": 1822,
         "fields": {
-            "text": "Putaway",
-            "slug": "putaway",
+            "text": "Pitch mark",
+            "slug": "pitch-mark",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 596,
+        "pk": 1823,
         "fields": {
-            "text": "Ping it",
-            "slug": "ping-it",
+            "text": "Play through",
+            "slug": "play-through",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 597,
+        "pk": 1824,
         "fields": {
-            "text": "Qualies",
-            "slug": "qualies",
+            "text": "Plugged lie",
+            "slug": "plugged-lie",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 598,
+        "pk": 1825,
         "fields": {
-            "text": "Qualification round",
-            "slug": "qualification-round",
+            "text": "Plunk",
+            "slug": "plunk",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 599,
+        "pk": 1826,
         "fields": {
-            "text": "Qualifier",
-            "slug": "qualifier",
+            "text": "Plus handicap",
+            "slug": "plus-handicap",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 600,
+        "pk": 1827,
         "fields": {
-            "text": "Qualifying draw",
-            "slug": "qualifying-draw",
+            "text": "Pop-up",
+            "slug": "pop-up",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 601,
+        "pk": 1828,
         "fields": {
-            "text": "Racket abuse",
-            "slug": "racket-abuse",
+            "text": "Power transfer ratio",
+            "slug": "power-transfer-ratio",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 602,
+        "pk": 1829,
         "fields": {
-            "text": "Racket",
-            "slug": "racket",
+            "text": "Preferred lies",
+            "slug": "preferred-lies",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 603,
+        "pk": 1830,
         "fields": {
-            "text": "Rally",
-            "slug": "rally",
+            "text": "Pre-shot routine",
+            "slug": "pre-shot-routine",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 604,
+        "pk": 1831,
         "fields": {
-            "text": "Rankings",
-            "slug": "rankings",
+            "text": "Pro",
+            "slug": "pro",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 605,
+        "pk": 1832,
         "fields": {
-            "text": "Rating",
-            "slug": "rating",
+            "text": "Pro shop",
+            "slug": "pro-shop",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 606,
+        "pk": 1833,
         "fields": {
-            "text": "Real tennis",
-            "slug": "real-tennis",
+            "text": "Pull",
+            "slug": "pull",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 607,
+        "pk": 1834,
         "fields": {
-            "text": "Receiver",
-            "slug": "receiver",
+            "text": "Punch shot",
+            "slug": "punch-shot",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 608,
+        "pk": 1835,
         "fields": {
-            "text": "Referee",
-            "slug": "referee",
+            "text": "Push",
+            "slug": "push",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 609,
+        "pk": 1836,
         "fields": {
-            "text": "Reflex volley",
-            "slug": "reflex-volley",
+            "text": "Putt",
+            "slug": "putt",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 610,
+        "pk": 1837,
         "fields": {
-            "text": "Registered player",
-            "slug": "registered-player",
+            "text": "Putting green",
+            "slug": "putting-green",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 611,
+        "pk": 1838,
         "fields": {
-            "text": "Retirement",
-            "slug": "retirement",
+            "text": "Putter",
+            "slug": "putter",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 612,
+        "pk": 1839,
         "fields": {
-            "text": "Retriever",
-            "slug": "retriever",
+            "text": "Q-School",
+            "slug": "q-school",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 613,
+        "pk": 1840,
         "fields": {
-            "text": "Return ace",
-            "slug": "return-ace",
+            "text": "R&A",
+            "slug": "r-a",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 614,
+        "pk": 1841,
         "fields": {
-            "text": "Return",
-            "slug": "return",
+            "text": "Range Finder",
+            "slug": "range-finder",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 615,
+        "pk": 1842,
         "fields": {
-            "text": "Rising shot",
-            "slug": "rising-shot",
+            "text": "Redan",
+            "slug": "redan",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 616,
+        "pk": 1843,
         "fields": {
-            "text": "Round of 16",
-            "slug": "round-of-16",
+            "text": "Release",
+            "slug": "release",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 617,
+        "pk": 1844,
         "fields": {
-            "text": "Round robin",
-            "slug": "round-robin",
+            "text": "Reverse Bounce Back",
+            "slug": "reverse-bounce-back",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 618,
+        "pk": 1845,
         "fields": {
-            "text": "Rubber",
-            "slug": "rubber",
+            "text": "Rough",
+            "slug": "rough",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 619,
+        "pk": 1846,
         "fields": {
-            "text": "SABR",
-            "slug": "sabr",
+            "text": "Rowan Match play",
+            "slug": "rowan-match-play",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 620,
+        "pk": 1847,
         "fields": {
-            "text": "Satellite",
-            "slug": "satellite",
+            "text": "Rub of the Green",
+            "slug": "rub-of-the-green",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 621,
+        "pk": 1848,
         "fields": {
-            "text": "Scoring",
-            "slug": "scoring",
+            "text": "Run",
+            "slug": "run",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 622,
+        "pk": 1849,
         "fields": {
-            "text": "Scratch",
-            "slug": "scratch",
+            "text": "Rutter",
+            "slug": "rutter",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 623,
+        "pk": 1850,
         "fields": {
-            "text": "Second serve",
-            "slug": "second-serve",
+            "text": "Sandbagger",
+            "slug": "sandbagger",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 624,
+        "pk": 1851,
         "fields": {
-            "text": "Second snap",
-            "slug": "second-snap",
+            "text": "Sand save",
+            "slug": "sand-save",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 625,
+        "pk": 1852,
         "fields": {
-            "text": "Seed",
-            "slug": "seed",
+            "text": "Sand trap",
+            "slug": "sand-trap",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 626,
+        "pk": 1853,
         "fields": {
-            "text": "Serve and volley",
-            "slug": "serve-and-volley",
+            "text": "Sand wedge",
+            "slug": "sand-wedge",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 627,
+        "pk": 1854,
         "fields": {
-            "text": "Serve",
-            "slug": "serve",
+            "text": "Sandy",
+            "slug": "sandy",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 628,
+        "pk": 1855,
         "fields": {
-            "text": "Service box",
-            "slug": "service-box",
+            "text": "Scotch foursomes",
+            "slug": "scotch-foursomes",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 629,
+        "pk": 1856,
         "fields": {
-            "text": "Service game",
-            "slug": "service-game",
+            "text": "Scramble",
+            "slug": "scramble",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 630,
+        "pk": 1857,
         "fields": {
-            "text": "Service line",
-            "slug": "service-line",
+            "text": "Scratch golfer",
+            "slug": "scratch-golfer",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 631,
+        "pk": 1858,
         "fields": {
-            "text": "Set point",
-            "slug": "set-point",
+            "text": "Senior",
+            "slug": "senior",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 632,
+        "pk": 1859,
         "fields": {
-            "text": "Set",
-            "slug": "set",
+            "text": "Senior PGA Tour",
+            "slug": "senior-pga-tour",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 633,
+        "pk": 1860,
         "fields": {
-            "text": "Shamateurism",
-            "slug": "shamateurism",
+            "text": "Shamble",
+            "slug": "shamble",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 634,
+        "pk": 1861,
         "fields": {
             "text": "Shank",
             "slug": "shank",
@@ -3257,83 +3243,139 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 635,
+        "pk": 1862,
         "fields": {
-            "text": "Shot clock",
-            "slug": "shot-clock",
+            "text": "Shanks",
+            "slug": "shanks",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 636,
+        "pk": 1863,
         "fields": {
-            "text": "Singles sticks",
-            "slug": "singles-sticks",
+            "text": "Shrimp",
+            "slug": "shrimp",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 637,
+        "pk": 1864,
         "fields": {
-            "text": "Singles",
-            "slug": "singles",
+            "text": "Shoot your (my) age",
+            "slug": "shoot-your-my-age",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 638,
+        "pk": 1865,
         "fields": {
-            "text": "Sitter",
-            "slug": "sitter",
+            "text": "Shoot your (my) temperature",
+            "slug": "shoot-your-my-temperature",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 639,
+        "pk": 1866,
         "fields": {
-            "text": "Sledgehammer",
-            "slug": "sledgehammer",
+            "text": "Short game",
+            "slug": "short-game",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 640,
+        "pk": 1867,
+        "fields": {
+            "text": "Short side",
+            "slug": "short-side",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1868,
+        "fields": {
+            "text": "Sit!",
+            "slug": "sit",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1869,
+        "fields": {
+            "text": "Skin",
+            "slug": "skin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1870,
+        "fields": {
+            "text": "Skull",
+            "slug": "skull",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1871,
         "fields": {
             "text": "Slice",
             "slug": "slice",
@@ -3341,587 +3383,279 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 641,
+        "pk": 1872,
         "fields": {
-            "text": "Smash",
-            "slug": "smash",
+            "text": "Slope rating",
+            "slug": "slope-rating",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 642,
+        "pk": 1873,
         "fields": {
-            "text": "Spank",
-            "slug": "spank",
+            "text": "Snap hook",
+            "slug": "snap-hook",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 643,
+        "pk": 1874,
         "fields": {
-            "text": "Sparring partner",
-            "slug": "sparring-partner",
+            "text": "Snowman",
+            "slug": "snowman",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 644,
+        "pk": 1875,
         "fields": {
-            "text": "Special exempt",
-            "slug": "special-exempt",
+            "text": "Society",
+            "slug": "society",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 645,
+        "pk": 1876,
         "fields": {
-            "text": "Spin",
-            "slug": "spin",
+            "text": "Sole",
+            "slug": "sole",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 646,
+        "pk": 1877,
         "fields": {
-            "text": "Split step",
-            "slug": "split-step",
+            "text": "Span",
+            "slug": "span",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 647,
+        "pk": 1878,
         "fields": {
-            "text": "Spot serving",
-            "slug": "spot-serving",
+            "text": "Speed",
+            "slug": "speed",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 648,
+        "pk": 1879,
         "fields": {
-            "text": "Squash shot",
-            "slug": "squash-shot",
+            "text": "Sprachle",
+            "slug": "sprachle",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 649,
+        "pk": 1880,
         "fields": {
-            "text": "Stance",
-            "slug": "stance",
+            "text": "Spray",
+            "slug": "spray",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 650,
+        "pk": 1881,
         "fields": {
-            "text": "Stick volley",
-            "slug": "stick-volley",
+            "text": "Stableford",
+            "slug": "stableford",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 651,
+        "pk": 1882,
         "fields": {
-            "text": "Stiffness",
-            "slug": "stiffness",
+            "text": "Stimpmeter",
+            "slug": "stimpmeter",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 652,
+        "pk": 1883,
         "fields": {
-            "text": "Stop volley",
-            "slug": "stop-volley",
+            "text": "Strategic",
+            "slug": "strategic",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 653,
+        "pk": 1884,
         "fields": {
-            "text": "Stopper",
-            "slug": "stopper",
+            "text": "Stony",
+            "slug": "stony",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 654,
+        "pk": 1885,
         "fields": {
-            "text": "Straight sets",
-            "slug": "straight-sets",
+            "text": "Stroke play",
+            "slug": "stroke-play",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 655,
+        "pk": 1886,
         "fields": {
-            "text": "String saver",
-            "slug": "string-saver",
+            "text": "Stymie",
+            "slug": "stymie",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 656,
+        "pk": 1887,
         "fields": {
-            "text": "Strings",
-            "slug": "strings",
+            "text": "Sunday Bag",
+            "slug": "sunday-bag",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 657,
+        "pk": 1888,
         "fields": {
-            "text": "Stroke",
-            "slug": "stroke",
+            "text": "Sunday Stick",
+            "slug": "sunday-stick",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 658,
+        "pk": 1889,
         "fields": {
-            "text": "Sudden death tiebreak",
-            "slug": "sudden-death-tiebreak",
+            "text": "Sweet-spot",
+            "slug": "sweet-spot",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 659,
+        "pk": 1890,
         "fields": {
-            "text": "Super tiebreak",
-            "slug": "super-tiebreak",
+            "text": "Swing",
+            "slug": "swing",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 660,
-        "fields": {
-            "text": "Supercoach",
-            "slug": "supercoach",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 661,
-        "fields": {
-            "text": "Sweetspot",
-            "slug": "sweetspot",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 662,
-        "fields": {
-            "text": "Special ranking",
-            "slug": "special-ranking",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 663,
-        "fields": {
-            "text": "Swing volley",
-            "slug": "swing-volley",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 664,
-        "fields": {
-            "text": "Tanking",
-            "slug": "tanking",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 665,
-        "fields": {
-            "text": "Tape it",
-            "slug": "tape-it",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 666,
-        "fields": {
-            "text": "Tennis ball",
-            "slug": "tennis-ball",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 667,
-        "fields": {
-            "text": "Tennis bubble",
-            "slug": "tennis-bubble",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 668,
-        "fields": {
-            "text": "Tennis dad",
-            "slug": "tennis-dad",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 669,
-        "fields": {
-            "text": "Tennis elbow",
-            "slug": "tennis-elbow",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 670,
-        "fields": {
-            "text": "Tennis Hall of Fame",
-            "slug": "tennis-hall-of-fame",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 671,
-        "fields": {
-            "text": "The vineyard of tennis",
-            "slug": "the-vineyard-of-tennis",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 672,
-        "fields": {
-            "text": "Tiebreak",
-            "slug": "tiebreak",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 673,
-        "fields": {
-            "text": "Tie",
-            "slug": "tie",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 674,
-        "fields": {
-            "text": "Topspin",
-            "slug": "topspin",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 675,
-        "fields": {
-            "text": "Toss",
-            "slug": "toss",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 676,
-        "fields": {
-            "text": "Touch",
-            "slug": "touch",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 677,
-        "fields": {
-            "text": "Tramline",
-            "slug": "tramline",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 678,
-        "fields": {
-            "text": "Trampolining",
-            "slug": "trampolining",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 679,
-        "fields": {
-            "text": "Two ball pass",
-            "slug": "two-ball-pass",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 680,
-        "fields": {
-            "text": "Triple bagel",
-            "slug": "triple-bagel",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 681,
-        "fields": {
-            "text": "Triple crown",
-            "slug": "triple-crown",
-            "created": "2019-09-01T00:00:00.000Z",
-            "last_updated": "2019-09-01T00:00:00.000Z",
-            "approvedFl": true,
-            "sport": [
-                "Tennis"
-            ]
-        }
-    },
-    {
-        "model": "dictionary.term",
-        "pk": 682,
+        "pk": 1891,
         "fields": {
             "text": "T",
             "slug": "t",
@@ -3929,223 +3663,363 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 683,
+        "pk": 1892,
         "fields": {
-            "text": "Tube",
-            "slug": "tube",
+            "text": "Tap-in",
+            "slug": "tap-in",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 684,
+        "pk": 1893,
         "fields": {
-            "text": "Tweener racket",
-            "slug": "tweener-racket",
+            "text": "Target-line",
+            "slug": "target-line",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 685,
+        "pk": 1894,
         "fields": {
-            "text": "Tweener",
-            "slug": "tweener",
+            "text": "Tee",
+            "slug": "tee",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 686,
+        "pk": 1895,
         "fields": {
-            "text": "Twist serve",
-            "slug": "twist-serve",
+            "text": "Teeing ground",
+            "slug": "teeing-ground",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 687,
+        "pk": 1896,
         "fields": {
-            "text": "Umpire",
-            "slug": "umpire",
+            "text": "Tempo",
+            "slug": "tempo",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 688,
+        "pk": 1897,
         "fields": {
-            "text": "Underhand serve",
-            "slug": "underhand-serve",
+            "text": "Ten-finger grip",
+            "slug": "ten-finger-grip",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 689,
+        "pk": 1898,
         "fields": {
-            "text": "Underspin",
-            "slug": "underspin",
+            "text": "Thin shot",
+            "slug": "thin-shot",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 690,
+        "pk": 1899,
         "fields": {
-            "text": "Unforced error",
-            "slug": "unforced-error",
+            "text": "Through line",
+            "slug": "through-line",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 691,
+        "pk": 1900,
         "fields": {
-            "text": "Unseeded player",
-            "slug": "unseeded-player",
+            "text": "Through the green",
+            "slug": "through-the-green",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 692,
+        "pk": 1901,
         "fields": {
-            "text": "Upset",
-            "slug": "upset",
+            "text": "Tiger Slam",
+            "slug": "tiger-slam",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 693,
+        "pk": 1902,
         "fields": {
-            "text": "Vantage",
-            "slug": "vantage",
+            "text": "Tips",
+            "slug": "tips",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 694,
+        "pk": 1903,
         "fields": {
-            "text": "VASSS",
-            "slug": "vasss",
+            "text": "Toe",
+            "slug": "toe",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 695,
+        "pk": 1904,
         "fields": {
-            "text": "Volley",
-            "slug": "volley",
+            "text": "Topped",
+            "slug": "topped",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 696,
+        "pk": 1905,
         "fields": {
-            "text": "Walkover",
-            "slug": "walkover",
+            "text": "Tree shot",
+            "slug": "tree-shot",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 697,
+        "pk": 1906,
         "fields": {
-            "text": "Western grip",
-            "slug": "western-grip",
+            "text": "Triple bogey",
+            "slug": "triple-bogey",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 698,
+        "pk": 1907,
+        "fields": {
+            "text": "Turkey",
+            "slug": "turkey",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1908,
+        "fields": {
+            "text": "Unplayable",
+            "slug": "unplayable",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1909,
+        "fields": {
+            "text": "Up and down",
+            "slug": "up-and-down",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1910,
+        "fields": {
+            "text": "USGA",
+            "slug": "usga",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1911,
+        "fields": {
+            "text": "USPGA",
+            "slug": "uspga",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1912,
+        "fields": {
+            "text": "Vardon grip",
+            "slug": "vardon-grip",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1913,
+        "fields": {
+            "text": "Vaulting dormie",
+            "slug": "vaulting-dormie",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1914,
+        "fields": {
+            "text": "Waggle",
+            "slug": "waggle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1915,
+        "fields": {
+            "text": "We Are Golf",
+            "slug": "we-are-golf",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1916,
+        "fields": {
+            "text": "Wedge",
+            "slug": "wedge",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Golf"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 1917,
         "fields": {
             "text": "Whiff",
             "slug": "whiff",
@@ -4153,105 +4027,105 @@
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 699,
+        "pk": 1918,
         "fields": {
-            "text": "Wide",
-            "slug": "wide",
+            "text": "Winter green",
+            "slug": "winter-green",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 700,
+        "pk": 1919,
         "fields": {
-            "text": "Wild card",
-            "slug": "wild-card",
+            "text": "Winter rules",
+            "slug": "winter-rules",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 701,
+        "pk": 1920,
         "fields": {
-            "text": "Winner",
-            "slug": "winner",
+            "text": "Wire-to-wire",
+            "slug": "wire-to-wire",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 702,
+        "pk": 1921,
         "fields": {
-            "text": "WCT",
-            "slug": "wct",
+            "text": "Wood",
+            "slug": "wood",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 703,
+        "pk": 1922,
         "fields": {
-            "text": "WTA Finals",
-            "slug": "wta-finals",
+            "text": "Worm burner",
+            "slug": "worm-burner",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 704,
+        "pk": 1923,
         "fields": {
-            "text": "WTA",
-            "slug": "wta",
+            "text": "Yips",
+            "slug": "yips",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     },
     {
         "model": "dictionary.term",
-        "pk": 705,
+        "pk": 1924,
         "fields": {
-            "text": "Zero pointer",
-            "slug": "zero-pointer",
+            "text": "Zinger",
+            "slug": "zinger",
             "created": "2019-09-01T00:00:00.000Z",
             "last_updated": "2019-09-01T00:00:00.000Z",
             "approvedFl": true,
             "sport": [
-                "Tennis"
+                "Golf"
             ]
         }
     }

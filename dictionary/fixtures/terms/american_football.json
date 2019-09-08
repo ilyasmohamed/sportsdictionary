@@ -1,7 +1,7 @@
 [
     {
         "model": "dictionary.term",
-        "pk": 964,
+        "pk": 965,
         "fields": {
             "text": "100 Yard Games",
             "slug": "100-yard-games",
@@ -15,7 +15,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 965,
+        "pk": 966,
         "fields": {
             "text": "2-4-5 defense",
             "slug": "2-4-5-defense",
@@ -29,7 +29,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 966,
+        "pk": 967,
         "fields": {
             "text": "3-3-5 Defense",
             "slug": "3-3-5-defense",
@@ -43,7 +43,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 967,
+        "pk": 968,
         "fields": {
             "text": "3-4 Defense",
             "slug": "3-4-defense",
@@ -57,7 +57,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 968,
+        "pk": 969,
         "fields": {
             "text": "300 Yard Games",
             "slug": "300-yard-games",
@@ -71,7 +71,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 969,
+        "pk": 970,
         "fields": {
             "text": "4-3 Defense",
             "slug": "4-3-defense",
@@ -85,7 +85,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 970,
+        "pk": 971,
         "fields": {
             "text": "4-4 Defense",
             "slug": "4-4-defense",
@@ -99,7 +99,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 971,
+        "pk": 972,
         "fields": {
             "text": "46 Defense",
             "slug": "46-defense",
@@ -113,7 +113,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 972,
+        "pk": 973,
         "fields": {
             "text": "49ers",
             "slug": "49ers",
@@ -127,7 +127,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 973,
+        "pk": 974,
         "fields": {
             "text": "50 Defense",
             "slug": "50-defense",
@@ -141,7 +141,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 974,
+        "pk": 975,
         "fields": {
             "text": "5-2 Defense",
             "slug": "5-2-defense",
@@ -155,7 +155,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 975,
+        "pk": 976,
         "fields": {
             "text": "5-3 Defense",
             "slug": "5-3-defense",
@@ -169,7 +169,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 976,
+        "pk": 977,
         "fields": {
             "text": "53-man Roster",
             "slug": "53-man-roster",
@@ -183,7 +183,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 977,
+        "pk": 978,
         "fields": {
             "text": "6-2 Defense",
             "slug": "6-2-defense",
@@ -197,7 +197,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 978,
+        "pk": 979,
         "fields": {
             "text": "7-1-2-1 Defense",
             "slug": "7-1-2-1-defense",
@@ -211,7 +211,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 979,
+        "pk": 980,
         "fields": {
             "text": "7-2-2 Defense",
             "slug": "7-2-2-defense",
@@ -225,7 +225,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 980,
+        "pk": 981,
         "fields": {
             "text": "A Formation",
             "slug": "a-formation",
@@ -239,7 +239,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 981,
+        "pk": 982,
         "fields": {
             "text": "A-11 Offense",
             "slug": "a-11-offense",
@@ -253,7 +253,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 982,
+        "pk": 983,
         "fields": {
             "text": "A-Gap",
             "slug": "a-gap",
@@ -267,7 +267,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 983,
+        "pk": 984,
         "fields": {
             "text": "Across The Middle",
             "slug": "across-the-middle",
@@ -281,7 +281,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 984,
+        "pk": 985,
         "fields": {
             "text": "Adjusted Net Yards Per Pass Attempt",
             "slug": "adjusted-net-yards-per-pass-attempt",
@@ -295,7 +295,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 985,
+        "pk": 986,
         "fields": {
             "text": "Air Coryell Offense",
             "slug": "air-coryell-offense",
@@ -309,7 +309,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 986,
+        "pk": 987,
         "fields": {
             "text": "Air Raid Offense",
             "slug": "air-raid-offense",
@@ -323,7 +323,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 987,
+        "pk": 988,
         "fields": {
             "text": "Air Yards",
             "slug": "air-yards",
@@ -337,7 +337,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 988,
+        "pk": 989,
         "fields": {
             "text": "All-Purpose Yardage",
             "slug": "all-purpose-yardage",
@@ -351,7 +351,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 989,
+        "pk": 990,
         "fields": {
             "text": "Alligator Arms",
             "slug": "alligator-arms",
@@ -365,7 +365,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 990,
+        "pk": 991,
         "fields": {
             "text": "American Football Conference (AFC)",
             "slug": "american-football-conference-afc",
@@ -379,7 +379,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 991,
+        "pk": 992,
         "fields": {
             "text": "Assistant Coach",
             "slug": "assistant-coach",
@@ -393,7 +393,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 992,
+        "pk": 993,
         "fields": {
             "text": "Assisted Tackle",
             "slug": "assisted-tackle",
@@ -407,7 +407,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 993,
+        "pk": 994,
         "fields": {
             "text": "AstroTurf",
             "slug": "astroturf",
@@ -421,7 +421,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 994,
+        "pk": 995,
         "fields": {
             "text": "Audible",
             "slug": "audible",
@@ -435,7 +435,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 995,
+        "pk": 996,
         "fields": {
             "text": "Automatic First Down",
             "slug": "automatic-first-down",
@@ -449,7 +449,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 996,
+        "pk": 997,
         "fields": {
             "text": "B-Gap",
             "slug": "b-gap",
@@ -463,7 +463,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 997,
+        "pk": 998,
         "fields": {
             "text": "Back",
             "slug": "back",
@@ -477,7 +477,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 998,
+        "pk": 999,
         "fields": {
             "text": "Back Judge",
             "slug": "back-judge",
@@ -491,7 +491,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 999,
+        "pk": 1000,
         "fields": {
             "text": "Backfield",
             "slug": "backfield",
@@ -505,7 +505,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1000,
+        "pk": 1001,
         "fields": {
             "text": "Backup",
             "slug": "backup",
@@ -519,7 +519,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1001,
+        "pk": 1002,
         "fields": {
             "text": "Backward Pass",
             "slug": "backward-pass",
@@ -533,7 +533,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1002,
+        "pk": 1003,
         "fields": {
             "text": "Balanced Line",
             "slug": "balanced-line",
@@ -547,7 +547,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1003,
+        "pk": 1004,
         "fields": {
             "text": "Ball Carrier",
             "slug": "ball-carrier",
@@ -561,7 +561,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1004,
+        "pk": 1005,
         "fields": {
             "text": "Ball Security",
             "slug": "ball-security",
@@ -575,7 +575,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1005,
+        "pk": 1006,
         "fields": {
             "text": "Beat",
             "slug": "beat",
@@ -589,7 +589,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1006,
+        "pk": 1007,
         "fields": {
             "text": "Big Plays",
             "slug": "big-plays",
@@ -603,7 +603,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1007,
+        "pk": 1008,
         "fields": {
             "text": "Bird Cage",
             "slug": "bird-cage",
@@ -617,7 +617,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1008,
+        "pk": 1009,
         "fields": {
             "text": "Birdcage",
             "slug": "birdcage",
@@ -631,7 +631,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1009,
+        "pk": 1010,
         "fields": {
             "text": "Black Monday",
             "slug": "black-monday",
@@ -645,7 +645,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1010,
+        "pk": 1011,
         "fields": {
             "text": "Blackout",
             "slug": "blackout",
@@ -659,7 +659,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1011,
+        "pk": 1012,
         "fields": {
             "text": "Blind Side",
             "slug": "blind-side",
@@ -673,7 +673,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1012,
+        "pk": 1013,
         "fields": {
             "text": "Blitz",
             "slug": "blitz",
@@ -687,7 +687,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1013,
+        "pk": 1014,
         "fields": {
             "text": "Block",
             "slug": "block",
@@ -701,7 +701,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1014,
+        "pk": 1015,
         "fields": {
             "text": "Blocked Field Goal Touchdown",
             "slug": "blocked-field-goal-touchdown",
@@ -715,7 +715,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1015,
+        "pk": 1016,
         "fields": {
             "text": "Blocked Kick",
             "slug": "blocked-kick",
@@ -729,7 +729,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1016,
+        "pk": 1017,
         "fields": {
             "text": "Blocked Punt",
             "slug": "blocked-punt",
@@ -743,7 +743,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1017,
+        "pk": 1018,
         "fields": {
             "text": "Blocked Punt Touchdown",
             "slug": "blocked-punt-touchdown",
@@ -757,7 +757,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1018,
+        "pk": 1019,
         "fields": {
             "text": "Blocking Back",
             "slug": "blocking-back",
@@ -771,7 +771,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1019,
+        "pk": 1020,
         "fields": {
             "text": "Blocking Below the Waist",
             "slug": "blocking-below-the-waist",
@@ -785,7 +785,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1020,
+        "pk": 1021,
         "fields": {
             "text": "Bomb",
             "slug": "bomb",
@@ -799,7 +799,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1021,
+        "pk": 1022,
         "fields": {
             "text": "Bootleg",
             "slug": "bootleg",
@@ -813,7 +813,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1022,
+        "pk": 1023,
         "fields": {
             "text": "Bounty-Gate",
             "slug": "bounty-gate",
@@ -827,7 +827,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1023,
+        "pk": 1024,
         "fields": {
             "text": "Bradying",
             "slug": "bradying",
@@ -841,7 +841,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1024,
+        "pk": 1025,
         "fields": {
             "text": "Bubble Screen",
             "slug": "bubble-screen",
@@ -855,7 +855,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1025,
+        "pk": 1026,
         "fields": {
             "text": "Buck-lateral Series",
             "slug": "buck-lateral-series",
@@ -869,7 +869,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1026,
+        "pk": 1027,
         "fields": {
             "text": "Bump and Run",
             "slug": "bump-and-run",
@@ -883,7 +883,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1027,
+        "pk": 1028,
         "fields": {
             "text": "Burp the Baby",
             "slug": "burp-the-baby",
@@ -897,7 +897,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1028,
+        "pk": 1029,
         "fields": {
             "text": "Busted Play",
             "slug": "busted-play",
@@ -911,7 +911,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1029,
+        "pk": 1030,
         "fields": {
             "text": "Butt Fumble",
             "slug": "butt-fumble",
@@ -925,7 +925,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1030,
+        "pk": 1031,
         "fields": {
             "text": "Button Hook",
             "slug": "button-hook",
@@ -939,7 +939,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1031,
+        "pk": 1032,
         "fields": {
             "text": "C-Gap",
             "slug": "c-gap",
@@ -953,7 +953,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1032,
+        "pk": 1033,
         "fields": {
             "text": "Calvin Johnson Rule",
             "slug": "calvin-johnson-rule",
@@ -967,7 +967,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1033,
+        "pk": 1034,
         "fields": {
             "text": "Canadian Football League (CFL)",
             "slug": "canadian-football-league-cfl",
@@ -981,7 +981,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1034,
+        "pk": 1035,
         "fields": {
             "text": "Carry",
             "slug": "carry",
@@ -995,7 +995,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1035,
+        "pk": 1036,
         "fields": {
             "text": "Center (C)",
             "slug": "center-c",
@@ -1009,7 +1009,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1036,
+        "pk": 1037,
         "fields": {
             "text": "Center Eligible",
             "slug": "center-eligible",
@@ -1023,7 +1023,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1037,
+        "pk": 1038,
         "fields": {
             "text": "Chain",
             "slug": "chain",
@@ -1037,7 +1037,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1038,
+        "pk": 1039,
         "fields": {
             "text": "Chain Gang",
             "slug": "chain-gang",
@@ -1051,7 +1051,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1039,
+        "pk": 1040,
         "fields": {
             "text": "Cheap Shot",
             "slug": "cheap-shot",
@@ -1065,7 +1065,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1040,
+        "pk": 1041,
         "fields": {
             "text": "Checkdown",
             "slug": "checkdown",
@@ -1079,7 +1079,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1041,
+        "pk": 1042,
         "fields": {
             "text": "Chip Shot",
             "slug": "chip-shot",
@@ -1093,7 +1093,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1042,
+        "pk": 1043,
         "fields": {
             "text": "Chop Block",
             "slug": "chop-block",
@@ -1107,7 +1107,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1043,
+        "pk": 1044,
         "fields": {
             "text": "Chuck and Duck",
             "slug": "chuck-and-duck",
@@ -1121,7 +1121,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1044,
+        "pk": 1045,
         "fields": {
             "text": "Chucking",
             "slug": "chucking",
@@ -1135,7 +1135,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1045,
+        "pk": 1046,
         "fields": {
             "text": "Clipping",
             "slug": "clipping",
@@ -1149,7 +1149,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1046,
+        "pk": 1047,
         "fields": {
             "text": "Clock Management",
             "slug": "clock-management",
@@ -1163,7 +1163,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1047,
+        "pk": 1048,
         "fields": {
             "text": "Close Line Play",
             "slug": "close-line-play",
@@ -1177,7 +1177,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1048,
+        "pk": 1049,
         "fields": {
             "text": "Clothesline",
             "slug": "clothesline",
@@ -1191,7 +1191,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1049,
+        "pk": 1050,
         "fields": {
             "text": "Clothesline Tackle",
             "slug": "clothesline-tackle",
@@ -1205,7 +1205,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1050,
+        "pk": 1051,
         "fields": {
             "text": "Coffin Corner",
             "slug": "coffin-corner",
@@ -1219,7 +1219,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1051,
+        "pk": 1052,
         "fields": {
             "text": "Coin Toss",
             "slug": "coin-toss",
@@ -1233,7 +1233,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1052,
+        "pk": 1053,
         "fields": {
             "text": "Comeback Route",
             "slug": "comeback-route",
@@ -1247,7 +1247,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1053,
+        "pk": 1054,
         "fields": {
             "text": "Compensatory Draft Pick",
             "slug": "compensatory-draft-pick",
@@ -1261,7 +1261,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1054,
+        "pk": 1055,
         "fields": {
             "text": "Completion",
             "slug": "completion",
@@ -1275,7 +1275,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1055,
+        "pk": 1056,
         "fields": {
             "text": "Completion Percentage",
             "slug": "completion-percentage",
@@ -1289,7 +1289,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1056,
+        "pk": 1057,
         "fields": {
             "text": "Conferences",
             "slug": "conferences",
@@ -1303,7 +1303,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1057,
+        "pk": 1058,
         "fields": {
             "text": "Contain",
             "slug": "contain",
@@ -1317,7 +1317,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1058,
+        "pk": 1059,
         "fields": {
             "text": "Controlling the Clock",
             "slug": "controlling-the-clock",
@@ -1331,7 +1331,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1059,
+        "pk": 1060,
         "fields": {
             "text": "Corner Route",
             "slug": "corner-route",
@@ -1345,7 +1345,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1060,
+        "pk": 1061,
         "fields": {
             "text": "Cornerback (CB)",
             "slug": "cornerback-cb",
@@ -1359,7 +1359,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1061,
+        "pk": 1062,
         "fields": {
             "text": "Count",
             "slug": "count",
@@ -1373,7 +1373,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1062,
+        "pk": 1063,
         "fields": {
             "text": "Counter",
             "slug": "counter",
@@ -1387,7 +1387,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1063,
+        "pk": 1064,
         "fields": {
             "text": "Counter Trey",
             "slug": "counter-trey",
@@ -1401,7 +1401,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1064,
+        "pk": 1065,
         "fields": {
             "text": "Cover",
             "slug": "cover",
@@ -1415,7 +1415,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1065,
+        "pk": 1066,
         "fields": {
             "text": "Cover 2",
             "slug": "cover-2",
@@ -1429,7 +1429,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1066,
+        "pk": 1067,
         "fields": {
             "text": "Cover 3",
             "slug": "cover-3",
@@ -1443,7 +1443,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1067,
+        "pk": 1068,
         "fields": {
             "text": "Coverage",
             "slug": "coverage",
@@ -1457,7 +1457,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1068,
+        "pk": 1069,
         "fields": {
             "text": "Coverage Shells",
             "slug": "coverage-shells",
@@ -1471,7 +1471,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1069,
+        "pk": 1070,
         "fields": {
             "text": "Crackback Block",
             "slug": "crackback-block",
@@ -1485,7 +1485,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1070,
+        "pk": 1071,
         "fields": {
             "text": "Curl",
             "slug": "curl",
@@ -1499,7 +1499,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1071,
+        "pk": 1072,
         "fields": {
             "text": "Cut",
             "slug": "cut",
@@ -1513,7 +1513,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1072,
+        "pk": 1073,
         "fields": {
             "text": "Cut Back",
             "slug": "cut-back",
@@ -1527,7 +1527,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1073,
+        "pk": 1074,
         "fields": {
             "text": "Cut Blocking",
             "slug": "cut-blocking",
@@ -1541,7 +1541,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1074,
+        "pk": 1075,
         "fields": {
             "text": "D-Gap",
             "slug": "d-gap",
@@ -1555,7 +1555,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1075,
+        "pk": 1076,
         "fields": {
             "text": "Deacon Jones Award",
             "slug": "deacon-jones-award",
@@ -1569,7 +1569,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1076,
+        "pk": 1077,
         "fields": {
             "text": "Dead Ball",
             "slug": "dead-ball",
@@ -1583,7 +1583,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1077,
+        "pk": 1078,
         "fields": {
             "text": "Dead Ball Foul",
             "slug": "dead-ball-foul",
@@ -1597,7 +1597,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1078,
+        "pk": 1079,
         "fields": {
             "text": "Defense",
             "slug": "defense",
@@ -1611,7 +1611,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1079,
+        "pk": 1080,
         "fields": {
             "text": "Defensive Back (DB)",
             "slug": "defensive-back-db",
@@ -1625,7 +1625,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1080,
+        "pk": 1081,
         "fields": {
             "text": "Defensive Backfield",
             "slug": "defensive-backfield",
@@ -1639,7 +1639,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1081,
+        "pk": 1082,
         "fields": {
             "text": "Defensive End",
             "slug": "defensive-end",
@@ -1653,7 +1653,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1082,
+        "pk": 1083,
         "fields": {
             "text": "Defensive Holding",
             "slug": "defensive-holding",
@@ -1667,7 +1667,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1083,
+        "pk": 1084,
         "fields": {
             "text": "Defensive Linemen",
             "slug": "defensive-linemen",
@@ -1681,7 +1681,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1084,
+        "pk": 1085,
         "fields": {
             "text": "Defensive Penalties",
             "slug": "defensive-penalties",
@@ -1695,7 +1695,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1085,
+        "pk": 1086,
         "fields": {
             "text": "Defensive Tackle",
             "slug": "defensive-tackle",
@@ -1709,7 +1709,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1086,
+        "pk": 1087,
         "fields": {
             "text": "Defensive Team",
             "slug": "defensive-team",
@@ -1723,7 +1723,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1087,
+        "pk": 1088,
         "fields": {
             "text": "Delay of Game",
             "slug": "delay-of-game",
@@ -1737,7 +1737,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1088,
+        "pk": 1089,
         "fields": {
             "text": "Delay of Kickoff",
             "slug": "delay-of-kickoff",
@@ -1751,7 +1751,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1089,
+        "pk": 1090,
         "fields": {
             "text": "Dime Back",
             "slug": "dime-back",
@@ -1765,7 +1765,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1090,
+        "pk": 1091,
         "fields": {
             "text": "Dime Coverage",
             "slug": "dime-coverage",
@@ -1779,7 +1779,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1091,
+        "pk": 1092,
         "fields": {
             "text": "Dime Package",
             "slug": "dime-package",
@@ -1793,7 +1793,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1092,
+        "pk": 1093,
         "fields": {
             "text": "Dink and Dunk",
             "slug": "dink-and-dunk",
@@ -1807,7 +1807,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1093,
+        "pk": 1094,
         "fields": {
             "text": "Direct Snap",
             "slug": "direct-snap",
@@ -1821,7 +1821,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1094,
+        "pk": 1095,
         "fields": {
             "text": "Division",
             "slug": "division",
@@ -1835,7 +1835,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1095,
+        "pk": 1096,
         "fields": {
             "text": "Double Coverage",
             "slug": "double-coverage",
@@ -1849,7 +1849,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1096,
+        "pk": 1097,
         "fields": {
             "text": "Double Foul",
             "slug": "double-foul",
@@ -1863,7 +1863,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1097,
+        "pk": 1098,
         "fields": {
             "text": "Double Reverse",
             "slug": "double-reverse",
@@ -1877,7 +1877,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1098,
+        "pk": 1099,
         "fields": {
             "text": "Double Team",
             "slug": "double-team",
@@ -1891,7 +1891,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1099,
+        "pk": 1100,
         "fields": {
             "text": "Double Wing",
             "slug": "double-wing",
@@ -1905,7 +1905,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1100,
+        "pk": 1101,
         "fields": {
             "text": "Down",
             "slug": "down",
@@ -1919,7 +1919,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1101,
+        "pk": 1102,
         "fields": {
             "text": "Down Box",
             "slug": "down-box",
@@ -1933,7 +1933,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1102,
+        "pk": 1103,
         "fields": {
             "text": "Down Lineman",
             "slug": "down-lineman",
@@ -1947,7 +1947,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1103,
+        "pk": 1104,
         "fields": {
             "text": "Down and In",
             "slug": "down-and-in",
@@ -1961,7 +1961,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1104,
+        "pk": 1105,
         "fields": {
             "text": "Down and Out",
             "slug": "down-and-out",
@@ -1975,7 +1975,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1105,
+        "pk": 1106,
         "fields": {
             "text": "Down by Contact",
             "slug": "down-by-contact",
@@ -1989,7 +1989,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1106,
+        "pk": 1107,
         "fields": {
             "text": "Downhill Running Style",
             "slug": "downhill-running-style",
@@ -2003,7 +2003,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1107,
+        "pk": 1108,
         "fields": {
             "text": "Draft Choice",
             "slug": "draft-choice",
@@ -2017,7 +2017,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1108,
+        "pk": 1109,
         "fields": {
             "text": "Drag Route",
             "slug": "drag-route",
@@ -2031,7 +2031,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1109,
+        "pk": 1110,
         "fields": {
             "text": "Draw Play",
             "slug": "draw-play",
@@ -2045,7 +2045,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1110,
+        "pk": 1111,
         "fields": {
             "text": "Drive",
             "slug": "drive",
@@ -2059,7 +2059,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1111,
+        "pk": 1112,
         "fields": {
             "text": "Drop Back",
             "slug": "drop-back",
@@ -2073,7 +2073,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1112,
+        "pk": 1113,
         "fields": {
             "text": "Drop Kick",
             "slug": "drop-kick",
@@ -2087,7 +2087,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1113,
+        "pk": 1114,
         "fields": {
             "text": "Drop Percentage",
             "slug": "drop-percentage",
@@ -2101,7 +2101,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1114,
+        "pk": 1115,
         "fields": {
             "text": "Drops",
             "slug": "drops",
@@ -2115,7 +2115,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1115,
+        "pk": 1116,
         "fields": {
             "text": "Dual-threat Quarterback",
             "slug": "dual-threat-quarterback",
@@ -2129,7 +2129,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1116,
+        "pk": 1117,
         "fields": {
             "text": "Eight-in-the-box Defense",
             "slug": "eight-in-the-box-defense",
@@ -2143,7 +2143,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1117,
+        "pk": 1118,
         "fields": {
             "text": "Eligible Receiver",
             "slug": "eligible-receiver",
@@ -2157,7 +2157,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1118,
+        "pk": 1119,
         "fields": {
             "text": "Empty Backfield",
             "slug": "empty-backfield",
@@ -2171,7 +2171,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1119,
+        "pk": 1120,
         "fields": {
             "text": "Encroachment",
             "slug": "encroachment",
@@ -2185,7 +2185,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1120,
+        "pk": 1121,
         "fields": {
             "text": "End",
             "slug": "end",
@@ -2199,7 +2199,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1121,
+        "pk": 1122,
         "fields": {
             "text": "End Around",
             "slug": "end-around",
@@ -2213,7 +2213,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1122,
+        "pk": 1123,
         "fields": {
             "text": "End Line",
             "slug": "end-line",
@@ -2227,7 +2227,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1123,
+        "pk": 1124,
         "fields": {
             "text": "End Zone",
             "slug": "end-zone",
@@ -2241,7 +2241,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1124,
+        "pk": 1125,
         "fields": {
             "text": "Excessive Time Outs",
             "slug": "excessive-time-outs",
@@ -2255,7 +2255,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1125,
+        "pk": 1126,
         "fields": {
             "text": "Extra Point",
             "slug": "extra-point",
@@ -2269,7 +2269,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1126,
+        "pk": 1127,
         "fields": {
             "text": "Extra Points Percentage",
             "slug": "extra-points-percentage",
@@ -2283,7 +2283,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1127,
+        "pk": 1128,
         "fields": {
             "text": "Face Mask",
             "slug": "face-mask",
@@ -2297,7 +2297,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1128,
+        "pk": 1129,
         "fields": {
             "text": "Faceguarding",
             "slug": "faceguarding",
@@ -2311,7 +2311,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1129,
+        "pk": 1130,
         "fields": {
             "text": "Failure to Pause One Second After Shift or Huddle",
             "slug": "failure-to-pause-one-second-after-shift-or-huddle",
@@ -2325,7 +2325,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1130,
+        "pk": 1131,
         "fields": {
             "text": "Failure to Report Change of Eligibility",
             "slug": "failure-to-report-change-of-eligibility",
@@ -2339,7 +2339,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1131,
+        "pk": 1132,
         "fields": {
             "text": "Fair Catch",
             "slug": "fair-catch",
@@ -2353,7 +2353,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1132,
+        "pk": 1133,
         "fields": {
             "text": "Fair Catch Interference",
             "slug": "fair-catch-interference",
@@ -2367,7 +2367,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1133,
+        "pk": 1134,
         "fields": {
             "text": "Fake Punt",
             "slug": "fake-punt",
@@ -2381,7 +2381,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1134,
+        "pk": 1135,
         "fields": {
             "text": "Faking a Roughing",
             "slug": "faking-a-roughing",
@@ -2395,7 +2395,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1135,
+        "pk": 1136,
         "fields": {
             "text": "False Start",
             "slug": "false-start",
@@ -2409,7 +2409,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1136,
+        "pk": 1137,
         "fields": {
             "text": "Fantasy Football",
             "slug": "fantasy-football",
@@ -2423,7 +2423,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1137,
+        "pk": 1138,
         "fields": {
             "text": "Field Goal (FG)",
             "slug": "field-goal-fg",
@@ -2437,7 +2437,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1138,
+        "pk": 1139,
         "fields": {
             "text": "Field Judge",
             "slug": "field-judge",
@@ -2451,7 +2451,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1139,
+        "pk": 1140,
         "fields": {
             "text": "Field Position",
             "slug": "field-position",
@@ -2465,7 +2465,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1140,
+        "pk": 1141,
         "fields": {
             "text": "First Down",
             "slug": "first-down",
@@ -2479,7 +2479,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1141,
+        "pk": 1142,
         "fields": {
             "text": "First Down Percentage",
             "slug": "first-down-percentage",
@@ -2493,7 +2493,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1142,
+        "pk": 1143,
         "fields": {
             "text": "First and Ten",
             "slug": "first-and-ten",
@@ -2507,7 +2507,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1143,
+        "pk": 1144,
         "fields": {
             "text": "Five Minute Drives",
             "slug": "five-minute-drives",
@@ -2521,7 +2521,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1144,
+        "pk": 1145,
         "fields": {
             "text": "Flag Route",
             "slug": "flag-route",
@@ -2535,7 +2535,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1145,
+        "pk": 1146,
         "fields": {
             "text": "Flanker (Z Receiver)",
             "slug": "flanker-z-receiver",
@@ -2549,7 +2549,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1146,
+        "pk": 1147,
         "fields": {
             "text": "Flat Route",
             "slug": "flat-route",
@@ -2563,7 +2563,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1147,
+        "pk": 1148,
         "fields": {
             "text": "Flea Flicker",
             "slug": "flea-flicker",
@@ -2577,7 +2577,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1148,
+        "pk": 1149,
         "fields": {
             "text": "Flexbone Formation",
             "slug": "flexbone-formation",
@@ -2591,7 +2591,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1149,
+        "pk": 1150,
         "fields": {
             "text": "Flood",
             "slug": "flood",
@@ -2605,7 +2605,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1150,
+        "pk": 1151,
         "fields": {
             "text": "Fly Route",
             "slug": "fly-route",
@@ -2619,7 +2619,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1151,
+        "pk": 1152,
         "fields": {
             "text": "Forced Fumble",
             "slug": "forced-fumble",
@@ -2633,7 +2633,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1152,
+        "pk": 1153,
         "fields": {
             "text": "Formation",
             "slug": "formation",
@@ -2647,7 +2647,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1153,
+        "pk": 1154,
         "fields": {
             "text": "Forward Pass",
             "slug": "forward-pass",
@@ -2661,7 +2661,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1154,
+        "pk": 1155,
         "fields": {
             "text": "Forward Progress",
             "slug": "forward-progress",
@@ -2675,7 +2675,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1155,
+        "pk": 1156,
         "fields": {
             "text": "Foul",
             "slug": "foul",
@@ -2689,7 +2689,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1156,
+        "pk": 1157,
         "fields": {
             "text": "Four Point Stance",
             "slug": "four-point-stance",
@@ -2703,7 +2703,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1157,
+        "pk": 1158,
         "fields": {
             "text": "Fourth Down",
             "slug": "fourth-down",
@@ -2717,7 +2717,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1158,
+        "pk": 1159,
         "fields": {
             "text": "Fourth Down Conversion",
             "slug": "fourth-down-conversion",
@@ -2731,7 +2731,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1159,
+        "pk": 1160,
         "fields": {
             "text": "Fourth Down Efficiency",
             "slug": "fourth-down-efficiency",
@@ -2745,7 +2745,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1160,
+        "pk": 1161,
         "fields": {
             "text": "Franchise Player",
             "slug": "franchise-player",
@@ -2759,7 +2759,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1161,
+        "pk": 1162,
         "fields": {
             "text": "Franchise Tag",
             "slug": "franchise-tag",
@@ -2773,7 +2773,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1162,
+        "pk": 1163,
         "fields": {
             "text": "Free Agent",
             "slug": "free-agent",
@@ -2787,7 +2787,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1163,
+        "pk": 1164,
         "fields": {
             "text": "Free Kick",
             "slug": "free-kick",
@@ -2801,7 +2801,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1164,
+        "pk": 1165,
         "fields": {
             "text": "Free Safety",
             "slug": "free-safety",
@@ -2815,7 +2815,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1165,
+        "pk": 1166,
         "fields": {
             "text": "Freeze",
             "slug": "freeze",
@@ -2829,7 +2829,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1166,
+        "pk": 1167,
         "fields": {
             "text": "Front Four",
             "slug": "front-four",
@@ -2843,7 +2843,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1167,
+        "pk": 1168,
         "fields": {
             "text": "Front Seven",
             "slug": "front-seven",
@@ -2857,7 +2857,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1168,
+        "pk": 1169,
         "fields": {
             "text": "Fullback (FB)",
             "slug": "fullback-fb",
@@ -2871,7 +2871,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1169,
+        "pk": 1170,
         "fields": {
             "text": "Fumble",
             "slug": "fumble",
@@ -2885,7 +2885,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1170,
+        "pk": 1171,
         "fields": {
             "text": "Fumble Lost",
             "slug": "fumble-lost",
@@ -2899,7 +2899,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1171,
+        "pk": 1172,
         "fields": {
             "text": "Fumble Rate",
             "slug": "fumble-rate",
@@ -2913,7 +2913,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1172,
+        "pk": 1173,
         "fields": {
             "text": "Fumble Recoveries",
             "slug": "fumble-recoveries",
@@ -2927,7 +2927,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1173,
+        "pk": 1174,
         "fields": {
             "text": "Fumble Return Touchdown",
             "slug": "fumble-return-touchdown",
@@ -2941,7 +2941,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1174,
+        "pk": 1175,
         "fields": {
             "text": "Fumble Return Yards",
             "slug": "fumble-return-yards",
@@ -2955,7 +2955,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1175,
+        "pk": 1176,
         "fields": {
             "text": "Fumblerooski",
             "slug": "fumblerooski",
@@ -2969,7 +2969,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1176,
+        "pk": 1177,
         "fields": {
             "text": "Game Ball",
             "slug": "game-ball",
@@ -2983,7 +2983,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1177,
+        "pk": 1178,
         "fields": {
             "text": "Game Clock",
             "slug": "game-clock",
@@ -2997,7 +2997,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1178,
+        "pk": 1179,
         "fields": {
             "text": "Game Manager",
             "slug": "game-manager",
@@ -3011,7 +3011,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1179,
+        "pk": 1180,
         "fields": {
             "text": "Gap",
             "slug": "gap",
@@ -3025,7 +3025,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1180,
+        "pk": 1181,
         "fields": {
             "text": "Giveaways",
             "slug": "giveaways",
@@ -3039,7 +3039,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1181,
+        "pk": 1182,
         "fields": {
             "text": "Go Route",
             "slug": "go-route",
@@ -3053,7 +3053,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1182,
+        "pk": 1183,
         "fields": {
             "text": "Goal Line",
             "slug": "goal-line",
@@ -3067,7 +3067,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1183,
+        "pk": 1184,
         "fields": {
             "text": "Goal Line Stand",
             "slug": "goal-line-stand",
@@ -3081,7 +3081,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1184,
+        "pk": 1185,
         "fields": {
             "text": "Goal Post",
             "slug": "goal-post",
@@ -3095,7 +3095,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1185,
+        "pk": 1186,
         "fields": {
             "text": "Grasping Facemask of Ball Carrier or Quarterback",
             "slug": "grasping-facemask-of-ball-carrier-or-quarterback",
@@ -3109,7 +3109,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1186,
+        "pk": 1187,
         "fields": {
             "text": "Gridiron",
             "slug": "gridiron",
@@ -3123,7 +3123,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1187,
+        "pk": 1188,
         "fields": {
             "text": "Griffining",
             "slug": "griffining",
@@ -3137,7 +3137,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1188,
+        "pk": 1189,
         "fields": {
             "text": "Gronking",
             "slug": "gronking",
@@ -3151,7 +3151,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1189,
+        "pk": 1190,
         "fields": {
             "text": "Guard",
             "slug": "guard",
@@ -3165,7 +3165,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1190,
+        "pk": 1191,
         "fields": {
             "text": "Gunner",
             "slug": "gunner",
@@ -3179,7 +3179,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1191,
+        "pk": 1192,
         "fields": {
             "text": "Gunslinger",
             "slug": "gunslinger",
@@ -3193,7 +3193,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1192,
+        "pk": 1193,
         "fields": {
             "text": "H-Back",
             "slug": "h-back",
@@ -3207,7 +3207,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1193,
+        "pk": 1194,
         "fields": {
             "text": "Hail Mary (pass)",
             "slug": "hail-mary-pass",
@@ -3221,7 +3221,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1194,
+        "pk": 1195,
         "fields": {
             "text": "Halfback",
             "slug": "halfback",
@@ -3235,7 +3235,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1195,
+        "pk": 1196,
         "fields": {
             "text": "Halfback Option Play",
             "slug": "halfback-option-play",
@@ -3249,7 +3249,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1196,
+        "pk": 1197,
         "fields": {
             "text": "Halo Violation",
             "slug": "halo-violation",
@@ -3263,7 +3263,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1197,
+        "pk": 1198,
         "fields": {
             "text": "Hand Signal",
             "slug": "hand-signal",
@@ -3277,7 +3277,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1198,
+        "pk": 1199,
         "fields": {
             "text": "Handoff",
             "slug": "handoff",
@@ -3291,7 +3291,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1199,
+        "pk": 1200,
         "fields": {
             "text": "Hands Team",
             "slug": "hands-team",
@@ -3305,7 +3305,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1200,
+        "pk": 1201,
         "fields": {
             "text": "Hang Time",
             "slug": "hang-time",
@@ -3319,7 +3319,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1201,
+        "pk": 1202,
         "fields": {
             "text": "Hard Count",
             "slug": "hard-count",
@@ -3333,7 +3333,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1202,
+        "pk": 1203,
         "fields": {
             "text": "Hash Marks",
             "slug": "hash-marks",
@@ -3347,7 +3347,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1203,
+        "pk": 1204,
         "fields": {
             "text": "Heisman Trophy",
             "slug": "heisman-trophy",
@@ -3361,7 +3361,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1204,
+        "pk": 1205,
         "fields": {
             "text": "Helping the Runner",
             "slug": "helping-the-runner",
@@ -3375,7 +3375,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1205,
+        "pk": 1206,
         "fields": {
             "text": "Hike",
             "slug": "hike",
@@ -3389,7 +3389,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1206,
+        "pk": 1207,
         "fields": {
             "text": "Hitch Route",
             "slug": "hitch-route",
@@ -3403,7 +3403,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1207,
+        "pk": 1208,
         "fields": {
             "text": "Hitch and Go",
             "slug": "hitch-and-go",
@@ -3417,7 +3417,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1208,
+        "pk": 1209,
         "fields": {
             "text": "Holder",
             "slug": "holder",
@@ -3431,7 +3431,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1209,
+        "pk": 1210,
         "fields": {
             "text": "Holding",
             "slug": "holding",
@@ -3445,7 +3445,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1210,
+        "pk": 1211,
         "fields": {
             "text": "Hole Number",
             "slug": "hole-number",
@@ -3459,7 +3459,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1211,
+        "pk": 1212,
         "fields": {
             "text": "Home Field Advantage",
             "slug": "home-field-advantage",
@@ -3473,7 +3473,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1212,
+        "pk": 1213,
         "fields": {
             "text": "Home and Away",
             "slug": "home-and-away",
@@ -3487,7 +3487,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1213,
+        "pk": 1214,
         "fields": {
             "text": "Hook and Ladder",
             "slug": "hook-and-ladder",
@@ -3501,7 +3501,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1214,
+        "pk": 1215,
         "fields": {
             "text": "Horse Collar Tackle",
             "slug": "horse-collar-tackle",
@@ -3515,7 +3515,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1215,
+        "pk": 1216,
         "fields": {
             "text": "Hot Dog",
             "slug": "hot-dog",
@@ -3529,7 +3529,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1216,
+        "pk": 1217,
         "fields": {
             "text": "Hot Receiver",
             "slug": "hot-receiver",
@@ -3543,7 +3543,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1217,
+        "pk": 1218,
         "fields": {
             "text": "Hot Route",
             "slug": "hot-route",
@@ -3557,7 +3557,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1218,
+        "pk": 1219,
         "fields": {
             "text": "Huddle",
             "slug": "huddle",
@@ -3571,7 +3571,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1219,
+        "pk": 1220,
         "fields": {
             "text": "Hurries",
             "slug": "hurries",
@@ -3585,7 +3585,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1220,
+        "pk": 1221,
         "fields": {
             "text": "Hurry Up Offense",
             "slug": "hurry-up-offense",
@@ -3599,7 +3599,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1221,
+        "pk": 1222,
         "fields": {
             "text": "I Formation",
             "slug": "i-formation",
@@ -3613,7 +3613,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1222,
+        "pk": 1223,
         "fields": {
             "text": "Icing the Kicker",
             "slug": "icing-the-kicker",
@@ -3627,7 +3627,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1223,
+        "pk": 1224,
         "fields": {
             "text": "Illegal Bat (Batted Ball Rule)",
             "slug": "illegal-bat-batted-ball-rule",
@@ -3641,7 +3641,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1224,
+        "pk": 1225,
         "fields": {
             "text": "Illegal Contact",
             "slug": "illegal-contact",
@@ -3655,7 +3655,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1225,
+        "pk": 1226,
         "fields": {
             "text": "Illegal Equipment",
             "slug": "illegal-equipment",
@@ -3669,7 +3669,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1226,
+        "pk": 1227,
         "fields": {
             "text": "Illegal Formation",
             "slug": "illegal-formation",
@@ -3683,7 +3683,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1227,
+        "pk": 1228,
         "fields": {
             "text": "Illegal Hands to the Face",
             "slug": "illegal-hands-to-the-face",
@@ -3697,7 +3697,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1228,
+        "pk": 1229,
         "fields": {
             "text": "Illegal Low Block",
             "slug": "illegal-low-block",
@@ -3711,7 +3711,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1229,
+        "pk": 1230,
         "fields": {
             "text": "Illegal Motion",
             "slug": "illegal-motion",
@@ -3725,7 +3725,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1230,
+        "pk": 1231,
         "fields": {
             "text": "Illegal Procedure",
             "slug": "illegal-procedure",
@@ -3739,7 +3739,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1231,
+        "pk": 1232,
         "fields": {
             "text": "Illegal Shift",
             "slug": "illegal-shift",
@@ -3753,7 +3753,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1232,
+        "pk": 1233,
         "fields": {
             "text": "Illegal Substitution",
             "slug": "illegal-substitution",
@@ -3767,7 +3767,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1233,
+        "pk": 1234,
         "fields": {
             "text": "Illegal Touching",
             "slug": "illegal-touching",
@@ -3781,7 +3781,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1234,
+        "pk": 1235,
         "fields": {
             "text": "In Bounds",
             "slug": "in-bounds",
@@ -3795,7 +3795,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1235,
+        "pk": 1236,
         "fields": {
             "text": "Incomplete Pass",
             "slug": "incomplete-pass",
@@ -3809,7 +3809,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1236,
+        "pk": 1237,
         "fields": {
             "text": "Indirect Snap",
             "slug": "indirect-snap",
@@ -3823,7 +3823,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1237,
+        "pk": 1238,
         "fields": {
             "text": "Ineligible Receiver",
             "slug": "ineligible-receiver",
@@ -3837,7 +3837,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1238,
+        "pk": 1239,
         "fields": {
             "text": "Ineligible Receiver Down Field",
             "slug": "ineligible-receiver-down-field",
@@ -3851,7 +3851,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1239,
+        "pk": 1240,
         "fields": {
             "text": "Intentional Grounding",
             "slug": "intentional-grounding",
@@ -3865,7 +3865,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1240,
+        "pk": 1241,
         "fields": {
             "text": "Interception",
             "slug": "interception",
@@ -3879,7 +3879,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1241,
+        "pk": 1242,
         "fields": {
             "text": "Interception Rate",
             "slug": "interception-rate",
@@ -3893,7 +3893,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1242,
+        "pk": 1243,
         "fields": {
             "text": "Interception Touchdowns",
             "slug": "interception-touchdowns",
@@ -3907,7 +3907,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1243,
+        "pk": 1244,
         "fields": {
             "text": "Interception Yards",
             "slug": "interception-yards",
@@ -3921,7 +3921,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1244,
+        "pk": 1245,
         "fields": {
             "text": "Interference",
             "slug": "interference",
@@ -3935,7 +3935,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1245,
+        "pk": 1246,
         "fields": {
             "text": "Invalid Fair Catch Signal",
             "slug": "invalid-fair-catch-signal",
@@ -3949,7 +3949,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1246,
+        "pk": 1247,
         "fields": {
             "text": "Key",
             "slug": "key",
@@ -3963,7 +3963,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1247,
+        "pk": 1248,
         "fields": {
             "text": "Kick",
             "slug": "kick",
@@ -3977,7 +3977,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1248,
+        "pk": 1249,
         "fields": {
             "text": "Kick Return",
             "slug": "kick-return",
@@ -3991,7 +3991,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1249,
+        "pk": 1250,
         "fields": {
             "text": "Kick Return Touchdown",
             "slug": "kick-return-touchdown",
@@ -4005,7 +4005,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1250,
+        "pk": 1251,
         "fields": {
             "text": "Kick Return Yards",
             "slug": "kick-return-yards",
@@ -4019,7 +4019,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1251,
+        "pk": 1252,
         "fields": {
             "text": "Kick Returner",
             "slug": "kick-returner",
@@ -4033,7 +4033,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1252,
+        "pk": 1253,
         "fields": {
             "text": "Kicker",
             "slug": "kicker",
@@ -4047,7 +4047,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1253,
+        "pk": 1254,
         "fields": {
             "text": "Kicking Game",
             "slug": "kicking-game",
@@ -4061,7 +4061,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1254,
+        "pk": 1255,
         "fields": {
             "text": "Kicking an Opponent",
             "slug": "kicking-an-opponent",
@@ -4075,7 +4075,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1255,
+        "pk": 1256,
         "fields": {
             "text": "Kickoff",
             "slug": "kickoff",
@@ -4089,7 +4089,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1256,
+        "pk": 1257,
         "fields": {
             "text": "Lambeau Leap",
             "slug": "lambeau-leap",
@@ -4103,7 +4103,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1257,
+        "pk": 1258,
         "fields": {
             "text": "Lame Duck Coach",
             "slug": "lame-duck-coach",
@@ -4117,7 +4117,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1258,
+        "pk": 1259,
         "fields": {
             "text": "Late Hit",
             "slug": "late-hit",
@@ -4131,7 +4131,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1259,
+        "pk": 1260,
         "fields": {
             "text": "Lateral",
             "slug": "lateral",
@@ -4145,7 +4145,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1260,
+        "pk": 1261,
         "fields": {
             "text": "Leading with the Head",
             "slug": "leading-with-the-head",
@@ -4159,7 +4159,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1261,
+        "pk": 1262,
         "fields": {
             "text": "Leaping",
             "slug": "leaping",
@@ -4173,7 +4173,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1262,
+        "pk": 1263,
         "fields": {
             "text": "Leg Whip",
             "slug": "leg-whip",
@@ -4187,7 +4187,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1263,
+        "pk": 1264,
         "fields": {
             "text": "Line Judge",
             "slug": "line-judge",
@@ -4201,7 +4201,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1264,
+        "pk": 1265,
         "fields": {
             "text": "Line of Scrimmage",
             "slug": "line-of-scrimmage",
@@ -4215,7 +4215,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1265,
+        "pk": 1266,
         "fields": {
             "text": "Line to Gain",
             "slug": "line-to-gain",
@@ -4229,7 +4229,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1266,
+        "pk": 1267,
         "fields": {
             "text": "Linebacker",
             "slug": "linebacker",
@@ -4243,7 +4243,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1267,
+        "pk": 1268,
         "fields": {
             "text": "Linemen",
             "slug": "linemen",
@@ -4257,7 +4257,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1268,
+        "pk": 1269,
         "fields": {
             "text": "Live Ball",
             "slug": "live-ball",
@@ -4271,7 +4271,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1269,
+        "pk": 1270,
         "fields": {
             "text": "Live Ball Foul",
             "slug": "live-ball-foul",
@@ -4285,7 +4285,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1270,
+        "pk": 1271,
         "fields": {
             "text": "Long Snapper",
             "slug": "long-snapper",
@@ -4299,7 +4299,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1271,
+        "pk": 1272,
         "fields": {
             "text": "Loose Ball",
             "slug": "loose-ball",
@@ -4313,7 +4313,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1272,
+        "pk": 1273,
         "fields": {
             "text": "Man in Motion",
             "slug": "man-in-motion",
@@ -4327,7 +4327,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1273,
+        "pk": 1274,
         "fields": {
             "text": "Man to Man Coverage",
             "slug": "man-to-man-coverage",
@@ -4341,7 +4341,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1274,
+        "pk": 1275,
         "fields": {
             "text": "Margin of Victory",
             "slug": "margin-of-victory",
@@ -4355,7 +4355,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1275,
+        "pk": 1276,
         "fields": {
             "text": "Marty Ball",
             "slug": "marty-ball",
@@ -4369,7 +4369,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1276,
+        "pk": 1277,
         "fields": {
             "text": "Max Protect",
             "slug": "max-protect",
@@ -4383,7 +4383,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1277,
+        "pk": 1278,
         "fields": {
             "text": "Middle Linebacker MLB",
             "slug": "middle-linebacker-mlb",
@@ -4397,7 +4397,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1278,
+        "pk": 1279,
         "fields": {
             "text": "Midfield",
             "slug": "midfield",
@@ -4411,7 +4411,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1279,
+        "pk": 1280,
         "fields": {
             "text": "Minnesota Shift",
             "slug": "minnesota-shift",
@@ -4425,7 +4425,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1280,
+        "pk": 1281,
         "fields": {
             "text": "More Than One Man in Motion at Snap",
             "slug": "more-than-one-man-in-motion-at-snap",
@@ -4439,7 +4439,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1281,
+        "pk": 1282,
         "fields": {
             "text": "Motion",
             "slug": "motion",
@@ -4453,7 +4453,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1282,
+        "pk": 1283,
         "fields": {
             "text": "Mousetrap",
             "slug": "mousetrap",
@@ -4467,7 +4467,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1283,
+        "pk": 1284,
         "fields": {
             "text": "Mr Irrelevant",
             "slug": "mr-irrelevant",
@@ -4481,7 +4481,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1284,
+        "pk": 1285,
         "fields": {
             "text": "Muff",
             "slug": "muff",
@@ -4495,7 +4495,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1285,
+        "pk": 1286,
         "fields": {
             "text": "Muffed Punt",
             "slug": "muffed-punt",
@@ -4509,7 +4509,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1286,
+        "pk": 1287,
         "fields": {
             "text": "Multiple Offense",
             "slug": "multiple-offense",
@@ -4523,7 +4523,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1287,
+        "pk": 1288,
         "fields": {
             "text": "Music City Miracle",
             "slug": "music-city-miracle",
@@ -4537,7 +4537,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1288,
+        "pk": 1289,
         "fields": {
             "text": "NFL Draft",
             "slug": "nfl-draft",
@@ -4551,7 +4551,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1289,
+        "pk": 1290,
         "fields": {
             "text": "NFL Snow Removal Rules",
             "slug": "nfl-snow-removal-rules",
@@ -4565,7 +4565,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1290,
+        "pk": 1291,
         "fields": {
             "text": "Naked Bootleg",
             "slug": "naked-bootleg",
@@ -4579,7 +4579,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1291,
+        "pk": 1292,
         "fields": {
             "text": "National Football Conference (NFC)",
             "slug": "national-football-conference-nfc",
@@ -4593,7 +4593,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1292,
+        "pk": 1293,
         "fields": {
             "text": "National Football League (NFL)",
             "slug": "national-football-league-nfl",
@@ -4607,7 +4607,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1293,
+        "pk": 1294,
         "fields": {
             "text": "Net Average",
             "slug": "net-average",
@@ -4621,7 +4621,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1294,
+        "pk": 1295,
         "fields": {
             "text": "Net Yards",
             "slug": "net-yards",
@@ -4635,7 +4635,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1295,
+        "pk": 1296,
         "fields": {
             "text": "Neutral Zone",
             "slug": "neutral-zone",
@@ -4649,7 +4649,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1296,
+        "pk": 1297,
         "fields": {
             "text": "Neutral Zone Infraction",
             "slug": "neutral-zone-infraction",
@@ -4663,7 +4663,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1297,
+        "pk": 1298,
         "fields": {
             "text": "Nickel Back",
             "slug": "nickel-back",
@@ -4677,7 +4677,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1298,
+        "pk": 1299,
         "fields": {
             "text": "Nickel Defense",
             "slug": "nickel-defense",
@@ -4691,7 +4691,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1299,
+        "pk": 1300,
         "fields": {
             "text": "No Good",
             "slug": "no-good",
@@ -4705,7 +4705,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1300,
+        "pk": 1301,
         "fields": {
             "text": "No Huddle Offense",
             "slug": "no-huddle-offense",
@@ -4719,7 +4719,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1301,
+        "pk": 1302,
         "fields": {
             "text": "Nose Tackle",
             "slug": "nose-tackle",
@@ -4733,7 +4733,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1302,
+        "pk": 1303,
         "fields": {
             "text": "Notre Dame Box",
             "slug": "notre-dame-box",
@@ -4747,7 +4747,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1303,
+        "pk": 1304,
         "fields": {
             "text": "Odds",
             "slug": "odds",
@@ -4761,7 +4761,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1304,
+        "pk": 1305,
         "fields": {
             "text": "Off Tackle",
             "slug": "off-tackle",
@@ -4775,7 +4775,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1305,
+        "pk": 1306,
         "fields": {
             "text": "Off-season",
             "slug": "off-season",
@@ -4789,7 +4789,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1306,
+        "pk": 1307,
         "fields": {
             "text": "Offending Team",
             "slug": "offending-team",
@@ -4803,7 +4803,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1307,
+        "pk": 1308,
         "fields": {
             "text": "Offensive Backfield",
             "slug": "offensive-backfield",
@@ -4817,7 +4817,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1308,
+        "pk": 1309,
         "fields": {
             "text": "Offensive Holding",
             "slug": "offensive-holding",
@@ -4831,7 +4831,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1309,
+        "pk": 1310,
         "fields": {
             "text": "Offensive Line",
             "slug": "offensive-line",
@@ -4845,7 +4845,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1310,
+        "pk": 1311,
         "fields": {
             "text": "Offensive Linemen",
             "slug": "offensive-linemen",
@@ -4859,7 +4859,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1311,
+        "pk": 1312,
         "fields": {
             "text": "Offensive Pass Interference",
             "slug": "offensive-pass-interference",
@@ -4873,7 +4873,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1312,
+        "pk": 1313,
         "fields": {
             "text": "Offensive Penalties",
             "slug": "offensive-penalties",
@@ -4887,7 +4887,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1313,
+        "pk": 1314,
         "fields": {
             "text": "Offensive Team",
             "slug": "offensive-team",
@@ -4901,7 +4901,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1314,
+        "pk": 1315,
         "fields": {
             "text": "Office Linebacker",
             "slug": "office-linebacker",
@@ -4915,7 +4915,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1315,
+        "pk": 1316,
         "fields": {
             "text": "Officials",
             "slug": "officials",
@@ -4929,7 +4929,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1316,
+        "pk": 1317,
         "fields": {
             "text": "Offside",
             "slug": "offside",
@@ -4943,7 +4943,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1317,
+        "pk": 1318,
         "fields": {
             "text": "One-Back Formation",
             "slug": "one-back-formation",
@@ -4957,7 +4957,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1318,
+        "pk": 1319,
         "fields": {
             "text": "Onside Kick",
             "slug": "onside-kick",
@@ -4971,7 +4971,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1319,
+        "pk": 1320,
         "fields": {
             "text": "Open Receiver",
             "slug": "open-receiver",
@@ -4985,7 +4985,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1320,
+        "pk": 1321,
         "fields": {
             "text": "Open Up Holes",
             "slug": "open-up-holes",
@@ -4999,7 +4999,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1321,
+        "pk": 1322,
         "fields": {
             "text": "Option",
             "slug": "option",
@@ -5013,7 +5013,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1322,
+        "pk": 1323,
         "fields": {
             "text": "Option Offense",
             "slug": "option-offense",
@@ -5027,7 +5027,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1323,
+        "pk": 1324,
         "fields": {
             "text": "Option Run",
             "slug": "option-run",
@@ -5041,7 +5041,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1324,
+        "pk": 1325,
         "fields": {
             "text": "Organized Team Activities (OTAs)",
             "slug": "organized-team-activities-otas",
@@ -5055,7 +5055,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1325,
+        "pk": 1326,
         "fields": {
             "text": "Organized Team Activity (OTA)",
             "slug": "organized-team-activity-ota",
@@ -5069,7 +5069,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1326,
+        "pk": 1327,
         "fields": {
             "text": "Out Route",
             "slug": "out-route",
@@ -5083,7 +5083,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1327,
+        "pk": 1328,
         "fields": {
             "text": "Out of Bounds",
             "slug": "out-of-bounds",
@@ -5097,7 +5097,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1328,
+        "pk": 1329,
         "fields": {
             "text": "Out of Bounds at Snap",
             "slug": "out-of-bounds-at-snap",
@@ -5111,7 +5111,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1329,
+        "pk": 1330,
         "fields": {
             "text": "Outside",
             "slug": "outside",
@@ -5125,7 +5125,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1330,
+        "pk": 1331,
         "fields": {
             "text": "Outside Linebacker OLB",
             "slug": "outside-linebacker-olb",
@@ -5139,7 +5139,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1331,
+        "pk": 1332,
         "fields": {
             "text": "Overtime",
             "slug": "overtime",
@@ -5153,7 +5153,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1332,
+        "pk": 1333,
         "fields": {
             "text": "Package",
             "slug": "package",
@@ -5167,7 +5167,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1333,
+        "pk": 1334,
         "fields": {
             "text": "Pass",
             "slug": "pass",
@@ -5181,7 +5181,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1334,
+        "pk": 1335,
         "fields": {
             "text": "Pass Attempt",
             "slug": "pass-attempt",
@@ -5195,7 +5195,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1335,
+        "pk": 1336,
         "fields": {
             "text": "Pass Completion",
             "slug": "pass-completion",
@@ -5209,7 +5209,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1336,
+        "pk": 1337,
         "fields": {
             "text": "Pass Defender",
             "slug": "pass-defender",
@@ -5223,7 +5223,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1337,
+        "pk": 1338,
         "fields": {
             "text": "Pass Interference",
             "slug": "pass-interference",
@@ -5237,7 +5237,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1338,
+        "pk": 1339,
         "fields": {
             "text": "Pass Pattern",
             "slug": "pass-pattern",
@@ -5251,7 +5251,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1339,
+        "pk": 1340,
         "fields": {
             "text": "Pass Protection",
             "slug": "pass-protection",
@@ -5265,7 +5265,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1340,
+        "pk": 1341,
         "fields": {
             "text": "Pass Rush",
             "slug": "pass-rush",
@@ -5279,7 +5279,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1341,
+        "pk": 1342,
         "fields": {
             "text": "Passes Batted Down",
             "slug": "passes-batted-down",
@@ -5293,7 +5293,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1342,
+        "pk": 1343,
         "fields": {
             "text": "Passes Defensed",
             "slug": "passes-defensed",
@@ -5307,7 +5307,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1343,
+        "pk": 1344,
         "fields": {
             "text": "Passing First Down Percentage",
             "slug": "passing-first-down-percentage",
@@ -5321,7 +5321,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1344,
+        "pk": 1345,
         "fields": {
             "text": "Passing Game",
             "slug": "passing-game",
@@ -5335,7 +5335,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1345,
+        "pk": 1346,
         "fields": {
             "text": "Passing Play",
             "slug": "passing-play",
@@ -5349,7 +5349,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1346,
+        "pk": 1347,
         "fields": {
             "text": "Passing Touchdowns",
             "slug": "passing-touchdowns",
@@ -5363,7 +5363,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1347,
+        "pk": 1348,
         "fields": {
             "text": "Passing Yards",
             "slug": "passing-yards",
@@ -5377,7 +5377,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1348,
+        "pk": 1349,
         "fields": {
             "text": "Passing Yards Lost to Penalties",
             "slug": "passing-yards-lost-to-penalties",
@@ -5391,7 +5391,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1349,
+        "pk": 1350,
         "fields": {
             "text": "Peel-Back Block",
             "slug": "peel-back-block",
@@ -5405,7 +5405,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1350,
+        "pk": 1351,
         "fields": {
             "text": "Penalty",
             "slug": "penalty",
@@ -5419,7 +5419,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1351,
+        "pk": 1352,
         "fields": {
             "text": "Penalty Flag",
             "slug": "penalty-flag",
@@ -5433,7 +5433,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1352,
+        "pk": 1353,
         "fields": {
             "text": "Percentage Points",
             "slug": "percentage-points",
@@ -5447,7 +5447,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1353,
+        "pk": 1354,
         "fields": {
             "text": "Personal Foul",
             "slug": "personal-foul",
@@ -5461,7 +5461,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1354,
+        "pk": 1355,
         "fields": {
             "text": "Pick",
             "slug": "pick",
@@ -5475,7 +5475,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1355,
+        "pk": 1356,
         "fields": {
             "text": "Pick-Six",
             "slug": "pick-six",
@@ -5489,7 +5489,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1356,
+        "pk": 1357,
         "fields": {
             "text": "Pigskin",
             "slug": "pigskin",
@@ -5503,7 +5503,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1357,
+        "pk": 1358,
         "fields": {
             "text": "Piling On",
             "slug": "piling-on",
@@ -5517,7 +5517,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1358,
+        "pk": 1359,
         "fields": {
             "text": "Pistol Formation",
             "slug": "pistol-formation",
@@ -5531,7 +5531,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1359,
+        "pk": 1360,
         "fields": {
             "text": "Pitch",
             "slug": "pitch",
@@ -5545,7 +5545,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1360,
+        "pk": 1361,
         "fields": {
             "text": "Placekick",
             "slug": "placekick",
@@ -5559,7 +5559,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1361,
+        "pk": 1362,
         "fields": {
             "text": "Play",
             "slug": "play",
@@ -5573,7 +5573,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1362,
+        "pk": 1363,
         "fields": {
             "text": "Play Action",
             "slug": "play-action",
@@ -5587,7 +5587,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1363,
+        "pk": 1364,
         "fields": {
             "text": "Play Action Pass",
             "slug": "play-action-pass",
@@ -5601,7 +5601,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1364,
+        "pk": 1365,
         "fields": {
             "text": "Play Clock",
             "slug": "play-clock",
@@ -5615,7 +5615,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1365,
+        "pk": 1366,
         "fields": {
             "text": "Playbook",
             "slug": "playbook",
@@ -5629,7 +5629,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1366,
+        "pk": 1367,
         "fields": {
             "text": "Playing Field",
             "slug": "playing-field",
@@ -5643,7 +5643,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1367,
+        "pk": 1368,
         "fields": {
             "text": "Playmaker",
             "slug": "playmaker",
@@ -5657,7 +5657,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1368,
+        "pk": 1369,
         "fields": {
             "text": "Playoffs",
             "slug": "playoffs",
@@ -5671,7 +5671,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1369,
+        "pk": 1370,
         "fields": {
             "text": "Plays Statistic",
             "slug": "plays-statistic",
@@ -5685,7 +5685,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1370,
+        "pk": 1371,
         "fields": {
             "text": "Pocket",
             "slug": "pocket",
@@ -5699,7 +5699,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1371,
+        "pk": 1372,
         "fields": {
             "text": "Pocket Passer",
             "slug": "pocket-passer",
@@ -5713,7 +5713,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1372,
+        "pk": 1373,
         "fields": {
             "text": "Point After Touchdown (PAT)",
             "slug": "point-after-touchdown-pat",
@@ -5727,7 +5727,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1373,
+        "pk": 1374,
         "fields": {
             "text": "Point Spread",
             "slug": "point-spread",
@@ -5741,7 +5741,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1374,
+        "pk": 1375,
         "fields": {
             "text": "Points",
             "slug": "points",
@@ -5755,7 +5755,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1375,
+        "pk": 1376,
         "fields": {
             "text": "Points Allowed",
             "slug": "points-allowed",
@@ -5769,7 +5769,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1376,
+        "pk": 1377,
         "fields": {
             "text": "Points Per Game",
             "slug": "points-per-game",
@@ -5783,7 +5783,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1377,
+        "pk": 1378,
         "fields": {
             "text": "Pooch Punt",
             "slug": "pooch-punt",
@@ -5797,7 +5797,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1378,
+        "pk": 1379,
         "fields": {
             "text": "Position",
             "slug": "position",
@@ -5811,7 +5811,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1379,
+        "pk": 1380,
         "fields": {
             "text": "Possession",
             "slug": "possession",
@@ -5825,7 +5825,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1380,
+        "pk": 1381,
         "fields": {
             "text": "Post Pattern",
             "slug": "post-pattern",
@@ -5839,7 +5839,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1381,
+        "pk": 1382,
         "fields": {
             "text": "Post Route",
             "slug": "post-route",
@@ -5853,7 +5853,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1382,
+        "pk": 1383,
         "fields": {
             "text": "Post-Possession Foul",
             "slug": "post-possession-foul",
@@ -5867,7 +5867,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1383,
+        "pk": 1384,
         "fields": {
             "text": "Post-Season",
             "slug": "post-season",
@@ -5881,7 +5881,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1384,
+        "pk": 1385,
         "fields": {
             "text": "Power Sweep",
             "slug": "power-sweep",
@@ -5895,7 +5895,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1385,
+        "pk": 1386,
         "fields": {
             "text": "Pre-Snap Read",
             "slug": "pre-snap-read",
@@ -5909,7 +5909,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1386,
+        "pk": 1387,
         "fields": {
             "text": "Preseason",
             "slug": "preseason",
@@ -5923,7 +5923,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1387,
+        "pk": 1388,
         "fields": {
             "text": "Prevent Defense",
             "slug": "prevent-defense",
@@ -5937,7 +5937,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1388,
+        "pk": 1389,
         "fields": {
             "text": "Previous Spot",
             "slug": "previous-spot",
@@ -5951,7 +5951,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1389,
+        "pk": 1390,
         "fields": {
             "text": "Primary Receiver",
             "slug": "primary-receiver",
@@ -5965,7 +5965,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1390,
+        "pk": 1391,
         "fields": {
             "text": "Pro Bowl",
             "slug": "pro-bowl",
@@ -5979,7 +5979,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1391,
+        "pk": 1392,
         "fields": {
             "text": "Pro Formation",
             "slug": "pro-formation",
@@ -5993,7 +5993,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1392,
+        "pk": 1393,
         "fields": {
             "text": "Pro Set",
             "slug": "pro-set",
@@ -6007,7 +6007,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1393,
+        "pk": 1394,
         "fields": {
             "text": "Pro-style Offense",
             "slug": "pro-style-offense",
@@ -6021,7 +6021,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1394,
+        "pk": 1395,
         "fields": {
             "text": "Pulling",
             "slug": "pulling",
@@ -6035,7 +6035,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1395,
+        "pk": 1396,
         "fields": {
             "text": "Pump Fake",
             "slug": "pump-fake",
@@ -6049,7 +6049,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1396,
+        "pk": 1397,
         "fields": {
             "text": "Punt",
             "slug": "punt",
@@ -6063,7 +6063,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1397,
+        "pk": 1398,
         "fields": {
             "text": "Punt Return",
             "slug": "punt-return",
@@ -6077,7 +6077,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1398,
+        "pk": 1399,
         "fields": {
             "text": "Punt Return Touchdown",
             "slug": "punt-return-touchdown",
@@ -6091,7 +6091,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1399,
+        "pk": 1400,
         "fields": {
             "text": "Punt Return Yards",
             "slug": "punt-return-yards",
@@ -6105,7 +6105,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1400,
+        "pk": 1401,
         "fields": {
             "text": "Punt Yards",
             "slug": "punt-yards",
@@ -6119,7 +6119,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1401,
+        "pk": 1402,
         "fields": {
             "text": "Punter",
             "slug": "punter",
@@ -6133,7 +6133,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1402,
+        "pk": 1403,
         "fields": {
             "text": "Pylon",
             "slug": "pylon",
@@ -6147,7 +6147,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1403,
+        "pk": 1404,
         "fields": {
             "text": "Pyramid Play",
             "slug": "pyramid-play",
@@ -6161,7 +6161,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1404,
+        "pk": 1405,
         "fields": {
             "text": "Quarter",
             "slug": "quarter",
@@ -6175,7 +6175,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1405,
+        "pk": 1406,
         "fields": {
             "text": "Quarter Defense",
             "slug": "quarter-defense",
@@ -6189,7 +6189,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1406,
+        "pk": 1407,
         "fields": {
             "text": "Quarterback",
             "slug": "quarterback",
@@ -6203,7 +6203,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1407,
+        "pk": 1408,
         "fields": {
             "text": "Quarterback Cadence",
             "slug": "quarterback-cadence",
@@ -6217,7 +6217,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1408,
+        "pk": 1409,
         "fields": {
             "text": "Quarterback Contain Strategy",
             "slug": "quarterback-contain-strategy",
@@ -6231,7 +6231,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1409,
+        "pk": 1410,
         "fields": {
             "text": "Quarterback Keeper",
             "slug": "quarterback-keeper",
@@ -6245,7 +6245,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1410,
+        "pk": 1411,
         "fields": {
             "text": "Quarterback Rating (QBRat)",
             "slug": "quarterback-rating-qbrat",
@@ -6259,7 +6259,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1411,
+        "pk": 1412,
         "fields": {
             "text": "Quarterback Scramble",
             "slug": "quarterback-scramble",
@@ -6273,7 +6273,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1412,
+        "pk": 1413,
         "fields": {
             "text": "Quarterback Sneak",
             "slug": "quarterback-sneak",
@@ -6287,7 +6287,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1413,
+        "pk": 1414,
         "fields": {
             "text": "Quick Count",
             "slug": "quick-count",
@@ -6301,7 +6301,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1414,
+        "pk": 1415,
         "fields": {
             "text": "Quick Kick",
             "slug": "quick-kick",
@@ -6315,7 +6315,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1415,
+        "pk": 1416,
         "fields": {
             "text": "Reading the Defense",
             "slug": "reading-the-defense",
@@ -6329,7 +6329,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1416,
+        "pk": 1417,
         "fields": {
             "text": "Ready List",
             "slug": "ready-list",
@@ -6343,7 +6343,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1417,
+        "pk": 1418,
         "fields": {
             "text": "Receiver",
             "slug": "receiver",
@@ -6357,7 +6357,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1418,
+        "pk": 1419,
         "fields": {
             "text": "Receiving Touchdown",
             "slug": "receiving-touchdown",
@@ -6371,7 +6371,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1419,
+        "pk": 1420,
         "fields": {
             "text": "Receiving Yards",
             "slug": "receiving-yards",
@@ -6385,7 +6385,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1420,
+        "pk": 1421,
         "fields": {
             "text": "Receptions",
             "slug": "receptions",
@@ -6399,7 +6399,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1421,
+        "pk": 1422,
         "fields": {
             "text": "Recover",
             "slug": "recover",
@@ -6413,7 +6413,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1422,
+        "pk": 1423,
         "fields": {
             "text": "Red Dog",
             "slug": "red-dog",
@@ -6427,7 +6427,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1423,
+        "pk": 1424,
         "fields": {
             "text": "Red Flag",
             "slug": "red-flag",
@@ -6441,7 +6441,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1424,
+        "pk": 1425,
         "fields": {
             "text": "Red Zone",
             "slug": "red-zone",
@@ -6455,7 +6455,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1425,
+        "pk": 1426,
         "fields": {
             "text": "Redshirt",
             "slug": "redshirt",
@@ -6469,7 +6469,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1426,
+        "pk": 1427,
         "fields": {
             "text": "Redshirt Freshman",
             "slug": "redshirt-freshman",
@@ -6483,7 +6483,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1427,
+        "pk": 1428,
         "fields": {
             "text": "Referee",
             "slug": "referee",
@@ -6497,7 +6497,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1428,
+        "pk": 1429,
         "fields": {
             "text": "Regular Season",
             "slug": "regular-season",
@@ -6511,7 +6511,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1429,
+        "pk": 1430,
         "fields": {
             "text": "Restraining Line",
             "slug": "restraining-line",
@@ -6525,7 +6525,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1430,
+        "pk": 1431,
         "fields": {
             "text": "Restricted Free Agent",
             "slug": "restricted-free-agent",
@@ -6539,7 +6539,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1431,
+        "pk": 1432,
         "fields": {
             "text": "Return",
             "slug": "return",
@@ -6553,7 +6553,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1432,
+        "pk": 1433,
         "fields": {
             "text": "Return Yards",
             "slug": "return-yards",
@@ -6567,7 +6567,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1433,
+        "pk": 1434,
         "fields": {
             "text": "Returner",
             "slug": "returner",
@@ -6581,7 +6581,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1434,
+        "pk": 1435,
         "fields": {
             "text": "Reverse",
             "slug": "reverse",
@@ -6595,7 +6595,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1435,
+        "pk": 1436,
         "fields": {
             "text": "Road Game",
             "slug": "road-game",
@@ -6609,7 +6609,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1436,
+        "pk": 1437,
         "fields": {
             "text": "Roll Out",
             "slug": "roll-out",
@@ -6623,7 +6623,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1437,
+        "pk": 1438,
         "fields": {
             "text": "Rookie",
             "slug": "rookie",
@@ -6637,7 +6637,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1438,
+        "pk": 1439,
         "fields": {
             "text": "Roster",
             "slug": "roster",
@@ -6651,7 +6651,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1439,
+        "pk": 1440,
         "fields": {
             "text": "Roughing the Kicker",
             "slug": "roughing-the-kicker",
@@ -6665,7 +6665,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1440,
+        "pk": 1441,
         "fields": {
             "text": "Roughing the Passer",
             "slug": "roughing-the-passer",
@@ -6679,7 +6679,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1441,
+        "pk": 1442,
         "fields": {
             "text": "Route",
             "slug": "route",
@@ -6693,7 +6693,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1442,
+        "pk": 1443,
         "fields": {
             "text": "Rover",
             "slug": "rover",
@@ -6707,7 +6707,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1443,
+        "pk": 1444,
         "fields": {
             "text": "Run Out of the Gun",
             "slug": "run-out-of-the-gun",
@@ -6721,7 +6721,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1444,
+        "pk": 1445,
         "fields": {
             "text": "Run and Shoot",
             "slug": "run-and-shoot",
@@ -6735,7 +6735,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1445,
+        "pk": 1446,
         "fields": {
             "text": "Runback",
             "slug": "runback",
@@ -6749,7 +6749,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1446,
+        "pk": 1447,
         "fields": {
             "text": "Running Back",
             "slug": "running-back",
@@ -6763,7 +6763,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1447,
+        "pk": 1448,
         "fields": {
             "text": "Running Into the Kicker",
             "slug": "running-into-the-kicker",
@@ -6777,7 +6777,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1448,
+        "pk": 1449,
         "fields": {
             "text": "Running Out the Clock",
             "slug": "running-out-the-clock",
@@ -6791,7 +6791,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1449,
+        "pk": 1450,
         "fields": {
             "text": "Running Play",
             "slug": "running-play",
@@ -6805,7 +6805,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1450,
+        "pk": 1451,
         "fields": {
             "text": "Running Up the Score",
             "slug": "running-up-the-score",
@@ -6819,7 +6819,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1451,
+        "pk": 1452,
         "fields": {
             "text": "Rush",
             "slug": "rush",
@@ -6833,7 +6833,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1452,
+        "pk": 1453,
         "fields": {
             "text": "Rushing Attempts",
             "slug": "rushing-attempts",
@@ -6847,7 +6847,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1453,
+        "pk": 1454,
         "fields": {
             "text": "Rushing Percentage",
             "slug": "rushing-percentage",
@@ -6861,7 +6861,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1454,
+        "pk": 1455,
         "fields": {
             "text": "Rushing Touchdowns",
             "slug": "rushing-touchdowns",
@@ -6875,7 +6875,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1455,
+        "pk": 1456,
         "fields": {
             "text": "Rushing Yards",
             "slug": "rushing-yards",
@@ -6889,7 +6889,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1456,
+        "pk": 1457,
         "fields": {
             "text": "Rushing Yards Lost to Penalties",
             "slug": "rushing-yards-lost-to-penalties",
@@ -6903,7 +6903,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1457,
+        "pk": 1458,
         "fields": {
             "text": "Sack",
             "slug": "sack",
@@ -6917,7 +6917,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1458,
+        "pk": 1459,
         "fields": {
             "text": "Sack Yards",
             "slug": "sack-yards",
@@ -6931,7 +6931,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1459,
+        "pk": 1460,
         "fields": {
             "text": "Sacked",
             "slug": "sacked",
@@ -6945,7 +6945,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1460,
+        "pk": 1461,
         "fields": {
             "text": "Sacks Allowed",
             "slug": "sacks-allowed",
@@ -6959,7 +6959,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1461,
+        "pk": 1462,
         "fields": {
             "text": "Safety (S)",
             "slug": "safety-s",
@@ -6973,7 +6973,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1462,
+        "pk": 1463,
         "fields": {
             "text": "Safety Blitz",
             "slug": "safety-blitz",
@@ -6987,7 +6987,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1463,
+        "pk": 1464,
         "fields": {
             "text": "Safety Touch",
             "slug": "safety-touch",
@@ -7001,7 +7001,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1464,
+        "pk": 1465,
         "fields": {
             "text": "Safety Valve",
             "slug": "safety-valve",
@@ -7015,7 +7015,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1465,
+        "pk": 1466,
         "fields": {
             "text": "Salary Cap",
             "slug": "salary-cap",
@@ -7029,7 +7029,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1466,
+        "pk": 1467,
         "fields": {
             "text": "Sam",
             "slug": "sam",
@@ -7043,7 +7043,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1467,
+        "pk": 1468,
         "fields": {
             "text": "Scatback",
             "slug": "scatback",
@@ -7057,7 +7057,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1468,
+        "pk": 1469,
         "fields": {
             "text": "Scheme",
             "slug": "scheme",
@@ -7071,7 +7071,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1469,
+        "pk": 1470,
         "fields": {
             "text": "Scoop and Score",
             "slug": "scoop-and-score",
@@ -7085,7 +7085,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1470,
+        "pk": 1471,
         "fields": {
             "text": "Scoring Drives",
             "slug": "scoring-drives",
@@ -7099,7 +7099,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1471,
+        "pk": 1472,
         "fields": {
             "text": "Scoring Efficiency",
             "slug": "scoring-efficiency",
@@ -7113,7 +7113,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1472,
+        "pk": 1473,
         "fields": {
             "text": "Screen Pass",
             "slug": "screen-pass",
@@ -7127,7 +7127,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1473,
+        "pk": 1474,
         "fields": {
             "text": "Scrimmage",
             "slug": "scrimmage",
@@ -7141,7 +7141,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1474,
+        "pk": 1475,
         "fields": {
             "text": "Seam Route",
             "slug": "seam-route",
@@ -7155,7 +7155,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1475,
+        "pk": 1476,
         "fields": {
             "text": "Second Forward Pass",
             "slug": "second-forward-pass",
@@ -7169,7 +7169,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1476,
+        "pk": 1477,
         "fields": {
             "text": "Series",
             "slug": "series",
@@ -7183,7 +7183,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1477,
+        "pk": 1478,
         "fields": {
             "text": "Shield Punt",
             "slug": "shield-punt",
@@ -7197,7 +7197,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1478,
+        "pk": 1479,
         "fields": {
             "text": "Shift",
             "slug": "shift",
@@ -7211,7 +7211,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1479,
+        "pk": 1480,
         "fields": {
             "text": "Shooting",
             "slug": "shooting",
@@ -7225,7 +7225,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1480,
+        "pk": 1481,
         "fields": {
             "text": "Shooting the Gap",
             "slug": "shooting-the-gap",
@@ -7239,7 +7239,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1481,
+        "pk": 1482,
         "fields": {
             "text": "Shotgun Formation",
             "slug": "shotgun-formation",
@@ -7253,7 +7253,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1482,
+        "pk": 1483,
         "fields": {
             "text": "Shovel Pass",
             "slug": "shovel-pass",
@@ -7267,7 +7267,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1483,
+        "pk": 1484,
         "fields": {
             "text": "Side Judge",
             "slug": "side-judge",
@@ -7281,7 +7281,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1484,
+        "pk": 1485,
         "fields": {
             "text": "Side Zone",
             "slug": "side-zone",
@@ -7295,7 +7295,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1485,
+        "pk": 1486,
         "fields": {
             "text": "Sidelines",
             "slug": "sidelines",
@@ -7309,7 +7309,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1486,
+        "pk": 1487,
         "fields": {
             "text": "Signal Caller",
             "slug": "signal-caller",
@@ -7323,7 +7323,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1487,
+        "pk": 1488,
         "fields": {
             "text": "Signals",
             "slug": "signals",
@@ -7337,7 +7337,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1488,
+        "pk": 1489,
         "fields": {
             "text": "Simultaneous Catch",
             "slug": "simultaneous-catch",
@@ -7351,7 +7351,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1489,
+        "pk": 1490,
         "fields": {
             "text": "Single Elimination",
             "slug": "single-elimination",
@@ -7365,7 +7365,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1490,
+        "pk": 1491,
         "fields": {
             "text": "Single Set Back",
             "slug": "single-set-back",
@@ -7379,7 +7379,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1491,
+        "pk": 1492,
         "fields": {
             "text": "Single Wing",
             "slug": "single-wing",
@@ -7393,7 +7393,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1492,
+        "pk": 1493,
         "fields": {
             "text": "Single-Wing Formation",
             "slug": "single-wing-formation",
@@ -7407,7 +7407,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1493,
+        "pk": 1494,
         "fields": {
             "text": "Slant",
             "slug": "slant",
@@ -7421,7 +7421,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1494,
+        "pk": 1495,
         "fields": {
             "text": "Slobber-Knocker",
             "slug": "slobber-knocker",
@@ -7435,7 +7435,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1495,
+        "pk": 1496,
         "fields": {
             "text": "Slot",
             "slug": "slot",
@@ -7449,7 +7449,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1496,
+        "pk": 1497,
         "fields": {
             "text": "Slot Receiver Y Receiver",
             "slug": "slot-receiver-y-receiver",
@@ -7463,7 +7463,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1497,
+        "pk": 1498,
         "fields": {
             "text": "Smashmouth Offense",
             "slug": "smashmouth-offense",
@@ -7477,7 +7477,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1498,
+        "pk": 1499,
         "fields": {
             "text": "Snap",
             "slug": "snap",
@@ -7491,7 +7491,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1499,
+        "pk": 1500,
         "fields": {
             "text": "Snap Count",
             "slug": "snap-count",
@@ -7505,7 +7505,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1500,
+        "pk": 1501,
         "fields": {
             "text": "Sneak",
             "slug": "sneak",
@@ -7519,7 +7519,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1501,
+        "pk": 1502,
         "fields": {
             "text": "Spearing",
             "slug": "spearing",
@@ -7533,7 +7533,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1502,
+        "pk": 1503,
         "fields": {
             "text": "Special Teams",
             "slug": "special-teams",
@@ -7547,7 +7547,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1503,
+        "pk": 1504,
         "fields": {
             "text": "Spiked Ball Celebration",
             "slug": "spiked-ball-celebration",
@@ -7561,7 +7561,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1504,
+        "pk": 1505,
         "fields": {
             "text": "Spiral",
             "slug": "spiral",
@@ -7575,7 +7575,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1505,
+        "pk": 1506,
         "fields": {
             "text": "Spiral Throw",
             "slug": "spiral-throw",
@@ -7589,7 +7589,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1506,
+        "pk": 1507,
         "fields": {
             "text": "Split End",
             "slug": "split-end",
@@ -7603,7 +7603,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1507,
+        "pk": 1508,
         "fields": {
             "text": "Split End (X Receiver)",
             "slug": "split-end-x-receiver",
@@ -7617,7 +7617,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1508,
+        "pk": 1509,
         "fields": {
             "text": "Split T",
             "slug": "split-t",
@@ -7631,7 +7631,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1509,
+        "pk": 1510,
         "fields": {
             "text": "Splits",
             "slug": "splits",
@@ -7645,7 +7645,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1510,
+        "pk": 1511,
         "fields": {
             "text": "Spot",
             "slug": "spot",
@@ -7659,7 +7659,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1511,
+        "pk": 1512,
         "fields": {
             "text": "Spread Offense",
             "slug": "spread-offense",
@@ -7673,7 +7673,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1512,
+        "pk": 1513,
         "fields": {
             "text": "Spying the Quarterback",
             "slug": "spying-the-quarterback",
@@ -7687,7 +7687,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1513,
+        "pk": 1514,
         "fields": {
             "text": "Square In",
             "slug": "square-in",
@@ -7701,7 +7701,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1514,
+        "pk": 1515,
         "fields": {
             "text": "Square Out",
             "slug": "square-out",
@@ -7715,7 +7715,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1515,
+        "pk": 1516,
         "fields": {
             "text": "Squib Kick",
             "slug": "squib-kick",
@@ -7729,7 +7729,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1516,
+        "pk": 1517,
         "fields": {
             "text": "Stance",
             "slug": "stance",
@@ -7743,7 +7743,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1517,
+        "pk": 1518,
         "fields": {
             "text": "Starter",
             "slug": "starter",
@@ -7757,7 +7757,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1518,
+        "pk": 1519,
         "fields": {
             "text": "Statue of Liberty Play",
             "slug": "statue-of-liberty-play",
@@ -7771,7 +7771,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1519,
+        "pk": 1520,
         "fields": {
             "text": "Steal",
             "slug": "steal",
@@ -7785,7 +7785,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1520,
+        "pk": 1521,
         "fields": {
             "text": "Sticks",
             "slug": "sticks",
@@ -7799,7 +7799,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1521,
+        "pk": 1522,
         "fields": {
             "text": "Stiff Arm",
             "slug": "stiff-arm",
@@ -7813,7 +7813,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1522,
+        "pk": 1523,
         "fields": {
             "text": "Street Free Agent",
             "slug": "street-free-agent",
@@ -7827,7 +7827,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1523,
+        "pk": 1524,
         "fields": {
             "text": "Strength of Schedule",
             "slug": "strength-of-schedule",
@@ -7841,7 +7841,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1524,
+        "pk": 1525,
         "fields": {
             "text": "Striking an Official",
             "slug": "striking-an-official",
@@ -7855,7 +7855,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1525,
+        "pk": 1526,
         "fields": {
             "text": "Striking an Opponent",
             "slug": "striking-an-opponent",
@@ -7869,7 +7869,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1526,
+        "pk": 1527,
         "fields": {
             "text": "Strip",
             "slug": "strip",
@@ -7883,7 +7883,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1527,
+        "pk": 1528,
         "fields": {
             "text": "Strong I",
             "slug": "strong-i",
@@ -7897,7 +7897,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1528,
+        "pk": 1529,
         "fields": {
             "text": "Strong Safety",
             "slug": "strong-safety",
@@ -7911,7 +7911,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1529,
+        "pk": 1530,
         "fields": {
             "text": "Strong Side",
             "slug": "strong-side",
@@ -7925,7 +7925,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1530,
+        "pk": 1531,
         "fields": {
             "text": "Strongside Linebacker SLB",
             "slug": "strongside-linebacker-slb",
@@ -7939,7 +7939,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1531,
+        "pk": 1532,
         "fields": {
             "text": "Stuff",
             "slug": "stuff",
@@ -7953,7 +7953,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1532,
+        "pk": 1533,
         "fields": {
             "text": "Stuff Yards",
             "slug": "stuff-yards",
@@ -7967,7 +7967,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1533,
+        "pk": 1534,
         "fields": {
             "text": "Stunt",
             "slug": "stunt",
@@ -7981,7 +7981,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1534,
+        "pk": 1535,
         "fields": {
             "text": "Substitution",
             "slug": "substitution",
@@ -7995,7 +7995,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1535,
+        "pk": 1536,
         "fields": {
             "text": "Sudden Death",
             "slug": "sudden-death",
@@ -8009,7 +8009,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1536,
+        "pk": 1537,
         "fields": {
             "text": "Suicide Squad",
             "slug": "suicide-squad",
@@ -8023,7 +8023,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1537,
+        "pk": 1538,
         "fields": {
             "text": "Super Bowl",
             "slug": "super-bowl",
@@ -8037,7 +8037,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1538,
+        "pk": 1539,
         "fields": {
             "text": "Sutherland Single-Wing",
             "slug": "sutherland-single-wing",
@@ -8051,7 +8051,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1539,
+        "pk": 1540,
         "fields": {
             "text": "Sweep",
             "slug": "sweep",
@@ -8065,7 +8065,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1540,
+        "pk": 1541,
         "fields": {
             "text": "Swinging Gate",
             "slug": "swinging-gate",
@@ -8079,7 +8079,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1541,
+        "pk": 1542,
         "fields": {
             "text": "System Quarterback",
             "slug": "system-quarterback",
@@ -8093,7 +8093,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1542,
+        "pk": 1543,
         "fields": {
             "text": "T Formation",
             "slug": "t-formation",
@@ -8107,7 +8107,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1543,
+        "pk": 1544,
         "fields": {
             "text": "Tackle",
             "slug": "tackle",
@@ -8121,7 +8121,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1544,
+        "pk": 1545,
         "fields": {
             "text": "Tackle Assists",
             "slug": "tackle-assists",
@@ -8135,7 +8135,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1545,
+        "pk": 1546,
         "fields": {
             "text": "Tackle Box",
             "slug": "tackle-box",
@@ -8149,7 +8149,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1546,
+        "pk": 1547,
         "fields": {
             "text": "Tackle Eligible",
             "slug": "tackle-eligible",
@@ -8163,7 +8163,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1547,
+        "pk": 1548,
         "fields": {
             "text": "Tailback",
             "slug": "tailback",
@@ -8177,7 +8177,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1548,
+        "pk": 1549,
         "fields": {
             "text": "Takeaway",
             "slug": "takeaway",
@@ -8191,7 +8191,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1549,
+        "pk": 1550,
         "fields": {
             "text": "Targets",
             "slug": "targets",
@@ -8205,7 +8205,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1550,
+        "pk": 1551,
         "fields": {
             "text": "Targets Percent Caught",
             "slug": "targets-percent-caught",
@@ -8219,7 +8219,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1551,
+        "pk": 1552,
         "fields": {
             "text": "Taunting",
             "slug": "taunting",
@@ -8233,7 +8233,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1552,
+        "pk": 1553,
         "fields": {
             "text": "Tebowing",
             "slug": "tebowing",
@@ -8247,7 +8247,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1553,
+        "pk": 1554,
         "fields": {
             "text": "Ten Play Drives",
             "slug": "ten-play-drives",
@@ -8261,7 +8261,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1554,
+        "pk": 1555,
         "fields": {
             "text": "The Pro Football Hall of Fame",
             "slug": "the-pro-football-hall-of-fame",
@@ -8275,7 +8275,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1555,
+        "pk": 1556,
         "fields": {
             "text": "Third Down Efficiency",
             "slug": "third-down-efficiency",
@@ -8289,7 +8289,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1556,
+        "pk": 1557,
         "fields": {
             "text": "Third-and-Long",
             "slug": "third-and-long",
@@ -8303,7 +8303,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1557,
+        "pk": 1558,
         "fields": {
             "text": "Three-and-out",
             "slug": "three-and-out",
@@ -8317,7 +8317,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1558,
+        "pk": 1559,
         "fields": {
             "text": "Three-point-stance",
             "slug": "three-point-stance",
@@ -8331,7 +8331,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1559,
+        "pk": 1560,
         "fields": {
             "text": "Tight End",
             "slug": "tight-end",
@@ -8345,7 +8345,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1560,
+        "pk": 1561,
         "fields": {
             "text": "Time Out",
             "slug": "time-out",
@@ -8359,7 +8359,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1561,
+        "pk": 1562,
         "fields": {
             "text": "Time of Possession",
             "slug": "time-of-possession",
@@ -8373,7 +8373,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1562,
+        "pk": 1563,
         "fields": {
             "text": "Too Many Men in the Huddle",
             "slug": "too-many-men-in-the-huddle",
@@ -8387,7 +8387,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1563,
+        "pk": 1564,
         "fields": {
             "text": "Too Many Men on the Field",
             "slug": "too-many-men-on-the-field",
@@ -8401,7 +8401,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1564,
+        "pk": 1565,
         "fields": {
             "text": "Total Offense",
             "slug": "total-offense",
@@ -8415,7 +8415,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1565,
+        "pk": 1566,
         "fields": {
             "text": "Touchback",
             "slug": "touchback",
@@ -8429,7 +8429,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1566,
+        "pk": 1567,
         "fields": {
             "text": "Touchdown",
             "slug": "touchdown",
@@ -8443,7 +8443,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1567,
+        "pk": 1568,
         "fields": {
             "text": "Touchdown Percentage",
             "slug": "touchdown-percentage",
@@ -8457,7 +8457,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1568,
+        "pk": 1569,
         "fields": {
             "text": "Touchdown to Interception Ratio",
             "slug": "touchdown-to-interception-ratio",
@@ -8471,7 +8471,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1569,
+        "pk": 1570,
         "fields": {
             "text": "Touchdowns Allowed",
             "slug": "touchdowns-allowed",
@@ -8485,7 +8485,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1570,
+        "pk": 1571,
         "fields": {
             "text": "Toxic Differential",
             "slug": "toxic-differential",
@@ -8499,7 +8499,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1571,
+        "pk": 1572,
         "fields": {
             "text": "Trap",
             "slug": "trap",
@@ -8513,7 +8513,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1572,
+        "pk": 1573,
         "fields": {
             "text": "Trap Block",
             "slug": "trap-block",
@@ -8527,7 +8527,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1573,
+        "pk": 1574,
         "fields": {
             "text": "Trap Run",
             "slug": "trap-run",
@@ -8541,7 +8541,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1574,
+        "pk": 1575,
         "fields": {
             "text": "Trenches",
             "slug": "trenches",
@@ -8555,7 +8555,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1575,
+        "pk": 1576,
         "fields": {
             "text": "Trick Play",
             "slug": "trick-play",
@@ -8569,7 +8569,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1576,
+        "pk": 1577,
         "fields": {
             "text": "Triple Option",
             "slug": "triple-option",
@@ -8583,7 +8583,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1577,
+        "pk": 1578,
         "fields": {
             "text": "Triple-team Coverage",
             "slug": "triple-team-coverage",
@@ -8597,7 +8597,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1578,
+        "pk": 1579,
         "fields": {
             "text": "Tripping",
             "slug": "tripping",
@@ -8611,7 +8611,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1579,
+        "pk": 1580,
         "fields": {
             "text": "Trips Formation",
             "slug": "trips-formation",
@@ -8625,7 +8625,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1580,
+        "pk": 1581,
         "fields": {
             "text": "True Freshman",
             "slug": "true-freshman",
@@ -8639,7 +8639,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1581,
+        "pk": 1582,
         "fields": {
             "text": "Tuck Rule",
             "slug": "tuck-rule",
@@ -8653,7 +8653,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1582,
+        "pk": 1583,
         "fields": {
             "text": "Turn In",
             "slug": "turn-in",
@@ -8667,7 +8667,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1583,
+        "pk": 1584,
         "fields": {
             "text": "Turn Out",
             "slug": "turn-out",
@@ -8681,7 +8681,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1584,
+        "pk": 1585,
         "fields": {
             "text": "Turnover",
             "slug": "turnover",
@@ -8695,7 +8695,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1585,
+        "pk": 1586,
         "fields": {
             "text": "Turnover on Downs",
             "slug": "turnover-on-downs",
@@ -8709,7 +8709,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1586,
+        "pk": 1587,
         "fields": {
             "text": "Tweener",
             "slug": "tweener",
@@ -8723,7 +8723,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1587,
+        "pk": 1588,
         "fields": {
             "text": "Two-Minute Warning",
             "slug": "two-minute-warning",
@@ -8737,7 +8737,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1588,
+        "pk": 1589,
         "fields": {
             "text": "Two-Point Conversion",
             "slug": "two-point-conversion",
@@ -8751,7 +8751,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1589,
+        "pk": 1590,
         "fields": {
             "text": "Two-level Defense",
             "slug": "two-level-defense",
@@ -8765,7 +8765,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1590,
+        "pk": 1591,
         "fields": {
             "text": "Umpire",
             "slug": "umpire",
@@ -8779,7 +8779,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1591,
+        "pk": 1592,
         "fields": {
             "text": "Unbalanced Line",
             "slug": "unbalanced-line",
@@ -8793,7 +8793,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1592,
+        "pk": 1593,
         "fields": {
             "text": "Under Center",
             "slug": "under-center",
@@ -8807,7 +8807,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1593,
+        "pk": 1594,
         "fields": {
             "text": "Unnecessary Roughness",
             "slug": "unnecessary-roughness",
@@ -8821,7 +8821,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1594,
+        "pk": 1595,
         "fields": {
             "text": "Unrestricted Free Agent",
             "slug": "unrestricted-free-agent",
@@ -8835,7 +8835,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1595,
+        "pk": 1596,
         "fields": {
             "text": "Unsportsmanlike Conduct",
             "slug": "unsportsmanlike-conduct",
@@ -8849,7 +8849,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1596,
+        "pk": 1597,
         "fields": {
             "text": "Upback",
             "slug": "upback",
@@ -8863,7 +8863,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1597,
+        "pk": 1598,
         "fields": {
             "text": "Upman",
             "slug": "upman",
@@ -8877,7 +8877,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1598,
+        "pk": 1599,
         "fields": {
             "text": "Uprights",
             "slug": "uprights",
@@ -8891,7 +8891,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1599,
+        "pk": 1600,
         "fields": {
             "text": "Utility Player",
             "slug": "utility-player",
@@ -8905,7 +8905,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1600,
+        "pk": 1601,
         "fields": {
             "text": "Vanilla Offense",
             "slug": "vanilla-offense",
@@ -8919,7 +8919,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1601,
+        "pk": 1602,
         "fields": {
             "text": "Veer",
             "slug": "veer",
@@ -8933,7 +8933,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1602,
+        "pk": 1603,
         "fields": {
             "text": "Vince Lombardi Trophy",
             "slug": "vince-lombardi-trophy",
@@ -8947,7 +8947,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1603,
+        "pk": 1604,
         "fields": {
             "text": "Walk On",
             "slug": "walk-on",
@@ -8961,7 +8961,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1604,
+        "pk": 1605,
         "fields": {
             "text": "Weak I",
             "slug": "weak-i",
@@ -8975,7 +8975,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1605,
+        "pk": 1606,
         "fields": {
             "text": "Weak Side",
             "slug": "weak-side",
@@ -8989,7 +8989,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1606,
+        "pk": 1607,
         "fields": {
             "text": "Weakside Linebacker WLB",
             "slug": "weakside-linebacker-wlb",
@@ -9003,7 +9003,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1607,
+        "pk": 1608,
         "fields": {
             "text": "West Coast Offense",
             "slug": "west-coast-offense",
@@ -9017,7 +9017,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1608,
+        "pk": 1609,
         "fields": {
             "text": "Wheel Route",
             "slug": "wheel-route",
@@ -9031,7 +9031,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1609,
+        "pk": 1610,
         "fields": {
             "text": "Wide Receiver",
             "slug": "wide-receiver",
@@ -9045,7 +9045,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1610,
+        "pk": 1611,
         "fields": {
             "text": "Wild Card",
             "slug": "wild-card",
@@ -9059,7 +9059,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1611,
+        "pk": 1612,
         "fields": {
             "text": "Wildcat Offense",
             "slug": "wildcat-offense",
@@ -9073,7 +9073,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1612,
+        "pk": 1613,
         "fields": {
             "text": "Wing Back",
             "slug": "wing-back",
@@ -9087,7 +9087,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1613,
+        "pk": 1614,
         "fields": {
             "text": "Winning Percentage",
             "slug": "winning-percentage",
@@ -9101,7 +9101,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1614,
+        "pk": 1615,
         "fields": {
             "text": "Wishbone Formation",
             "slug": "wishbone-formation",
@@ -9115,7 +9115,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1615,
+        "pk": 1616,
         "fields": {
             "text": "Yard",
             "slug": "yard",
@@ -9129,7 +9129,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1616,
+        "pk": 1617,
         "fields": {
             "text": "Yard Line",
             "slug": "yard-line",
@@ -9143,7 +9143,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1617,
+        "pk": 1618,
         "fields": {
             "text": "Yardage",
             "slug": "yardage",
@@ -9157,7 +9157,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1618,
+        "pk": 1619,
         "fields": {
             "text": "Yards After the Catch (YAC)",
             "slug": "yards-after-the-catch-yac",
@@ -9171,7 +9171,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1619,
+        "pk": 1620,
         "fields": {
             "text": "Yards From Scrimmage",
             "slug": "yards-from-scrimmage",
@@ -9185,7 +9185,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1620,
+        "pk": 1621,
         "fields": {
             "text": "Yards Gained",
             "slug": "yards-gained",
@@ -9199,7 +9199,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1621,
+        "pk": 1622,
         "fields": {
             "text": "Yards Per Carry",
             "slug": "yards-per-carry",
@@ -9213,7 +9213,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1622,
+        "pk": 1623,
         "fields": {
             "text": "Yards Per Game",
             "slug": "yards-per-game",
@@ -9227,7 +9227,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1623,
+        "pk": 1624,
         "fields": {
             "text": "Zebra",
             "slug": "zebra",
@@ -9241,7 +9241,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1624,
+        "pk": 1625,
         "fields": {
             "text": "Zone Blitz",
             "slug": "zone-blitz",
@@ -9255,7 +9255,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1625,
+        "pk": 1626,
         "fields": {
             "text": "Zone Blocking",
             "slug": "zone-blocking",
@@ -9269,7 +9269,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1626,
+        "pk": 1627,
         "fields": {
             "text": "Zone Defense",
             "slug": "zone-defense",
@@ -9283,7 +9283,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1627,
+        "pk": 1628,
         "fields": {
             "text": "Zone Read",
             "slug": "zone-read",
@@ -9297,7 +9297,7 @@
     },
     {
         "model": "dictionary.term",
-        "pk": 1628,
+        "pk": 1629,
         "fields": {
             "text": "Zone Run",
             "slug": "zone-run",

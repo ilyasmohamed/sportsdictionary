@@ -70,5 +70,29 @@
       "name": "Hockey",
       "slug": "hockey"
     }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 10,
+    "fields": {
+      "name": "Motorsports",
+      "slug": "motorsports"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 11,
+    "fields": {
+      "name": "Boxing",
+      "slug": "boxing"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 12,
+    "fields": {
+      "name": "Table Tennis",
+      "slug": "table-tennis"
+    }
   }
 ]
