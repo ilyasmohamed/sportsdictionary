@@ -1,5 +1,7 @@
 {% extends 'dictionary/base.html' %}
 
+{% load custom_urlize %}
+
 {% block title %}Sports Dictionary - {{ term.text }}{% endblock %}
 
 {% block content %}
@@ -29,7 +31,7 @@
         <div class="card">
             <div class="card-body">
                 <h6>
-                    <p class="card-text">{{ definition.text }}</p>
+                    <p class="card-text">{{ definition.text|customUrlize:definition.term.sport|linebreaks }}</p>
                     <p class="mb-0">
                         <small class="text-muted">by @{{ definition.user }}</small>
                     </p>

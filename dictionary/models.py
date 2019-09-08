@@ -269,6 +269,8 @@ class SuggestedTerm(AbstractTerm):
 
     def is_rejected(self):
         return self.review_status == self.REJECTED
+
+
 # endregion
 
 
