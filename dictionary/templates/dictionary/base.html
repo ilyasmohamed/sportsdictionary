@@ -53,16 +53,9 @@
                                         Sports
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="{% url 'sport_index' 'football' %}">Football <i
-                                                class="fas fa-futbol navbarDropdown-icon"></i> </a>
-                                        <a class="dropdown-item" href="{% url 'sport_index' 'basketball' %}">Basketball
-                                            <i
-                                                    class="fas fa-basketball-ball navbarDropdown-icon"></i> </a>
-                                        <a class="dropdown-item" href="{% url 'sport_index' 'american-football' %}">American
-                                            Football <i class="fas fa-football-ball navbarDropdown-icon"></i> </a>
-                                        <a class="dropdown-item" href="{% url 'sport_index' 'tennis' %}">Tennis <i
-                                                class="fas fa-trophy navbarDropdown-icon"> </i></a>
-
+                                        {% for sport in all_sports %}
+                                            <a class="dropdown-item" href="{{ sport.get_absolute_url }}">{{ sport.emoji }} {{ sport.name }}</a>
+                                        {% endfor %}
                                     </div>
                                 </li>
                             </ul>

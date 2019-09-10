@@ -52,6 +52,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'dictionary.context_processors.from_settings',
+                'dictionary.context_processors.all_sports',
             ],
         },
     },

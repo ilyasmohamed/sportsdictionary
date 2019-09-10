@@ -10,6 +10,7 @@ class SportFactory(DjangoModelFactory):
         model = Sport
 
     name = factory.Sequence(lambda n: f'Sport {n}')
+    active = True
 
 
 class CategoryFactory(DjangoModelFactory):

@@ -40,8 +40,6 @@ class IndexView(generic.ListView):
         page_range_to_display = get_page_range_to_display_for_pagination(page_obj)
         context['page_range_to_display'] = page_range_to_display
 
-        context['all_sports'] = Sport.active_sports.all()
-
         return context
 
 
@@ -76,14 +74,8 @@ class SportIndexView(generic.ListView):
     def get_queryset(self):
         sport_slug = self.kwargs['sport_slug']
         sport = get_object_or_404(Sport, slug=sport_slug)
-        category_name = self.request.GET.get('category')
-        category = get_object_or_404(Category, name=category_name) if category_name else None
-        sport = get_object_or_404(Sport, slug=sport_slug)
 
-        if category:
-            return Term.approved_terms.filter(sport=sport).filter(categories__in=(category,))
-        else:
-            return Term.approved_terms.filter(sport=sport)
+        return Term.approved_terms.filter(sport=sport)
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -95,8 +87,6 @@ class SportIndexView(generic.ListView):
         page_obj = context['page_obj']
         page_range_to_display = get_page_range_to_display_for_pagination(page_obj)
         context['page_range_to_display'] = page_range_to_display
-
-        context['all_sports'] = Sport.active_sports.all()
 
         return context
 
