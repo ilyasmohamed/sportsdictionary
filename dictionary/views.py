@@ -1,4 +1,5 @@
-from django.shortcuts import get_object_or_404, get_list_or_404
+from django.shortcuts import get_object_or_404
+from django.shortcuts import redirect
 from django.views import generic
 
 from .models import Term, Definition, Sport
@@ -109,3 +110,8 @@ class TermDetailView(generic.DetailView):
         context['definitions'] = definitions
 
         return context
+
+
+def random_term(request):
+    term = Term.approved_terms.random()
+    return redirect(term)

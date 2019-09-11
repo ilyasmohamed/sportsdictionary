@@ -24,7 +24,7 @@ class SportModelTest(BaseModelTest):
 
     def test_get_absolute_url(self):
         sport = SportFactory.create(name='Football')
-        self.assertEquals(sport.get_absolute_url(), '/football/')
+        self.assertEquals(sport.get_absolute_url(), '/terms/football/')
 
     def test_slug(self):
         sport = SportFactory.create(name='American Football')
@@ -47,7 +47,7 @@ class TermModelTest(BaseModelTest):
     def test_get_absolute_url(self):
         sport = SportFactory.create(name='Football')
         term = TermFactory.create(text='False 9', sport=sport, user=self.user)
-        self.assertEquals(term.get_absolute_url(), '/football/false-9')
+        self.assertEquals(term.get_absolute_url(), '/term/football/false-9')
 
     def test_unique_slug_if_same_sport(self):
         sport = SportFactory.create(name='Basketball')

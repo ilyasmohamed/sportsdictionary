@@ -55,7 +55,7 @@ class SportView(TestCase):
         TermFactory.create_batch(num_terms, sport=cls.sport)
 
     def test_view_url_exists_at_desired_location(self):
-        response = self.client.get('/' + self.sport.slug + '/')
+        response = self.client.get('/terms/' + self.sport.slug + '/')
         self.assertEqual(response.status_code, 200)
 
     def test_view_url_accessible_by_name(self):
@@ -118,7 +118,7 @@ class TermDetailView(TestCase):
         )
 
     def test_view_url_exists_at_desired_location(self):
-        response = self.client.get('/' + self.term.sport.slug + '/' + self.term.slug)
+        response = self.client.get('/term/' + self.term.sport.slug + '/' + self.term.slug)
         self.assertEqual(response.status_code, 200)
 
     def test_view_url_accessible_by_name(self):

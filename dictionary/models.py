@@ -1,8 +1,10 @@
 import re
+from random import randint
 
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import models as models
+from django.db.models.aggregates import Count
 from django.template.defaultfilters import slugify
 from django.urls import reverse
 
@@ -149,6 +151,11 @@ class AbstractTerm(models.Model):
 class ApprovedTermManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(approvedFl=True)
+
+    def random(self):
+        count = self.get_queryset().aggregate(count=Count('id'))['count']
+        random_index = randint(0, count - 1)
+        return self.all()[random_index]
 
 
 class Term(AbstractTerm):
