@@ -39,7 +39,7 @@ class TermAdminForm(forms.ModelForm):
 @admin.register(Term)
 class TermAdmin(admin.ModelAdmin):
     form = TermAdminForm
-    list_display = ['text', 'slug', 'sport', 'created', 'last_updated', 'approvedFl']
+    list_display = ['text', 'slug', 'sport', 'created', 'last_updated', 'approvedFl', 'num_approved_definitions']
     list_filter = ('sport', 'created', 'approvedFl')
     inlines = [DefinitionInline]
     readonly_fields = ['slug']
@@ -66,13 +66,13 @@ class SuggestedTermAdmin(admin.ModelAdmin):
 class DefinitionAdminForm(forms.ModelForm):
     class Meta:
         model = Definition
-        fields = ['term', 'text', 'user', 'approvedFl']
+        fields = ['term', 'text', 'example_usage', 'user', 'approvedFl']
 
 
 @admin.register(Definition)
 class DefinitionAdmin(admin.ModelAdmin):
     form = DefinitionAdminForm
-    list_display = ['text', 'created',  'last_updated', 'approvedFl']
+    list_display = ['text', 'created',  'last_updated', 'approvedFl', 'num_upvotes', 'num_downvotes', 'net_votes']
     list_filter = ('created', 'approvedFl')
 # endregion
 

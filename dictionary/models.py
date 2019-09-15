@@ -184,6 +184,7 @@ class Term(AbstractTerm):
 
     def num_approved_definitions(self):
         return self.definitions.filter(approvedFl=True).count()
+    num_approved_definitions.short_description = 'Approved Definitions'
 
 
 class SuggestedTerm(AbstractTerm):
@@ -291,12 +292,15 @@ class Definition(models.Model):
 
     def num_upvotes(self):
         return self.votes.filter(downvote=False).count()
+    num_upvotes.short_description = 'Upvotes'
 
     def num_downvotes(self):
         return self.votes.filter(downvote=True).count()
+    num_downvotes.short_description = 'Downvotes'
 
     def net_votes(self):
         return self.num_upvotes() - self.num_downvotes()
+    net_votes.short_description = 'Net Votes'
 # endregion
 
 
