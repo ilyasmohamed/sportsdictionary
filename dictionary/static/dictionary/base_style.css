@@ -1,3 +1,28 @@
+html {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+body {
+    min-height: 100vh;
+    height: 100vh;
+}
+
 .navbar-nav > li > .dropdown-menu {
 min-width: 220px;
+}
+
+.card-copyright {
+    border: none !important;
+}
+
+.card-copyright > .card-body{
+    padding: 0 !important;
+}
+
+#sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1em;
 }

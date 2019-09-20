@@ -30,7 +30,7 @@ def get_page_range_to_display_for_pagination(page_obj):
 class IndexView(generic.ListView):
     context_object_name = 'terms'
     template_name = 'dictionary/index.html'
-    paginate_by = 50
+    paginate_by = 20
     queryset = Term.approved_terms.all()
 
     def get_context_data(self, **kwargs):
@@ -46,7 +46,7 @@ class IndexView(generic.ListView):
 class SearchResultsView(generic.ListView):
     context_object_name = 'terms'
     template_name = 'dictionary/search.html'
-    paginate_by = 50
+    paginate_by = 20
 
     def get_queryset(self):
         search_key = self.request.GET.get('term')
@@ -69,7 +69,7 @@ class SearchResultsView(generic.ListView):
 class SportIndexView(generic.ListView):
     context_object_name = 'terms'
     template_name = 'dictionary/sport_index.html'
-    paginate_by = 50
+    paginate_by = 20
 
     def get_queryset(self):
         sport_slug = self.kwargs['sport_slug']

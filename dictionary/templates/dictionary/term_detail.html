@@ -4,16 +4,22 @@
 
 {% block title %}Sports Dictionary - {{ term.text }}{% endblock %}
 
-{% block content %}
-<div class="row mb-3">
+{% block maincolumn %}
+<div class="row mb-3 my-4">
     <div class="col-sm-12">
         <div class="card">
             <div class="card-body">
                 <h6>
                     <h5 class="card-title mb-1">
-                        <a href="{{ term.get_absolute_url }}">{{ term.text }}</a>
-                        <a href="{{ term.sport.get_absolute_url }}"
-                           class="badge badge-{{ term.sport.slug }} float-right">{{ term.sport }}</a>
+                        <div class="row">
+                            <div class="col-md-7">
+                                <p>{{ term.text }}</p>
+                            </div>
+                            <div class="col-md-5">
+                                <a href="{{ term.sport.get_absolute_url }}"
+                                   class="badge badge-sport badge-{{ term.sport.slug }} float-right">{{ term.sport }}</a>
+                            </div>
+                        </div>
                     </h5>
                     {% if term.user %}
                     <p class="mb-0">
@@ -25,6 +31,7 @@
         </div>
     </div>
 </div>
+
 {% for definition in definitions %}
 <div class="row mb-3">
     <div class="col-sm-12">
@@ -41,4 +48,10 @@
     </div>
 </div>
 {% endfor %}
+
+{% endblock %}
+
+{% block sidebar %}
+    {% include "dictionary/new_term_sidebar_widget.html" %}
+    {% include "dictionary/sidebar_widgets.html" %}
 {% endblock %}

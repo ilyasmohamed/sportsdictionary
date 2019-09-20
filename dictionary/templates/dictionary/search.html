@@ -1,13 +1,15 @@
 {% extends 'dictionary/base.html' %}
 
-{% block title %}Sports Dictionary - {{ sport.name }}{% endblock %}
+{% block title %}
+    {{search_term}} - Sports Dictionary
+{% endblock %}
 
-{% block content %}
+{% block maincolumn %}
+    {% include "dictionary/render_term_rows.html" %}
+    {% include "dictionary/pagination.html" %}
+{% endblock %}
 
-{% include "dictionary/pagination.html" %}
-
-{% include "dictionary/render_term_rows.html" %}
-
-{% include "dictionary/pagination.html" %}
-
+{% block sidebar %}
+    {% include "dictionary/new_term_sidebar_widget.html" %}
+    {% include "dictionary/sidebar_widgets.html" %}
 {% endblock %}
