@@ -1,12 +1,16 @@
 import re
 
+from django import forms
 from django.conf import settings
+from django.contrib.auth.models import User
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import models as models, IntegrityError
+from django.db.models.signals import post_save
+from django.dispatch import receiver
 from django.template.defaultfilters import slugify
 from django.urls import reverse
 
-from dictionary.managers import SportManager, ApprovedTermManager, PendingSuggestedTermManager,\
+from dictionary.managers import SportManager, ApprovedTermManager, PendingSuggestedTermManager, \
     ApprovedDefinitionManager
 
 
@@ -78,6 +82,26 @@ def _slug_strip(value, separator='-'):
             re_sep = re.escape(separator)
         value = re.sub(r'^%s+|%s+$' % (re_sep, re_sep), '', value)
     return value
+
+
+# region Profile Model
+class Profile(models.Model):
+    # Fields
+    user = models.OneToOneField(User, on_delete=models.CASCADE)
+# endregion
+
+
+# region Profile creation
+@receiver(post_save, sender=User)
+def create_user_profile(sender, instance, created, **kwargs):
+    if created:
+        Profile.objects.create(user=instance)
+
+
+@receiver(post_save, sender=User)
+def save_user_profile(sender, instance, **kwargs):
+    instance.profile.save()
+# endregion
 
 
 # region Sport Model

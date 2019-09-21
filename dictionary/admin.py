@@ -1,11 +1,26 @@
 from django.contrib import admin
 from django import forms
-from .models import Term, Category, SuggestedTerm, Sport, Definition, Vote
+from .models import Profile, Term, Category, SuggestedTerm, Sport, Definition, Vote
 
 
 # region admin config
 admin.site.site_title = 'Sports Dictionary Admin'
 admin.site.site_header = 'Sports Dictionary Administration'
+# endregion
+
+
+# region Profile
+class ProfileAdminForm(forms.ModelForm):
+    class Meta:
+        model = Profile
+        fields = ['user',]
+
+
+@admin.register(Profile)
+class ProfileAdmin(admin.ModelAdmin):
+    form = ProfileAdminForm
+    list_display = ['user']
+    readonly_fields = ['user']
 # endregion
 
 

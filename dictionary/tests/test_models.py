@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.core.exceptions import ObjectDoesNotExist
 
 from dictionary.factories import SportFactory, CategoryFactory, UserFactory, TermFactory, SuggestedTermFactory, DefinitionFactory, VoteFactory
-from dictionary.models import SuggestedTerm, Vote
+from dictionary.models import Profile, SuggestedTerm, Vote
 
 
 class BaseModelTest(TestCase):
@@ -13,6 +13,15 @@ class BaseModelTest(TestCase):
         cls.term = TermFactory.create()
         cls.definition = DefinitionFactory.create()
         cls.vote = VoteFactory.create()
+
+
+# region Sport
+class ProfileModelTest(BaseModelTest):
+
+    def test_profile_is_created(self):
+        profile = Profile.objects.get(user=self.user)
+        self.assertEqual(profile, self.user.profile)
+# endregion
 
 
 # region Sport
