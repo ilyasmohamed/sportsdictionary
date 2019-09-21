@@ -1,12 +1,13 @@
 import re
-from random import randint
 
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import models as models
-from django.db.models.aggregates import Count
 from django.template.defaultfilters import slugify
 from django.urls import reverse
+
+from dictionary.managers import SportManager, ApprovedTermManager, PendingSuggestedTermManager,\
+    ApprovedDefinitionManager
 
 
 def unique_slugify(instance, value, slug_field_name='slug', queryset=None,
@@ -79,12 +80,7 @@ def _slug_strip(value, separator='-'):
     return value
 
 
-# region Sport Model & Managers
-class SportManager(models.Manager):
-    def get_by_natural_key(self, name):
-        return self.get(name=name)
-
-
+# region Sport Model
 class Sport(models.Model):
     # Fields
     name = models.CharField(max_length=50, unique=True)
@@ -119,7 +115,7 @@ class Sport(models.Model):
 # endregion
 
 
-# region Suggested Term & Term Models & Managers
+# region Suggested Term & Term Models
 class AbstractTerm(models.Model):
     # Fields
     text = models.CharField(max_length=50)
@@ -146,16 +142,6 @@ class AbstractTerm(models.Model):
     # Methods
     def __str__(self):
         return f'{self.text} - {self.sport}'
-
-
-class ApprovedTermManager(models.Manager):
-    def get_queryset(self):
-        return super().get_queryset().filter(approvedFl=True)
-
-    def random(self):
-        count = self.get_queryset().aggregate(count=Count('id'))['count']
-        random_index = randint(0, count - 1)
-        return self.all()[random_index]
 
 
 class Term(AbstractTerm):
@@ -198,11 +184,6 @@ class Term(AbstractTerm):
 
     def num_approved_definitions(self):
         return self.definitions.filter(approvedFl=True).count()
-
-
-class PendingSuggestedTermManager(models.Manager):
-    def get_queryset(self):
-        return super().get_queryset().filter(review_status='PEN')
 
 
 class SuggestedTerm(AbstractTerm):
@@ -274,12 +255,7 @@ class SuggestedTerm(AbstractTerm):
 # endregion
 
 
-# region Definition Model & Managers
-class ApprovedDefinitionManager(models.Manager):
-    def get_queryset(self):
-        return super().get_queryset().filter(approvedFl=True)
-
-
+# region Definition Model
 class Definition(models.Model):
     # Fields
     text = models.TextField()
@@ -324,7 +300,7 @@ class Definition(models.Model):
 # endregion
 
 
-# region Vote Model & Managers
+# region Vote Model
 class Vote(models.Model):
     # Fields
     created = models.DateTimeField(auto_now_add=True, editable=False)
