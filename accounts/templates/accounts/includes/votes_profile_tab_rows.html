@@ -1,0 +1,17 @@
+{% load custom_urlize %}
+
+{% for vote in votes %}
+<div class="row mb-3 my-4">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-body">
+                <p>
+                    {{ vote.definition.text|customUrlize:vote.definition.term.sport|truncatewords_html:20 }} <br>
+                    <small class="text-muted">Definition by {{ vote.definition.user }}</small><br>
+                    <a href="{{ vote.definition.term.get_absolute_url }}">{{ SITE }}{{ vote.definition.term.get_absolute_url }}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

@@ -1,7 +1,8 @@
 from django.contrib.auth.models import User
 from django.core.management.base import BaseCommand
 
-from dictionary.models import Sport, Term, Definition, Vote, Category, Profile, SuggestedTerm
+from accounts.models import Profile
+from dictionary.models import Sport, Term, Definition, Vote, Category, SuggestedTerm
 
 
 class Command(BaseCommand):

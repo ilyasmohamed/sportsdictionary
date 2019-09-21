@@ -1,8 +1,8 @@
-{% extends 'dictionary/base.html' %}
+{% extends 'dictionary/layouts/main_column_with_right_sidebar.html' %}
 
 {% load custom_urlize %}
 
-{% block title %}Sports Dictionary - {{ term.text }}{% endblock %}
+{% block title %}{{ term.text }} - Sports Dictionary{% endblock %}
 
 {% block maincolumn %}
 <div class="row mb-3 my-4">

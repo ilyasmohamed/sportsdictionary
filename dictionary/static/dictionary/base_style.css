@@ -10,6 +10,19 @@ body {
     overflow-x: hidden;
 }
 
+.my-nav{
+    padding-left: 0px;
+    padding-bottom: 0px;
+}
+
+.my-nav > .container{
+    padding-left: 0px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+min-width: 220px;
+}
+
 .card-copyright {
     border: none !important;
 }
@@ -26,6 +39,14 @@ body {
 
 #sports-dictionary-top-bar{
     padding: 0;
+}
+
+#sports-dictionary-top-bar .container:first-child .row{
+    padding-bottom: 0;
+}
+
+#sports-dictionary-top-bar .container:nth-child(2) {
+    margin-top: 6px;
 }
 
 #sports-dictionary-top-bar > .row{

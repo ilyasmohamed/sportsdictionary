@@ -1,0 +1,30 @@
+{% extends 'accounts/base_authorisation.html' %}
+
+{% block title %}Log in - Sports Dictionary{% endblock %}
+
+{% block content %}
+<main class="login-form">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10 col-sm-12">
+                <div class="card">
+                    <div class="card-header">Login</div>
+                    <div class="card-body">
+                        <form method="post" novalidate>
+                            {% csrf_token %}
+                            {% include 'accounts/form.html' %}
+                            <a href="{% url 'password_reset' %}">Forgot your password?</a>
+                            <button type="submit" class="btn btn-outline-dark btn-block mt-3">Log in</button>
+                        </form>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        New to Sports Dictionary? <a href="{% url 'signup' %}">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</main>
+{% endblock %}

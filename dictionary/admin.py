@@ -1,26 +1,11 @@
 from django.contrib import admin
 from django import forms
-from .models import Profile, Term, Category, SuggestedTerm, Sport, Definition, Vote
+from .models import Term, Category, SuggestedTerm, Sport, Definition, Vote
 
 
 # region admin config
 admin.site.site_title = 'Sports Dictionary Admin'
 admin.site.site_header = 'Sports Dictionary Administration'
-# endregion
-
-
-# region Profile
-class ProfileAdminForm(forms.ModelForm):
-    class Meta:
-        model = Profile
-        fields = ['user',]
-
-
-@admin.register(Profile)
-class ProfileAdmin(admin.ModelAdmin):
-    form = ProfileAdminForm
-    list_display = ['user']
-    readonly_fields = ['user']
 # endregion
 
 
@@ -109,7 +94,8 @@ class VoteAdminForm(forms.ModelForm):
 @admin.register(Vote)
 class VoteAdmin(admin.ModelAdmin):
     # form = VoteAdminForm
-    list_display = ['created', 'vote_type']
+    list_display = ['__str__', 'vote_type', 'user', 'created']
+    list_filter = ('vote_type',)
 # endregion
 
 

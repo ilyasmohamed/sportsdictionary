@@ -1,7 +1,7 @@
 import factory
-from django.contrib.auth.models import User
 from factory.django import DjangoModelFactory
 
+from accounts.factories import UserFactory
 from dictionary.models import Sport, Category, SuggestedTerm, Term, Definition, Vote
 
 
@@ -19,15 +19,6 @@ class CategoryFactory(DjangoModelFactory):
 
     sport = factory.SubFactory(SportFactory)
     name = factory.Sequence(lambda n: f'Category {n}')
-
-
-class UserFactory(DjangoModelFactory):
-    class Meta:
-        model = User
-
-    username = factory.Sequence(lambda n: f'User {n}')
-    email = factory.Sequence(lambda n: f'User{n}@sportsdictionary.com')
-    is_staff = False
 
 
 class TermFactory(DjangoModelFactory):

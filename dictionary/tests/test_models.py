@@ -1,8 +1,9 @@
 from django.test import TestCase
 from django.core.exceptions import ObjectDoesNotExist
 
-from dictionary.factories import SportFactory, CategoryFactory, UserFactory, TermFactory, SuggestedTermFactory, DefinitionFactory, VoteFactory
-from dictionary.models import Profile, SuggestedTerm, Vote
+from dictionary.factories import SportFactory, CategoryFactory, UserFactory, TermFactory, SuggestedTermFactory,\
+    DefinitionFactory, VoteFactory
+from dictionary.models import SuggestedTerm, Vote
 
 
 class BaseModelTest(TestCase):
@@ -13,15 +14,6 @@ class BaseModelTest(TestCase):
         cls.term = TermFactory.create()
         cls.definition = DefinitionFactory.create()
         cls.vote = VoteFactory.create()
-
-
-# region Sport
-class ProfileModelTest(BaseModelTest):
-
-    def test_profile_is_created(self):
-        profile = Profile.objects.get(user=self.user)
-        self.assertEqual(profile, self.user.profile)
-# endregion
 
 
 # region Sport
@@ -184,5 +176,7 @@ class VoteModelTest(BaseModelTest):
     def test_str_method(self):
         vote = self.vote
         vote_type = 'Up' if vote.vote_type == Vote.UPVOTE else 'Down'
-        self.assertEqual(str(vote), f'{vote_type}vote on definition for {vote.definition.term} by {vote.user}')
+        definition_text = (vote.definition.text[:40] + '...') if len(vote.definition.text) > 40 else vote.definition.text
+        self.assertEqual(str(vote),
+                         f'{vote_type}vote by {vote.user} on definition [{definition_text}] for term [{vote.definition.term.text}]')
 # endregion

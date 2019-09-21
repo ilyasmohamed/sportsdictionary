@@ -1,12 +1,8 @@
 import re
 
-from django import forms
 from django.conf import settings
-from django.contrib.auth.models import User
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import models as models, IntegrityError
-from django.db.models.signals import post_save
-from django.dispatch import receiver
 from django.template.defaultfilters import slugify
 from django.urls import reverse
 
@@ -82,26 +78,6 @@ def _slug_strip(value, separator='-'):
             re_sep = re.escape(separator)
         value = re.sub(r'^%s+|%s+$' % (re_sep, re_sep), '', value)
     return value
-
-
-# region Profile Model
-class Profile(models.Model):
-    # Fields
-    user = models.OneToOneField(User, on_delete=models.CASCADE)
-# endregion
-
-
-# region Profile creation
-@receiver(post_save, sender=User)
-def create_user_profile(sender, instance, created, **kwargs):
-    if created:
-        Profile.objects.create(user=instance)
-
-
-@receiver(post_save, sender=User)
-def save_user_profile(sender, instance, **kwargs):
-    instance.profile.save()
-# endregion
 
 
 # region Sport Model
@@ -407,5 +383,6 @@ class Vote(models.Model):
     # Methods
     def __str__(self):
         vote_type = 'Up' if self.vote_type == Vote.UPVOTE else 'Down'
-        return f'{vote_type}vote on definition for {self.definition.term} by {self.user}'
+        definition_text = (self.definition.text[:40] + '...') if len(self.definition.text) > 40 else self.definition.text
+        return f'{vote_type}vote by {self.user} on definition [{definition_text}] for term [{self.definition.term.text}]'
 # endregion

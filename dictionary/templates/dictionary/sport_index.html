@@ -1,12 +1,12 @@
-{% extends 'dictionary/base.html' %}
+{% extends 'dictionary/layouts/main_column_with_right_sidebar.html' %}
 
 {% block title %}
     {{ sport.name }} terms - Sports Dictionary
 {% endblock %}
 
 {% block maincolumn %}
-    {% include "dictionary/render_term_rows.html" %}
-    {% include "dictionary/pagination.html" %}
+    {% include "dictionary/includes/render_term_rows.html" %}
+    {% include "dictionary/includes/pagination.html" %}
 {% endblock %}
 
 {% block sidebar %}
