@@ -9,24 +9,22 @@
     <div class="col-sm-12">
         <div class="card">
             <div class="card-body">
-                <h6>
-                    <h5 class="card-title mb-1">
-                        <div class="row">
-                            <div class="col-md-7">
-                                <p>{{ term.text }}</p>
-                            </div>
-                            <div class="col-md-5">
-                                <a href="{{ term.sport.get_absolute_url }}"
-                                   class="badge badge-sport badge-{{ term.sport.slug }} float-right">{{ term.sport }}</a>
-                            </div>
+                <h5 class="card-title mb-1">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <p>{{ term.text }}</p>
                         </div>
-                    </h5>
-                    {% if term.user %}
-                    <p class="mb-0">
-                        <small class="text-muted">Term posted by @{{ term.user }}</small>
-                    </p>
-                    {% endif %}
-                </h6>
+                        <div class="col-md-5">
+                            <a href="{{ term.sport.get_absolute_url }}"
+                               class="badge badge-sport badge-{{ term.sport.slug }} float-right">{{ term.sport }}</a>
+                        </div>
+                    </div>
+                </h5>
+                {% if term.user %}
+                <p class="mb-0">
+                    <small class="text-muted">Term posted by @{{ term.user }}</small>
+                </p>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -52,6 +50,6 @@
 {% endblock %}
 
 {% block sidebar %}
-    {% include "dictionary/new_term_sidebar_widget.html" %}
-    {% include "dictionary/sidebar_widgets.html" %}
+    {% include "dictionary/sidebar/widgets/add_new_term.html" %}
+    {% include "dictionary/sidebar/widgets/footer.html" %}
 {% endblock %}

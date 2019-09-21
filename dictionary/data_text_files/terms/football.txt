@@ -339,8 +339,6 @@ Survive
 Suspension
 Sweeper
 Tackle
-(to) Take a touch
-(it) Takes a touch
 Target man
 Taylor Report
 Technical area

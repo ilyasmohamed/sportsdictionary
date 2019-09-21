@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.core.exceptions import ObjectDoesNotExist
 
-from dictionary.factories import SportFactory, UserFactory, TermFactory, SuggestedTermFactory, DefinitionFactory, VoteFactory
+from dictionary.factories import SportFactory, CategoryFactory, UserFactory, TermFactory, SuggestedTermFactory, DefinitionFactory, VoteFactory
 from dictionary.models import SuggestedTerm, Vote
 
 
@@ -34,6 +34,15 @@ class SportModelTest(BaseModelTest):
         sport = SportFactory.create(name='Football')
         sport2 = SportFactory.create(name='football')
         self.assertNotEqual(sport.slug, sport2.slug)
+# endregion
+
+
+# region Category
+class CategoryModelTest(BaseModelTest):
+
+    def test_str_method(self):
+        category = CategoryFactory.create()
+        self.assertEqual(str(category), category.name)
 # endregion
 
 

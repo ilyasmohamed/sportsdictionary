@@ -90,7 +90,7 @@ class Sport(models.Model):
     objects = SportManager()
 
     class Meta:
-        ordering = ('-pk',)
+        ordering = ('name',)
 
     # Methods
     def save(self, *args, **kwargs):
@@ -110,8 +110,30 @@ class Sport(models.Model):
 
     def natural_key(self):
         return (self.name,)
+# endregion
 
 
+# region Definition Model
+class Category(models.Model):
+    name = models.CharField(max_length=50)
+
+    # Relationship Fields
+    sport = models.ForeignKey(
+        'dictionary.Sport',
+        on_delete=models.CASCADE, related_name="categories",
+    )
+
+    class Meta:
+        ordering = ('name',)
+        verbose_name_plural = "categories"
+        constraints = [
+            models.UniqueConstraint(fields=['name', 'sport'],
+                                    name='unique_category_per_sport'),
+        ]
+
+    # Methods
+    def __str__(self):
+        return f'{self.name}'
 # endregion
 
 
@@ -121,6 +143,7 @@ class AbstractTerm(models.Model):
     text = models.CharField(max_length=50)
     created = models.DateTimeField(auto_now_add=True)
     last_updated = models.DateTimeField(auto_now=True)
+    categories = models.ManyToManyField(Category, related_name='%(class)ss')
 
     # Relationship Fields
     sport = models.ForeignKey(
@@ -251,8 +274,6 @@ class SuggestedTerm(AbstractTerm):
 
     def is_rejected(self):
         return self.review_status == self.REJECTED
-
-
 # endregion
 
 
