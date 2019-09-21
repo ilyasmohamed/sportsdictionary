@@ -7,6 +7,7 @@ html {
 body {
     min-height: 100vh;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .navbar-nav > li > .dropdown-menu {
@@ -25,4 +26,52 @@ min-width: 220px;
     position: -webkit-sticky;
     position: sticky;
     top: 1em;
+}
+
+#sports-dictionary-top-bar{
+    padding: 0;
+}
+
+#sports-dictionary-top-bar > .container > .row{
+    padding-bottom: 10px;
+}
+
+.btn-circle {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  padding: 0;
+  border-radius: 50%;
+}
+
+.btn-circle i {
+  position: relative;
+  top: -1px;
+}
+
+.btn-circle-sm {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 0.9rem;
+}
+
+.btn-circle-lg {
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  font-size: 1.4rem;
+}
+
+.btn-circle-xl {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 1.3rem;
+}
+
+#main_search > form > input {
+    width: 100% !important;
+    height: 50px;
 }
