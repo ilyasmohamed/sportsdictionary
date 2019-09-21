@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.core.exceptions import ObjectDoesNotExist
 
 from dictionary.factories import SportFactory, UserFactory, TermFactory, SuggestedTermFactory, DefinitionFactory, VoteFactory
-from dictionary.models import SuggestedTerm
+from dictionary.models import SuggestedTerm, Vote
 
 
 class BaseModelTest(TestCase):
@@ -122,32 +122,41 @@ class DefinitionModelTest(BaseModelTest):
 
     def test_num_upvotes(self):
         definition = DefinitionFactory.create(term=self.term, user=self.user)
+        user2 = UserFactory.create()
+        user3 = UserFactory.create()
 
-        VoteFactory.create(definition=definition, user=self.user)
-        VoteFactory.create(definition=definition, user=self.user)
-        VoteFactory.create(definition=definition, user=self.user)
+        definition.upvote(user=self.user)
+        definition.upvote(user=user2)
+        definition.upvote(user=user3)
 
         self.assertEqual(definition.num_upvotes(), 3)
 
     def test_num_downvotes(self):
         definition = DefinitionFactory.create(term=self.term, user=self.user)
+        user2 = UserFactory.create()
 
-        VoteFactory.create(definition=definition, user=self.user, downvote=True)
-        VoteFactory.create(definition=definition, user=self.user, downvote=True)
+        definition.downvote(user=self.user)
+        definition.downvote(user=user2)
 
         self.assertEqual(definition.num_downvotes(), 2)
 
     def test_net_votes(self):
         definition = DefinitionFactory.create(term=self.term, user=self.user)
+        user2 = UserFactory.create()
+        user3 = UserFactory.create()
+        user4 = UserFactory.create()
+        user5 = UserFactory.create()
 
-        VoteFactory.create(definition=definition, user=self.user)
-        VoteFactory.create(definition=definition, user=self.user)
-        VoteFactory.create(definition=definition, user=self.user)
+        definition.upvote(user=self.user)
+        definition.upvote(user=user2)
+        definition.upvote(user=user3)
 
-        VoteFactory.create(definition=definition, user=self.user, downvote=True)
-        VoteFactory.create(definition=definition, user=self.user, downvote=True)
+        definition.downvote(user=user4)
+        definition.downvote(user=user5)
 
-        self.assertEqual(definition.net_votes(), 1)
+        self.assertEqual(definition.num_net_votes(), 1)
+        self.assertEqual(definition.num_upvotes() - definition.num_downvotes(),
+                         definition.net_votes)
 # endregion
 
 
@@ -156,6 +165,6 @@ class VoteModelTest(BaseModelTest):
 
     def test_str_method(self):
         vote = self.vote
-        vote_type = 'Down' if vote.downvote else 'Up'
+        vote_type = 'Up' if vote.vote_type == Vote.UPVOTE else 'Down'
         self.assertEqual(str(vote), f'{vote_type}vote on definition for {vote.definition.term} by {vote.user}')
 # endregion

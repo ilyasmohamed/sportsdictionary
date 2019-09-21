@@ -81,12 +81,12 @@ class DefinitionAdmin(admin.ModelAdmin):
 class VoteAdminForm(forms.ModelForm):
     class Meta:
         model = Vote
-        fields = ['user', 'definition', 'downvote']
+        fields = ['user', 'definition', 'vote_type']
 
 
 @admin.register(Vote)
 class VoteAdmin(admin.ModelAdmin):
     # form = VoteAdminForm
-    list_display = ['created', 'downvote']
+    list_display = ['created', 'vote_type']
     # readonly_fields = ['created', 'downvote']
 # endregion

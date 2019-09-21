@@ -56,4 +56,4 @@ class VoteFactory(DjangoModelFactory):
 
     definition = factory.SubFactory(DefinitionFactory)
     user = factory.SubFactory(UserFactory)
-    downvote = False
+    vote_type = Vote.UPVOTE

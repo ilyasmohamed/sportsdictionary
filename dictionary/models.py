@@ -2,7 +2,7 @@ import re
 
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
-from django.db import models as models
+from django.db import models as models, IntegrityError
 from django.template.defaultfilters import slugify
 from django.urls import reverse
 
@@ -264,6 +264,7 @@ class Definition(models.Model):
     created = models.DateTimeField(auto_now_add=True, editable=False)
     last_updated = models.DateTimeField(auto_now=True, editable=False)
     approvedFl = models.BooleanField(default=True)
+    net_votes = models.IntegerField(default=0)
 
     # Relationship Fields
     term = models.ForeignKey(
@@ -291,16 +292,33 @@ class Definition(models.Model):
         return f'{self.text}'
 
     def num_upvotes(self):
-        return self.votes.filter(downvote=False).count()
+        return self.votes.filter(vote_type=Vote.UPVOTE).count()
     num_upvotes.short_description = 'Upvotes'
 
     def num_downvotes(self):
-        return self.votes.filter(downvote=True).count()
+        return self.votes.filter(vote_type=Vote.DOWNVOTE).count()
     num_downvotes.short_description = 'Downvotes'
 
-    def net_votes(self):
-        return self.num_upvotes() - self.num_downvotes()
-    net_votes.short_description = 'Net Votes'
+    def num_net_votes(self):
+        return self.net_votes
+    num_net_votes.short_description = 'Net Votes'
+
+    # Voting methods
+    def upvote(self, user):
+        try:
+            self.votes.create(user=user, definition=self, vote_type=Vote.UPVOTE)
+            self.net_votes += 1
+            self.save()
+        except IntegrityError:
+            return 'already_upvoted'
+
+    def downvote(self, user):
+        try:
+            self.votes.create(user=user, definition=self, vote_type=Vote.DOWNVOTE)
+            self.net_votes -= 1
+            self.save()
+        except IntegrityError:
+            return 'already_downvoted'
 # endregion
 
 
@@ -308,7 +326,14 @@ class Definition(models.Model):
 class Vote(models.Model):
     # Fields
     created = models.DateTimeField(auto_now_add=True, editable=False)
-    downvote = models.BooleanField(default=False)
+
+    UPVOTE = 1
+    DOWNVOTE = -1
+    VOTE_TYPES = (
+        (UPVOTE, 'Upvote'),
+        (DOWNVOTE, 'Downvote'),
+    )
+    vote_type = models.IntegerField(choices=VOTE_TYPES, default=UPVOTE)
 
     # Relationship Fields
     user = models.ForeignKey(
@@ -322,9 +347,13 @@ class Vote(models.Model):
 
     class Meta:
         ordering = ('-created',)
+        constraints = [
+            models.UniqueConstraint(fields=['user', 'definition'],
+                                    name='unique_vote_by_user_for_definition'),
+        ]
 
     # Methods
     def __str__(self):
-        vote_type = 'Down' if self.downvote else 'Up'
+        vote_type = 'Up' if self.vote_type == Vote.UPVOTE else 'Down'
         return f'{vote_type}vote on definition for {self.definition.term} by {self.user}'
 # endregion
