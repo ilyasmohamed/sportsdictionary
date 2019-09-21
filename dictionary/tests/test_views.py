@@ -27,12 +27,14 @@ class IndexView(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'dictionary/index.html')
 
-    def test_pagination_is_fifty(self):
+    def test_pagination_is_x(self):
+        x = 20
+
         response = self.client.get(reverse('index'))
         self.assertEqual(response.status_code, 200)
         self.assertTrue('is_paginated' in response.context)
         self.assertTrue(response.context['is_paginated'])
-        self.assertEqual(len(response.context['terms']), 50)
+        self.assertEqual(len(response.context['terms']), x)
 
     def test_pagination_page_number(self):
         response = self.client.get(reverse('index') + '?page=2')
@@ -55,7 +57,7 @@ class SportView(TestCase):
         TermFactory.create_batch(num_terms, sport=cls.sport)
 
     def test_view_url_exists_at_desired_location(self):
-        response = self.client.get('/' + self.sport.slug + '/')
+        response = self.client.get('/terms/' + self.sport.slug + '/')
         self.assertEqual(response.status_code, 200)
 
     def test_view_url_accessible_by_name(self):
@@ -67,12 +69,14 @@ class SportView(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'dictionary/sport_index.html')
 
-    def test_pagination_is_fifty(self):
+    def test_pagination_is_x(self):
+        x = 20
+
         response = self.client.get(reverse('sport_index', kwargs={'sport_slug': self.sport.slug}))
         self.assertEqual(response.status_code, 200)
         self.assertTrue('is_paginated' in response.context)
         self.assertTrue(response.context['is_paginated'])
-        self.assertEqual(len(response.context['terms']), 50)
+        self.assertEqual(len(response.context['terms']), x)
 
     def test_pagination_page_number(self):
         response = self.client.get(reverse('sport_index', kwargs={'sport_slug': self.sport.slug})+'?page=2')
@@ -118,7 +122,7 @@ class TermDetailView(TestCase):
         )
 
     def test_view_url_exists_at_desired_location(self):
-        response = self.client.get('/' + self.term.sport.slug + '/' + self.term.slug)
+        response = self.client.get('/term/' + self.term.sport.slug + '/' + self.term.slug)
         self.assertEqual(response.status_code, 200)
 
     def test_view_url_accessible_by_name(self):

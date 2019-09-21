@@ -6,6 +6,9 @@ from django.db import models as models
 from django.template.defaultfilters import slugify
 from django.urls import reverse
 
+from dictionary.managers import SportManager, ApprovedTermManager, PendingSuggestedTermManager,\
+    ApprovedDefinitionManager
+
 
 def unique_slugify(instance, value, slug_field_name='slug', queryset=None,
                    slug_separator='-'):
@@ -77,12 +80,7 @@ def _slug_strip(value, separator='-'):
     return value
 
 
-# region Sport Model & Managers
-class SportManager(models.Manager):
-    def get_by_natural_key(self, name):
-        return self.get(name=name)
-
-
+# region Sport Model
 class Sport(models.Model):
     # Fields
     name = models.CharField(max_length=50, unique=True)
@@ -117,7 +115,7 @@ class Sport(models.Model):
 # endregion
 
 
-# region Suggested Term & Term Models & Managers
+# region Suggested Term & Term Models
 class AbstractTerm(models.Model):
     # Fields
     text = models.CharField(max_length=50)
@@ -144,11 +142,6 @@ class AbstractTerm(models.Model):
     # Methods
     def __str__(self):
         return f'{self.text} - {self.sport}'
-
-
-class ApprovedTermManager(models.Manager):
-    def get_queryset(self):
-        return super().get_queryset().filter(approvedFl=True)
 
 
 class Term(AbstractTerm):
@@ -191,11 +184,7 @@ class Term(AbstractTerm):
 
     def num_approved_definitions(self):
         return self.definitions.filter(approvedFl=True).count()
-
-
-class PendingSuggestedTermManager(models.Manager):
-    def get_queryset(self):
-        return super().get_queryset().filter(review_status='PEN')
+    num_approved_definitions.short_description = 'Approved Definitions'
 
 
 class SuggestedTerm(AbstractTerm):
@@ -262,15 +251,12 @@ class SuggestedTerm(AbstractTerm):
 
     def is_rejected(self):
         return self.review_status == self.REJECTED
+
+
 # endregion
 
 
-# region Definition Model & Managers
-class ApprovedDefinitionManager(models.Manager):
-    def get_queryset(self):
-        return super().get_queryset().filter(approvedFl=True)
-
-
+# region Definition Model
 class Definition(models.Model):
     # Fields
     text = models.TextField()
@@ -306,16 +292,19 @@ class Definition(models.Model):
 
     def num_upvotes(self):
         return self.votes.filter(downvote=False).count()
+    num_upvotes.short_description = 'Upvotes'
 
     def num_downvotes(self):
         return self.votes.filter(downvote=True).count()
+    num_downvotes.short_description = 'Downvotes'
 
     def net_votes(self):
         return self.num_upvotes() - self.num_downvotes()
+    net_votes.short_description = 'Net Votes'
 # endregion
 
 
-# region Vote Model & Managers
+# region Vote Model
 class Vote(models.Model):
     # Fields
     created = models.DateTimeField(auto_now_add=True, editable=False)
