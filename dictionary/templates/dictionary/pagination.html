@@ -2,20 +2,29 @@
     <div class="col-sm">
         <nav aria-label="...">
             <ul class="pagination justify-content-center">
-                {% if is_search_pagination %}
-                <li class="page-item"><a class="page-link" href="?term={{ search_term }}&page=1">&laquo;</a></li>
+                {% if page_obj.number == 1 %}
+                <li class="page-item disabled">
+                    <span class="page-link">&laquo; First</span>
+                </li>
                 {% else %}
-                <li class="page-item"><a class="page-link" href="?page=1">&laquo;</a></li>
+                    {% if is_search_pagination %}
+                    <li class="page-item">
+                        <a class="page-link" href="?term={{ search_term }}&page=1">&laquo; First</a>
+                    </li>
+                    {% else %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page=1">&laquo; First</a>
+                    </li>
+                    {% endif %}
                 {% endif %}
-
 
                 {% for i in page_range_to_display %}
                 {% if i == page_obj.number %}
                 <li class="page-item active">
-            <span class="page-link">
-                {{ page_obj.number }}
-                <span class="sr-only">(current)</span>
-            </span>
+                    <span class="page-link">
+                        {{ page_obj.number }}
+                        <span class="sr-only">(current)</span>
+                    </span>
                 </li>
                 {% else %}
                 {% if is_search_pagination %}
@@ -31,13 +40,20 @@
                 {% endfor %}
 
 
-                {% if is_search_pagination %}
-                <li class="page-item"><a class="page-link"
-                                         href="?term={{ search_term }}&page={{ page_obj.paginator.num_pages }}">&raquo;</a>
+                {% if page_obj.number == page_obj.paginator.num_pages %}
+                <li class="page-item disabled">
+                    <span class="page-link">Last &raquo;</span>
                 </li>
                 {% else %}
-                <li class="page-item"><a class="page-link" href="?page={{ page_obj.paginator.num_pages }}">&raquo;</a>
-                </li>
+                    {% if is_search_pagination %}
+                    <li class="page-item">
+                        <a class="page-link" href="?term={{ search_term }}&page={{ page_obj.paginator.num_pages }}">Last &raquo;</a>
+                    </li>
+                    {% else %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ page_obj.paginator.num_pages }}">Last &raquo;</a>
+                    </li>
+                    {% endif %}
                 {% endif %}
             </ul>
         </nav>
