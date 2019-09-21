@@ -1,0 +1,1682 @@
+[
+    {
+        "model": "dictionary.term",
+        "pk": 2277,
+        "fields": {
+            "text": "Alternation of ends",
+            "slug": "alternation-of-ends",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2278,
+        "fields": {
+            "text": "Alternation of service",
+            "slug": "alternation-of-service",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2279,
+        "fields": {
+            "text": "Antispin",
+            "slug": "antispin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2280,
+        "fields": {
+            "text": "Assistant umpire",
+            "slug": "assistant-umpire",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2281,
+        "fields": {
+            "text": "Attacker",
+            "slug": "attacker",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2282,
+        "fields": {
+            "text": "Backspin",
+            "slug": "backspin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2283,
+        "fields": {
+            "text": "Bat",
+            "slug": "bat",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2284,
+        "fields": {
+            "text": "Blade",
+            "slug": "blade",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2285,
+        "fields": {
+            "text": "Block",
+            "slug": "block",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2286,
+        "fields": {
+            "text": "Blocker",
+            "slug": "blocker",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2287,
+        "fields": {
+            "text": "Casters",
+            "slug": "casters",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2288,
+        "fields": {
+            "text": "Chop",
+            "slug": "chop",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2289,
+        "fields": {
+            "text": "Chop block",
+            "slug": "chop-block",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2290,
+        "fields": {
+            "text": "Chopper",
+            "slug": "chopper",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2291,
+        "fields": {
+            "text": "Closed angle",
+            "slug": "closed-angle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2292,
+        "fields": {
+            "text": "Closed racket",
+            "slug": "closed-racket",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2293,
+        "fields": {
+            "text": "Counter-hit",
+            "slug": "counter-hit",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2294,
+        "fields": {
+            "text": "Counter-loop",
+            "slug": "counter-loop",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2295,
+        "fields": {
+            "text": "Counter-smash",
+            "slug": "counter-smash",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2296,
+        "fields": {
+            "text": "Crosscourt",
+            "slug": "crosscourt",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2297,
+        "fields": {
+            "text": "Crossover",
+            "slug": "crossover",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2298,
+        "fields": {
+            "text": "Dead ball",
+            "slug": "dead-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2299,
+        "fields": {
+            "text": "Deep",
+            "slug": "deep",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2300,
+        "fields": {
+            "text": "Deuce",
+            "slug": "deuce",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2301,
+        "fields": {
+            "text": "Double bounce",
+            "slug": "double-bounce",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2302,
+        "fields": {
+            "text": "Doubles",
+            "slug": "doubles",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2303,
+        "fields": {
+            "text": "Down the line",
+            "slug": "down-the-line",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2304,
+        "fields": {
+            "text": "Drop shot",
+            "slug": "drop-shot",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2305,
+        "fields": {
+            "text": "Early",
+            "slug": "early",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2306,
+        "fields": {
+            "text": "Expedite rule",
+            "slug": "expedite-rule",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2307,
+        "fields": {
+            "text": "Extreme angle",
+            "slug": "extreme-angle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2308,
+        "fields": {
+            "text": "Falkenberg drill",
+            "slug": "falkenberg-drill",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2309,
+        "fields": {
+            "text": "Flat",
+            "slug": "flat",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2310,
+        "fields": {
+            "text": "Flick",
+            "slug": "flick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2311,
+        "fields": {
+            "text": "Flip",
+            "slug": "flip",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2312,
+        "fields": {
+            "text": "Footwork",
+            "slug": "footwork",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2313,
+        "fields": {
+            "text": "Forehand",
+            "slug": "forehand",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2314,
+        "fields": {
+            "text": "Free hand",
+            "slug": "free-hand",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2315,
+        "fields": {
+            "text": "Game point",
+            "slug": "game-point",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2316,
+        "fields": {
+            "text": "Grip",
+            "slug": "grip",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2317,
+        "fields": {
+            "text": "Hard rubber",
+            "slug": "hard-rubber",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2318,
+        "fields": {
+            "text": "Heavy",
+            "slug": "heavy",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2319,
+        "fields": {
+            "text": "High toss serve",
+            "slug": "high-toss-serve",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2320,
+        "fields": {
+            "text": "Hit",
+            "slug": "hit",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2321,
+        "fields": {
+            "text": "International Table Tennis Federation",
+            "slug": "international-table-tennis-federation",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2322,
+        "fields": {
+            "text": "Inverted rubber",
+            "slug": "inverted-rubber",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2323,
+        "fields": {
+            "text": "ITTF",
+            "slug": "ittf",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2324,
+        "fields": {
+            "text": "Kill shot",
+            "slug": "kill-shot",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2325,
+        "fields": {
+            "text": "Late",
+            "slug": "late",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2326,
+        "fields": {
+            "text": "Let",
+            "slug": "let",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2327,
+        "fields": {
+            "text": "Let serve",
+            "slug": "let-serve",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2328,
+        "fields": {
+            "text": "Loaded",
+            "slug": "loaded",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2329,
+        "fields": {
+            "text": "Lob",
+            "slug": "lob",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2330,
+        "fields": {
+            "text": "Long",
+            "slug": "long",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2331,
+        "fields": {
+            "text": "Long pips",
+            "slug": "long-pips",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2332,
+        "fields": {
+            "text": "Loop",
+            "slug": "loop",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2333,
+        "fields": {
+            "text": "Looper",
+            "slug": "looper",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2334,
+        "fields": {
+            "text": "Loose",
+            "slug": "loose",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2335,
+        "fields": {
+            "text": "Magnus effect",
+            "slug": "magnus-effect",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2336,
+        "fields": {
+            "text": "Match",
+            "slug": "match",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2337,
+        "fields": {
+            "text": "Medium long serve",
+            "slug": "medium-long-serve",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2338,
+        "fields": {
+            "text": "Mid long serve",
+            "slug": "mid-long-serve",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2339,
+        "fields": {
+            "text": "Multiball",
+            "slug": "multiball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2340,
+        "fields": {
+            "text": "No-spin",
+            "slug": "no-spin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2341,
+        "fields": {
+            "text": "No-spin serve",
+            "slug": "no-spin-serve",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2342,
+        "fields": {
+            "text": "Net-Out",
+            "slug": "net-out",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2343,
+        "fields": {
+            "text": "Obstruction",
+            "slug": "obstruction",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2344,
+        "fields": {
+            "text": "Open angle",
+            "slug": "open-angle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2345,
+        "fields": {
+            "text": "Open racket",
+            "slug": "open-racket",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2346,
+        "fields": {
+            "text": "Paddle",
+            "slug": "paddle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2347,
+        "fields": {
+            "text": "Penhold",
+            "slug": "penhold",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2348,
+        "fields": {
+            "text": "Pimples",
+            "slug": "pimples",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2349,
+        "fields": {
+            "text": "Pips",
+            "slug": "pips",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2350,
+        "fields": {
+            "text": "Pips-in",
+            "slug": "pips-in",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2351,
+        "fields": {
+            "text": "Pips-out",
+            "slug": "pips-out",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2352,
+        "fields": {
+            "text": "Play-Back position",
+            "slug": "play-back-position",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2353,
+        "fields": {
+            "text": "Playing elbow",
+            "slug": "playing-elbow",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2354,
+        "fields": {
+            "text": "Playing surface",
+            "slug": "playing-surface",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2355,
+        "fields": {
+            "text": "Push",
+            "slug": "push",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2356,
+        "fields": {
+            "text": "Racket hand",
+            "slug": "racket-hand",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2357,
+        "fields": {
+            "text": "Rally",
+            "slug": "rally",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2358,
+        "fields": {
+            "text": "Rating",
+            "slug": "rating",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2359,
+        "fields": {
+            "text": "Rating even",
+            "slug": "rating-even",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2360,
+        "fields": {
+            "text": "Receive",
+            "slug": "receive",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2361,
+        "fields": {
+            "text": "Referee",
+            "slug": "referee",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2362,
+        "fields": {
+            "text": "Reverse penhold backhand",
+            "slug": "reverse-penhold-backhand",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2363,
+        "fields": {
+            "text": "Rubber",
+            "slug": "rubber",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2364,
+        "fields": {
+            "text": "Rubber cleaner",
+            "slug": "rubber-cleaner",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2365,
+        "fields": {
+            "text": "Sandwich rubber",
+            "slug": "sandwich-rubber",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2366,
+        "fields": {
+            "text": "Seemiller grip",
+            "slug": "seemiller-grip",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2367,
+        "fields": {
+            "text": "Service",
+            "slug": "service",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2368,
+        "fields": {
+            "text": "Set",
+            "slug": "set",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2369,
+        "fields": {
+            "text": "Shakehand",
+            "slug": "shakehand",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2370,
+        "fields": {
+            "text": "Short",
+            "slug": "short",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2371,
+        "fields": {
+            "text": "Sidespin",
+            "slug": "sidespin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2372,
+        "fields": {
+            "text": "Skunk",
+            "slug": "skunk",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2373,
+        "fields": {
+            "text": "Smash",
+            "slug": "smash",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2374,
+        "fields": {
+            "text": "Smother kill",
+            "slug": "smother-kill",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2375,
+        "fields": {
+            "text": "Speed glue",
+            "slug": "speed-glue",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2376,
+        "fields": {
+            "text": "Spin",
+            "slug": "spin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2377,
+        "fields": {
+            "text": "Spin reversal",
+            "slug": "spin-reversal",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2378,
+        "fields": {
+            "text": "Sponge",
+            "slug": "sponge",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2379,
+        "fields": {
+            "text": "Step around",
+            "slug": "step-around",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2380,
+        "fields": {
+            "text": "Strike",
+            "slug": "strike",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2381,
+        "fields": {
+            "text": "Stroke",
+            "slug": "stroke",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2382,
+        "fields": {
+            "text": "Sweet spot",
+            "slug": "sweet-spot",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2383,
+        "fields": {
+            "text": "Table tennis racket",
+            "slug": "table-tennis-racket",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2384,
+        "fields": {
+            "text": "Third ball",
+            "slug": "third-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2385,
+        "fields": {
+            "text": "Throw angle",
+            "slug": "throw-angle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2386,
+        "fields": {
+            "text": "Tight",
+            "slug": "tight",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2387,
+        "fields": {
+            "text": "Topspin",
+            "slug": "topspin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2388,
+        "fields": {
+            "text": "Twiddle",
+            "slug": "twiddle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2389,
+        "fields": {
+            "text": "Twirl",
+            "slug": "twirl",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2390,
+        "fields": {
+            "text": "Two step footwork",
+            "slug": "two-step-footwork",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2391,
+        "fields": {
+            "text": "Two-winged looper",
+            "slug": "two-winged-looper",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2392,
+        "fields": {
+            "text": "Umpire",
+            "slug": "umpire",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2393,
+        "fields": {
+            "text": "Underspin",
+            "slug": "underspin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2394,
+        "fields": {
+            "text": "USA Table Tennis",
+            "slug": "usa-table-tennis",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2395,
+        "fields": {
+            "text": "Volley",
+            "slug": "volley",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2396,
+        "fields": {
+            "text": "Wide angle",
+            "slug": "wide-angle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Table Tennis"
+            ]
+        }
+    }
+]

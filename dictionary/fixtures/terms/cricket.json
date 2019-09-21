@@ -1,0 +1,2326 @@
+[
+    {
+        "model": "dictionary.term",
+        "pk": 2488,
+        "fields": {
+            "text": "Arm Ball",
+            "slug": "arm-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2489,
+        "fields": {
+            "text": "Asking rate",
+            "slug": "asking-rate",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2490,
+        "fields": {
+            "text": "Ball",
+            "slug": "ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2491,
+        "fields": {
+            "text": "Ball Tampering",
+            "slug": "ball-tampering",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2492,
+        "fields": {
+            "text": "Bat-Pad",
+            "slug": "bat-pad",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2493,
+        "fields": {
+            "text": "Batter",
+            "slug": "batter",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2494,
+        "fields": {
+            "text": "Beamer",
+            "slug": "beamer",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2495,
+        "fields": {
+            "text": "Belter",
+            "slug": "belter",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2496,
+        "fields": {
+            "text": "Bend your back",
+            "slug": "bend-your-back",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2497,
+        "fields": {
+            "text": "Blob",
+            "slug": "blob",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2498,
+        "fields": {
+            "text": "Bodyline",
+            "slug": "bodyline",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2499,
+        "fields": {
+            "text": "Bosie",
+            "slug": "bosie",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2500,
+        "fields": {
+            "text": "Bouncer",
+            "slug": "bouncer",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2501,
+        "fields": {
+            "text": "Boundary",
+            "slug": "boundary",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2502,
+        "fields": {
+            "text": "Box",
+            "slug": "box",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2503,
+        "fields": {
+            "text": "Bump Ball",
+            "slug": "bump-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2504,
+        "fields": {
+            "text": "Bumper",
+            "slug": "bumper",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2505,
+        "fields": {
+            "text": "Bunny",
+            "slug": "bunny",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2506,
+        "fields": {
+            "text": "Bunsen",
+            "slug": "bunsen",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2507,
+        "fields": {
+            "text": "Bye",
+            "slug": "bye",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2508,
+        "fields": {
+            "text": "Carry your bat",
+            "slug": "carry-your-bat",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2509,
+        "fields": {
+            "text": "Charge",
+            "slug": "charge",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2510,
+        "fields": {
+            "text": "Chest-on",
+            "slug": "chest-on",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2511,
+        "fields": {
+            "text": "Chin music",
+            "slug": "chin-music",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2512,
+        "fields": {
+            "text": "Chinaman",
+            "slug": "chinaman",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2513,
+        "fields": {
+            "text": "Chucker",
+            "slug": "chucker",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2514,
+        "fields": {
+            "text": "Closing the face",
+            "slug": "closing-the-face",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2515,
+        "fields": {
+            "text": "Corridor of uncertainty",
+            "slug": "corridor-of-uncertainty",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2516,
+        "fields": {
+            "text": "Cow corner",
+            "slug": "cow-corner",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2517,
+        "fields": {
+            "text": "Cricket Max",
+            "slug": "cricket-max",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2518,
+        "fields": {
+            "text": "Cross bat",
+            "slug": "cross-bat",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2519,
+        "fields": {
+            "text": "Dead ball",
+            "slug": "dead-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2520,
+        "fields": {
+            "text": "Declaration",
+            "slug": "declaration",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2521,
+        "fields": {
+            "text": "Dibbly-dobbly bowlers",
+            "slug": "dibbly-dobbly-bowlers",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2522,
+        "fields": {
+            "text": "Dolly",
+            "slug": "dolly",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2523,
+        "fields": {
+            "text": "Doosra",
+            "slug": "doosra",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2524,
+        "fields": {
+            "text": "Drifter/ Floater",
+            "slug": "drifter-floater",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2525,
+        "fields": {
+            "text": "Duck",
+            "slug": "duck",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2526,
+        "fields": {
+            "text": "Duckworth Lewis",
+            "slug": "duckworth-lewis",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2527,
+        "fields": {
+            "text": "Economy rate",
+            "slug": "economy-rate",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2528,
+        "fields": {
+            "text": "Extras",
+            "slug": "extras",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2529,
+        "fields": {
+            "text": "Featherbed",
+            "slug": "featherbed",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2530,
+        "fields": {
+            "text": "Flipper",
+            "slug": "flipper",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2531,
+        "fields": {
+            "text": "Full toss",
+            "slug": "full-toss",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2532,
+        "fields": {
+            "text": "Gardening",
+            "slug": "gardening",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2533,
+        "fields": {
+            "text": "Good length",
+            "slug": "good-length",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2534,
+        "fields": {
+            "text": "Googly",
+            "slug": "googly",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2535,
+        "fields": {
+            "text": "Grubber",
+            "slug": "grubber",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2536,
+        "fields": {
+            "text": "Half volley",
+            "slug": "half-volley",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2537,
+        "fields": {
+            "text": "Handled the ball",
+            "slug": "handled-the-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2538,
+        "fields": {
+            "text": "Hawk-Eye",
+            "slug": "hawk-eye",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2539,
+        "fields": {
+            "text": "Heavy ball",
+            "slug": "heavy-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2540,
+        "fields": {
+            "text": "Hit the ball twice",
+            "slug": "hit-the-ball-twice",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2541,
+        "fields": {
+            "text": "Hit the deck",
+            "slug": "hit-the-deck",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2542,
+        "fields": {
+            "text": "Hoick",
+            "slug": "hoick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2543,
+        "fields": {
+            "text": "In-ducker",
+            "slug": "in-ducker",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2544,
+        "fields": {
+            "text": "Inside out, turning the batsman",
+            "slug": "inside-out-turning-the-batsman",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2545,
+        "fields": {
+            "text": "Inside-out shot",
+            "slug": "inside-out-shot",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2546,
+        "fields": {
+            "text": "Jaffa",
+            "slug": "jaffa",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2547,
+        "fields": {
+            "text": "King pair",
+            "slug": "king-pair",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2548,
+        "fields": {
+            "text": "Kolpak",
+            "slug": "kolpak",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2549,
+        "fields": {
+            "text": "Leading edge",
+            "slug": "leading-edge",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2550,
+        "fields": {
+            "text": "Leg theory",
+            "slug": "leg-theory",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2551,
+        "fields": {
+            "text": "Leg-Before Wicket (LBW)",
+            "slug": "leg-before-wicket-lbw",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2552,
+        "fields": {
+            "text": "Leg-break/spin",
+            "slug": "leg-break-spin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2553,
+        "fields": {
+            "text": "Leg-bye",
+            "slug": "leg-bye",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2554,
+        "fields": {
+            "text": "Leg-cutter",
+            "slug": "leg-cutter",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2555,
+        "fields": {
+            "text": "Leg-side",
+            "slug": "leg-side",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2556,
+        "fields": {
+            "text": "Length",
+            "slug": "length",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2557,
+        "fields": {
+            "text": "Lifter",
+            "slug": "lifter",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2558,
+        "fields": {
+            "text": "Line",
+            "slug": "line",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2559,
+        "fields": {
+            "text": "Lollipop",
+            "slug": "lollipop",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2560,
+        "fields": {
+            "text": "Long hop",
+            "slug": "long-hop",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2561,
+        "fields": {
+            "text": "Loop",
+            "slug": "loop",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2562,
+        "fields": {
+            "text": "MCC",
+            "slug": "mcc",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2563,
+        "fields": {
+            "text": "Maiden",
+            "slug": "maiden",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2564,
+        "fields": {
+            "text": "Manhattan",
+            "slug": "manhattan",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2565,
+        "fields": {
+            "text": "Mankad",
+            "slug": "mankad",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2566,
+        "fields": {
+            "text": "Middle",
+            "slug": "middle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2567,
+        "fields": {
+            "text": "Military Medium",
+            "slug": "military-medium",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2568,
+        "fields": {
+            "text": "Minefield",
+            "slug": "minefield",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2569,
+        "fields": {
+            "text": "Nelson",
+            "slug": "nelson",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2570,
+        "fields": {
+            "text": "Nervous nineties",
+            "slug": "nervous-nineties",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2571,
+        "fields": {
+            "text": "Net Run Rate",
+            "slug": "net-run-rate",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2572,
+        "fields": {
+            "text": "New ball",
+            "slug": "new-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2573,
+        "fields": {
+            "text": "Nick",
+            "slug": "nick",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2574,
+        "fields": {
+            "text": "Nightwatchman",
+            "slug": "nightwatchman",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2575,
+        "fields": {
+            "text": "No-ball",
+            "slug": "no-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2576,
+        "fields": {
+            "text": "Nurdle",
+            "slug": "nurdle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2577,
+        "fields": {
+            "text": "Obstruction",
+            "slug": "obstruction",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2578,
+        "fields": {
+            "text": "Occupy the crease",
+            "slug": "occupy-the-crease",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2579,
+        "fields": {
+            "text": "Off the mark",
+            "slug": "off-the-mark",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2580,
+        "fields": {
+            "text": "Off-break/spin",
+            "slug": "off-break-spin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2581,
+        "fields": {
+            "text": "Off-cutter",
+            "slug": "off-cutter",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2582,
+        "fields": {
+            "text": "Off-side",
+            "slug": "off-side",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2583,
+        "fields": {
+            "text": "On the up",
+            "slug": "on-the-up",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2584,
+        "fields": {
+            "text": "On-side",
+            "slug": "on-side",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2585,
+        "fields": {
+            "text": "Out",
+            "slug": "out",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2586,
+        "fields": {
+            "text": "Outside edge",
+            "slug": "outside-edge",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2587,
+        "fields": {
+            "text": "Outswing",
+            "slug": "outswing",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2588,
+        "fields": {
+            "text": "Paddle",
+            "slug": "paddle",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2589,
+        "fields": {
+            "text": "Pair",
+            "slug": "pair",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2590,
+        "fields": {
+            "text": "Pinch-hitters",
+            "slug": "pinch-hitters",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2591,
+        "fields": {
+            "text": "Pitch",
+            "slug": "pitch",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2592,
+        "fields": {
+            "text": "Play on",
+            "slug": "play-on",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2593,
+        "fields": {
+            "text": "Plumb",
+            "slug": "plumb",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2594,
+        "fields": {
+            "text": "Powerplay",
+            "slug": "powerplay",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2595,
+        "fields": {
+            "text": "Pudding",
+            "slug": "pudding",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2596,
+        "fields": {
+            "text": "Pull",
+            "slug": "pull",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2597,
+        "fields": {
+            "text": "Rabbit",
+            "slug": "rabbit",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2598,
+        "fields": {
+            "text": "Retire",
+            "slug": "retire",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2599,
+        "fields": {
+            "text": "Return Crease",
+            "slug": "return-crease",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2600,
+        "fields": {
+            "text": "Reverse Sweep",
+            "slug": "reverse-sweep",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2601,
+        "fields": {
+            "text": "Reverse Swing",
+            "slug": "reverse-swing",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2602,
+        "fields": {
+            "text": "Ring Field",
+            "slug": "ring-field",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2603,
+        "fields": {
+            "text": "Rip",
+            "slug": "rip",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2604,
+        "fields": {
+            "text": "Rock",
+            "slug": "rock",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2605,
+        "fields": {
+            "text": "Roll",
+            "slug": "roll",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2606,
+        "fields": {
+            "text": "Roller",
+            "slug": "roller",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2607,
+        "fields": {
+            "text": "Rope",
+            "slug": "rope",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2608,
+        "fields": {
+            "text": "Rough",
+            "slug": "rough",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2609,
+        "fields": {
+            "text": "Run-chase",
+            "slug": "run-chase",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2610,
+        "fields": {
+            "text": "Run-rate",
+            "slug": "run-rate",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2611,
+        "fields": {
+            "text": "Run-up",
+            "slug": "run-up",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2612,
+        "fields": {
+            "text": "Runner",
+            "slug": "runner",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2613,
+        "fields": {
+            "text": "Sandshoe crusher",
+            "slug": "sandshoe-crusher",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2614,
+        "fields": {
+            "text": "Seam",
+            "slug": "seam",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2615,
+        "fields": {
+            "text": "Share on",
+            "slug": "share-on",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2616,
+        "fields": {
+            "text": "Shirtfront",
+            "slug": "shirtfront",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2617,
+        "fields": {
+            "text": "Shooter",
+            "slug": "shooter",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2618,
+        "fields": {
+            "text": "Shoulder arms",
+            "slug": "shoulder-arms",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2619,
+        "fields": {
+            "text": "Side on",
+            "slug": "side-on",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2620,
+        "fields": {
+            "text": "Sitter",
+            "slug": "sitter",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2621,
+        "fields": {
+            "text": "Sledging",
+            "slug": "sledging",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2622,
+        "fields": {
+            "text": "Slog",
+            "slug": "slog",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2623,
+        "fields": {
+            "text": "Slog-sweep",
+            "slug": "slog-sweep",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2624,
+        "fields": {
+            "text": "Slogger",
+            "slug": "slogger",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2625,
+        "fields": {
+            "text": "Slower ball",
+            "slug": "slower-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2626,
+        "fields": {
+            "text": "Standing back/standing up",
+            "slug": "standing-back-standing-up",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2627,
+        "fields": {
+            "text": "Stock ball",
+            "slug": "stock-ball",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2628,
+        "fields": {
+            "text": "Stonewall",
+            "slug": "stonewall",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2629,
+        "fields": {
+            "text": "Strike rate",
+            "slug": "strike-rate",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2630,
+        "fields": {
+            "text": "Sundries",
+            "slug": "sundries",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2631,
+        "fields": {
+            "text": "Supersub",
+            "slug": "supersub",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2632,
+        "fields": {
+            "text": "Swing",
+            "slug": "swing",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2633,
+        "fields": {
+            "text": "Tailender",
+            "slug": "tailender",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2634,
+        "fields": {
+            "text": "Teapot (or double-teapot)",
+            "slug": "teapot-or-double-teapot",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2635,
+        "fields": {
+            "text": "The Ashes",
+            "slug": "the-ashes",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2636,
+        "fields": {
+            "text": "Throwing",
+            "slug": "throwing",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2637,
+        "fields": {
+            "text": "Ton",
+            "slug": "ton",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2638,
+        "fields": {
+            "text": "Tonk",
+            "slug": "tonk",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2639,
+        "fields": {
+            "text": "Track",
+            "slug": "track",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2640,
+        "fields": {
+            "text": "Trundler",
+            "slug": "trundler",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2641,
+        "fields": {
+            "text": "Twelfth man",
+            "slug": "twelfth-man",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2642,
+        "fields": {
+            "text": "Two-paced",
+            "slug": "two-paced",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2643,
+        "fields": {
+            "text": "Uncovered pitches",
+            "slug": "uncovered-pitches",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2644,
+        "fields": {
+            "text": "V - in the",
+            "slug": "v-in-the",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2645,
+        "fields": {
+            "text": "Wagon-wheel",
+            "slug": "wagon-wheel",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2646,
+        "fields": {
+            "text": "Walk (To)",
+            "slug": "walk-to",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2647,
+        "fields": {
+            "text": "Wicket",
+            "slug": "wicket",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2648,
+        "fields": {
+            "text": "Wide",
+            "slug": "wide",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2649,
+        "fields": {
+            "text": "Wrist spin",
+            "slug": "wrist-spin",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2650,
+        "fields": {
+            "text": "Wrong 'un",
+            "slug": "wrong-un",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2651,
+        "fields": {
+            "text": "Yips",
+            "slug": "yips",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2652,
+        "fields": {
+            "text": "Yorker",
+            "slug": "yorker",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.term",
+        "pk": 2653,
+        "fields": {
+            "text": "Zooter",
+            "slug": "zooter",
+            "created": "2019-09-01T00:00:00.000Z",
+            "last_updated": "2019-09-01T00:00:00.000Z",
+            "approvedFl": true,
+            "sport": [
+                "Cricket"
+            ]
+        }
+    }
+]
