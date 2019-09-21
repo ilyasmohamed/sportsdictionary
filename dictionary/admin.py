@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django import forms
-from .models import Term, SuggestedTerm, Sport, Definition, Vote
+from .models import Term, Category, SuggestedTerm, Sport, Definition, Vote
 
 
 # region admin config
@@ -33,7 +33,7 @@ class DefinitionInline(admin.TabularInline):
 class TermAdminForm(forms.ModelForm):
     class Meta:
         model = Term
-        fields = ['text', 'slug', 'sport', 'user', 'approvedFl']
+        fields = ['text', 'slug', 'sport', 'categories', 'user', 'approvedFl']
 
 
 @admin.register(Term)
@@ -88,5 +88,18 @@ class VoteAdminForm(forms.ModelForm):
 class VoteAdmin(admin.ModelAdmin):
     # form = VoteAdminForm
     list_display = ['created', 'vote_type']
-    # readonly_fields = ['created', 'downvote']
+# endregion
+
+
+# region Category
+class CategoryAdminForm(forms.ModelForm):
+    class Meta:
+        model = Category
+        fields = ['name', 'sport']
+
+
+@admin.register(Category)
+class CategoryAdmin(admin.ModelAdmin):
+    form = CategoryAdminForm
+    list_display = ['name', 'sport']
 # endregion

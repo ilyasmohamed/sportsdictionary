@@ -2,7 +2,7 @@ import factory
 from django.contrib.auth.models import User
 from factory.django import DjangoModelFactory
 
-from dictionary.models import Sport, SuggestedTerm, Term, Definition, Vote
+from dictionary.models import Sport, Category, SuggestedTerm, Term, Definition, Vote
 
 
 class SportFactory(DjangoModelFactory):
@@ -10,6 +10,14 @@ class SportFactory(DjangoModelFactory):
         model = Sport
 
     name = factory.Sequence(lambda n: f'Sport {n}')
+
+
+class CategoryFactory(DjangoModelFactory):
+    class Meta:
+        model = Category
+
+    sport = factory.SubFactory(SportFactory)
+    name = factory.Sequence(lambda n: f'Category {n}')
 
 
 class UserFactory(DjangoModelFactory):

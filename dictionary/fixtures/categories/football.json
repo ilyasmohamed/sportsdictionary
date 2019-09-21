@@ -1,0 +1,42 @@
+[
+    {
+        "model": "dictionary.category",
+        "pk": 1,
+        "fields": {
+            "name": "Positions",
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.category",
+        "pk": 2,
+        "fields": {
+            "name": "Areas of the pitch",
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.category",
+        "pk": 3,
+        "fields": {
+            "name": "Rules",
+            "sport": [
+                "Football"
+            ]
+        }
+    },
+    {
+        "model": "dictionary.category",
+        "pk": 4,
+        "fields": {
+            "name": "Skills",
+            "sport": [
+                "Football"
+            ]
+        }
+    }
+]

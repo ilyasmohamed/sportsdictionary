@@ -32,6 +32,11 @@ min-width: 220px;
     padding: 0;
 }
 
+#sports-dictionary-top-bar > .row{
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+}
+
 #sports-dictionary-top-bar > .container > .row{
     padding-bottom: 10px;
 }
