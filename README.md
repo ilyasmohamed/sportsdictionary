@@ -1,2 +1,4 @@
-# sportsdictionary
+# Sports Dictionary
 A crowd-sourced online sports dictionary written using the Django web framework
+
+🏈 🏸 ⚾ 🏀 🎱 🎳 🥊 ♟️ 🤼‍♂️ 🏏 🚴‍♂️ 🎣 ⚽ ⛳ 🏒 🏇 ⛸ 🏁 🏉 🛹 🏂 🏊‍♂️ 🏓 🎾 🥏 🏐

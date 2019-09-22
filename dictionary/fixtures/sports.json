@@ -4,7 +4,8 @@
     "pk": 1,
     "fields": {
       "name": "Football",
-      "slug": "football"
+      "slug": "football",
+      "emoji": "⚽"
     }
   },
   {
@@ -12,7 +13,8 @@
     "pk": 2,
     "fields": {
       "name": "Basketball",
-      "slug": "basketball"
+      "slug": "basketball",
+      "emoji": "\uD83C\uDFC0"
     }
   },
   {
@@ -20,7 +22,8 @@
     "pk": 3,
     "fields": {
       "name": "Tennis",
-      "slug": "tennis"
+      "slug": "tennis",
+      "emoji": "\uD83C\uDFBE"
     }
   },
   {
@@ -28,7 +31,8 @@
     "pk": 4,
     "fields": {
       "name": "American Football",
-      "slug": "american-football"
+      "slug": "american-football",
+      "emoji": "\uD83C\uDFC8"
     }
   },
   {
@@ -36,7 +40,8 @@
     "pk": 5,
     "fields": {
       "name": "Golf",
-      "slug": "golf"
+      "slug": "golf",
+      "emoji": "⛳"
     }
   },
   {
@@ -44,7 +49,8 @@
     "pk": 6,
     "fields": {
       "name": "Cricket",
-      "slug": "cricket"
+      "slug": "cricket",
+      "emoji": "\uD83C\uDFCF"
     }
   },
   {
@@ -52,7 +58,8 @@
     "pk": 7,
     "fields": {
       "name": "Baseball",
-      "slug": "baseball"
+      "slug": "baseball",
+      "emoji": "⚾"
     }
   },
   {
@@ -60,7 +67,8 @@
     "pk": 8,
     "fields": {
       "name": "Rugby",
-      "slug": "rugby"
+      "slug": "rugby",
+      "emoji": "\uD83C\uDFC9"
     }
   },
   {
@@ -68,7 +76,8 @@
     "pk": 9,
     "fields": {
       "name": "Hockey",
-      "slug": "hockey"
+      "slug": "hockey",
+      "emoji": "\uD83C\uDFD2"
     }
   },
   {
@@ -76,7 +85,8 @@
     "pk": 10,
     "fields": {
       "name": "Motorsports",
-      "slug": "motorsports"
+      "slug": "motorsports",
+      "emoji": "\uD83C\uDFC1"
     }
   },
   {
@@ -84,7 +94,8 @@
     "pk": 11,
     "fields": {
       "name": "Boxing",
-      "slug": "boxing"
+      "slug": "boxing",
+      "emoji": "\uD83E\uDD4A"
     }
   },
   {
@@ -92,7 +103,143 @@
     "pk": 12,
     "fields": {
       "name": "Table Tennis",
-      "slug": "table-tennis"
+      "slug": "table-tennis",
+      "emoji": "\uD83C\uDFD3"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 13,
+    "fields": {
+      "name": "Bowling",
+      "slug": "bowling",
+      "emoji": "\uD83C\uDFB3"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 14,
+    "fields": {
+      "name": "Volleyball",
+      "slug": "volley",
+      "emoji": "\uD83C\uDFD0"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 15,
+    "fields": {
+      "name": "Badminton",
+      "slug": "badminton",
+      "emoji": "\uD83C\uDFF8"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 16,
+    "fields": {
+      "name": "Cycling",
+      "slug": "cycling",
+      "emoji": "\uD83D\uDEB4\u200D♂️"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 17,
+    "fields": {
+      "name": "Billiards",
+      "slug": "billiards",
+      "emoji": "\uD83C\uDFB1"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 18,
+    "fields": {
+      "name": "Chess",
+      "slug": "chess",
+      "emoji": "♟️"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 19,
+    "fields": {
+      "name": "Fishing",
+      "slug": "fishing",
+      "emoji": "\uD83C\uDFA3"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 20,
+    "fields": {
+      "name": "Skateboarding",
+      "slug": "skateboarding",
+      "emoji": "\uD83D\uDEF9"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 21,
+    "fields": {
+      "name": "Ultimate Frisbee",
+      "slug": "ultimate-frisbee",
+      "emoji": "\uD83E\uDD4F"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 22,
+    "fields": {
+      "name": "Ice skating",
+      "slug": "ice-skating",
+      "emoji": "⛸"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 23,
+    "fields": {
+      "name": "Swimming",
+      "slug": "swimming",
+      "emoji": "\uD83C\uDFCA\u200D♂️"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 24,
+    "fields": {
+      "name": "Snowboarding",
+      "slug": "snowboarding",
+      "emoji": "\uD83C\uDFC2"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 25,
+    "fields": {
+      "name": "Skiing",
+      "slug": "skiing",
+      "emoji": "⛷️"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 25,
+    "fields": {
+      "name": "Horse racing",
+      "slug": "horse-racing",
+      "emoji": "\uD83C\uDFC7"
+    }
+  },
+  {
+    "model": "dictionary.sport",
+    "pk": 26,
+    "fields": {
+      "name": "Combat Sports",
+      "slug": "combat-sports",
+      "emoji": "\uD83E\uDD3C\u200D♂️"
     }
   }
 ]

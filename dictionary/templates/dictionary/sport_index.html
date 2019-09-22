@@ -1,7 +1,7 @@
 {% extends 'dictionary/base.html' %}
 
 {% block title %}
-    {{ sport.name }} - Sports Dictionary
+    {{ sport.name }} terms - Sports Dictionary
 {% endblock %}
 
 {% block maincolumn %}
@@ -12,5 +12,6 @@
 {% block sidebar %}
     {% include "dictionary/sidebar/widgets/add_new_term.html" %}
     {% include "dictionary/sidebar/widgets/sport_categories.html" %}
+    {% include "dictionary/sidebar/widgets/sports.html" %}
     {% include "dictionary/sidebar/widgets/footer.html" %}
 {% endblock %}

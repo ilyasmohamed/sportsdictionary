@@ -9,6 +9,11 @@ class SportManager(models.Manager):
         return self.get(name=name)
 
 
+class ActiveSportsManager(models.Manager):
+    def get_queryset(self):
+        return super().get_queryset().filter(active=True)
+
+
 class ApprovedTermManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(approvedFl=True)

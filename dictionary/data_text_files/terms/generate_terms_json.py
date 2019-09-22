@@ -73,10 +73,41 @@ def generate_json(input_file, output_path):
         sport_name = 'Motorsports'
     elif 'combatsport' in input_file:
         sport_name = 'Combat Sports'
+        emoji = '🤼‍♂️'
     elif 'baseball' in input_file:
         sport_name = 'Baseball'
     elif 'hockey' in input_file:
         sport_name = 'Hockey'
+    elif 'bowling' in input_file:
+        sport_name = 'Bowling'
+        emoji = '🎳'
+    elif 'volleyball' in input_file:
+        sport_name = 'Volleyball'
+        emoji = '🏐'
+    elif 'badminton' in input_file:
+        sport_name = 'Badminton'
+        emoji = '🏸'
+    elif 'cycling' in input_file:
+        sport_name = 'Cycling'
+        emoji = '🚴‍♂️'
+    elif 'billiards' in input_file:
+        sport_name = 'Billiards'
+        emoji = '🎱'
+    elif 'chess' in input_file:
+        sport_name = 'Chess'
+        emoji = '♟️'
+    elif 'fishing' in input_file:
+        sport_name = 'Fishing'
+        emoji = '🎣'
+    elif 'skateboarding' in input_file:
+        sport_name = 'Skateboarding'
+        emoji = '🛹'
+    elif 'ultimate_frisbee' in input_file:
+        sport_name = 'Ultimate Frisbee'
+        emoji = '🥏'
+    elif 'archery' in input_file:
+        sport_name = 'Ice skating'
+        emoji = '⛸'
     else:
         print(f'Skipping input file ({input_file}) as the file name does provide a match with the known list of sports '
               f'which would break the relation field in the term model to a sport row in the db as it requires a '

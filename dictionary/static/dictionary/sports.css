@@ -10,116 +10,27 @@
     text-decoration: none;
 }
 
-.badge-sport::before {
-  display: none;
-  font-style: normal;
-  font-variant: normal;
-  text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
-}
-
 .badge-sport > svg {
     margin-right: 4px;
 }
 
-/*
-.badge-football {
-    background-color: #196f0c;
-    color: white;
-}
-*/
-
-.badge-football::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f1e3";
-    display:none;
-}
-
-/*
-.badge-basketball {
-    background-color: #cc5500;
-    color: black;
-}
-*/
-
-.badge-basketball::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f434";
-    display:none;
-}
-
-/*
-.badge-american-football {
-    background-color: #3c231c;
-    color: white;
-}
-*/
-
-.badge-american-football::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f44e";
-    display:none;
-}
-
-/*
-.badge-tennis {
-    background-color: #C6ED2C;
-    color: black;
-}
-*/
-
-.badge-tennis::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f091";
-    display:none;
-}
-
-/*
-.badge-golf {
-    background-color: #C6ED2C;
-    color: black;
-}
-*/
-
-.badge-golf::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f450";
-    display:none;
-}
-
-/*
-.badge-hockey {
-    background-color: #C6ED2C;
-    color: black;
-}
-*/
-
-.badge-hockey::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f453";
-    display:none;
-}
-
-/*
-.badge-baseball {
-    background-color: #C6ED2C;
-    color: black;
-}
-*/
-
-.badge-baseball::before {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    content: "\f433";
-    display:none;
-}
-
 .navbarDropdown-icon {
     float: right;
+}
+
+#sports-widget > div{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#sports-widget > div > div > .emoji-col {
+    padding: 10px;
+}
+
+.emoji:hover {
+    text-decoration: none;
+}
+
+.sport-emoji {
+    font-size: 1.4em;
 }

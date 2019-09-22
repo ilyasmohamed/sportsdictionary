@@ -40,6 +40,8 @@ class IndexView(generic.ListView):
         page_range_to_display = get_page_range_to_display_for_pagination(page_obj)
         context['page_range_to_display'] = page_range_to_display
 
+        context['all_sports'] = Sport.active_sports.all()
+
         return context
 
 
@@ -93,6 +95,8 @@ class SportIndexView(generic.ListView):
         page_obj = context['page_obj']
         page_range_to_display = get_page_range_to_display_for_pagination(page_obj)
         context['page_range_to_display'] = page_range_to_display
+
+        context['all_sports'] = Sport.active_sports.all()
 
         return context
 

@@ -28,13 +28,14 @@ class ProfileAdmin(admin.ModelAdmin):
 class SportAdminForm(forms.ModelForm):
     class Meta:
         model = Sport
-        fields = ['name', 'slug']
+        fields = ['name', 'slug', 'emoji', 'active']
 
 
 @admin.register(Sport)
 class SportAdmin(admin.ModelAdmin):
     form = SportAdminForm
-    list_display = ['name', 'slug']
+    list_display = ['name', 'slug', 'emoji', 'active']
+    list_editable = ('emoji', 'active')
     readonly_fields = ['slug']
 # endregion
 

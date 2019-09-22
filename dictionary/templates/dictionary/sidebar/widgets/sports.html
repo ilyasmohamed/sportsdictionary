@@ -1,0 +1,13 @@
+<!-- Sports Widget -->
+<div class="card my-4" id="sports-widget">
+    <h5 class="card-header">Sports <small>({{all_sports.count}})</small></h5>
+    <div class="card-body">
+        <div class="row">
+            {% for sport in all_sports %}
+            <div class="col-2 emoji-col">
+                <a href="{{ sport.get_absolute_url }}" class="emoji" title="{{ sport.name }}"><span class="sport-emoji">{{ sport.emoji }}</span></a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

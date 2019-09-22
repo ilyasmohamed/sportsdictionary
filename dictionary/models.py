@@ -11,7 +11,7 @@ from django.template.defaultfilters import slugify
 from django.urls import reverse
 
 from dictionary.managers import SportManager, ApprovedTermManager, PendingSuggestedTermManager, \
-    ApprovedDefinitionManager
+    ApprovedDefinitionManager, ActiveSportsManager
 
 
 def unique_slugify(instance, value, slug_field_name='slug', queryset=None,
@@ -109,9 +109,12 @@ class Sport(models.Model):
     # Fields
     name = models.CharField(max_length=50, unique=True)
     slug = models.SlugField()
+    emoji = models.CharField(max_length=10, blank=True)
+    active = models.BooleanField(default=True)
 
     # Managers
     objects = SportManager()
+    active_sports = ActiveSportsManager()
 
     class Meta:
         ordering = ('name',)
