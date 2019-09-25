@@ -107,7 +107,7 @@ def save_user_profile(sender, instance, **kwargs):
 # region Sport Model
 class Sport(models.Model):
     # Fields
-    name = models.CharField(max_length=50, unique=True)
+    name = models.CharField(max_length=100, unique=True)
     slug = models.SlugField()
     emoji = models.CharField(max_length=10, blank=True)
     active = models.BooleanField(default=True)
@@ -167,7 +167,7 @@ class Category(models.Model):
 # region Suggested Term & Term Models
 class AbstractTerm(models.Model):
     # Fields
-    text = models.CharField(max_length=50)
+    text = models.CharField(max_length=100)
     created = models.DateTimeField(auto_now_add=True)
     last_updated = models.DateTimeField(auto_now=True)
     categories = models.ManyToManyField(Category, related_name='%(class)ss')

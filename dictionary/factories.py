@@ -27,6 +27,7 @@ class UserFactory(DjangoModelFactory):
 
     username = factory.Sequence(lambda n: f'User {n}')
     email = factory.Sequence(lambda n: f'User{n}@sportsdictionary.com')
+    is_staff = False
 
 
 class TermFactory(DjangoModelFactory):
