@@ -266,6 +266,11 @@ def seed_terms_for_each_sport(num_entries, overwrite):
             category = categories[random.randint(0, categories_count - 1)]  # get random category
             term.categories.add(category)
 
+            should_add_second_category = random.choice(['y', 'n'])
+            if should_add_second_category == 'y' and categories_count > 1:
+                second_category = categories.exclude(pk__in=[category.pk])[random.randint(0, categories_count - 2)]
+                term.categories.add(second_category)
+
             count += 1
         percent_complete = count / total_terms_to_add * 100
         print(

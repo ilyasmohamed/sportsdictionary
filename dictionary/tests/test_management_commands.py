@@ -83,12 +83,12 @@ class NukeDbTest(TestCase):
 
 class SeedDb(TestCase):
     def test_command(self):
-        total_objects = User.objects.count() + Sport.objects.count() + Term.objects.count() + Definition.objects.count() + Category.objects.count()
+        total_objects = User.objects.count() + Sport.objects.count() + Term.objects.count() + Definition.objects.count()
         self.assertEqual(total_objects, 0)
 
         out = StringIO()
         sys.stdout = out
         call_command('seeddb', num_users=1, num_sports=1, num_categories=1, num_terms=1, max_num_definitions=1, stdout=out)
 
-        total_objects = User.objects.count() + Sport.objects.count() + Term.objects.count() + Definition.objects.count() + Category.objects.count()
-        self.assertEqual(total_objects, 5)
+        total_objects = User.objects.count() + Sport.objects.count() + Term.objects.count() + Definition.objects.count()
+        self.assertEqual(total_objects, 4)
