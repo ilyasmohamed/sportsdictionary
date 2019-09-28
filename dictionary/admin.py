@@ -51,6 +51,12 @@ class TermAdminForm(forms.ModelForm):
         model = Term
         fields = ['text', 'slug', 'sport', 'categories', 'user', 'approvedFl']
 
+    def __init__(self, *args, **kwargs):
+        super(TermAdminForm, self).__init__(*args, **kwargs)
+        if 'instance' in kwargs and kwargs['instance']:
+            sport = kwargs['instance'].sport
+            self.fields['categories'].queryset = Category.objects.filter(sport=sport)
+
 
 @admin.register(Term)
 class TermAdmin(admin.ModelAdmin):

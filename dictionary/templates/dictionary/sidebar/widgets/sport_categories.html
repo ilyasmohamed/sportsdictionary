@@ -1,25 +1,17 @@
+{% load qurl %}
 <!-- Categories Widget -->
 <div class="card my-4">
-    <h5 class="card-header">Categories</h5>
-    <div class="card-body">
-        <div class="row">
-            <div class="col-lg-12 mb-2">
-                <ul class="list-unstyled mb-0">
-                        <li class="text-center">
-                            <!-- TODO: Change 'All' as its not fully clear that this infact clears the filter.
-                                        May be confused with 'All categories' e.g. terms which are linked to all listed categories -->
-                            <a href="{{ sport.get_absolute_url }}">All</a>
-                        </li>
-                </ul>
-            </div>
+    <h5 class="card-header">Categories <small>({{categories.count}})<br> {{categories_filtered_by|length}} filter{{categories_filtered_by|length|pluralize}} currently applied</small></h5>
+    <div class="card-body categories-card-body">
+        <div class="list-group categories-list-group">
             {% for category in categories %}
-            <div class="col-lg-6">
-                <ul class="list-unstyled mb-0">
-                        <li>
-                            <a href="?category={{ category.name }}">{{ category.name }}</a>
-                        </li>
-                </ul>
-            </div>
+                {% if category in categories_filtered_by %}
+                    <a class="list-group-item list-group-item-action categories-list-group-item checked"
+                       href="{% qurl request.get_full_path page=None category-=category.name %}">&nbsp;&nbsp;{{ category.name }}</a>
+                {% else %}
+                    <a class="list-group-item list-group-item-action categories-list-group-item unchecked"
+                       href="{% qurl request.get_full_path page=None category+=category.name %}">&nbsp;&nbsp;{{ category.name }}</a>
+                {% endif %}
             {% endfor %}
         </div>
     </div>

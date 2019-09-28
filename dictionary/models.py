@@ -161,6 +161,10 @@ class Category(models.Model):
     # Methods
     def __str__(self):
         return f'{self.name}'
+
+    def get_absolute_url(self):
+        base_url = reverse('sport_index', args=(self.sport.slug,))
+        return f'{base_url}?category={self.name}'
 # endregion
 
 
@@ -170,7 +174,7 @@ class AbstractTerm(models.Model):
     text = models.CharField(max_length=100)
     created = models.DateTimeField(auto_now_add=True)
     last_updated = models.DateTimeField(auto_now=True)
-    categories = models.ManyToManyField(Category, related_name='%(class)ss')
+    categories = models.ManyToManyField(Category, related_name='%(class)ss', blank=True)
 
     # Relationship Fields
     sport = models.ForeignKey(

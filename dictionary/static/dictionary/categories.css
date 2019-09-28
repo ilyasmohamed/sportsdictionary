@@ -1,0 +1,21 @@
+.categories-card-body {
+    padding: 0px;
+}
+
+.categories-list-group .categories-list-group-item {
+border: none;
+}
+
+.categories-list-group-item.checked:before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 900;
+    content: "\f14a";
+    display:none;
+}
+
+.categories-list-group-item.unchecked:before {
+    font-family: "Font Awesome 5 Pro";
+    font-weight: 400;
+    content: "\f0c8";
+    display:none;
+}
