@@ -1,4 +1,5 @@
 Django==2.2.5
+django-qurl-templatetag==0.0.13
 django-widget-tweaks==1.4.5
 factory-boy==2.12.0
 Faker==2.0.1
