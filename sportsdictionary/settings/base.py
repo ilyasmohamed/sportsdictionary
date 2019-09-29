@@ -17,10 +17,10 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'dictionary',
-    'qurl_templatetag',
     'accounts',
     'widget_tweaks',
     'debug_toolbar',
+    'qurl_templatetag',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
