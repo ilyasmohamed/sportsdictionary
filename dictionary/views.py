@@ -32,6 +32,7 @@ class IndexView(generic.ListView):
     context_object_name = 'terms'
     template_name = 'dictionary/index.html'
     paginate_by = 20
+    paginate_orphans = 5
     queryset = Term.approved_terms.all()
 
     def get_context_data(self, **kwargs):
@@ -48,6 +49,7 @@ class SearchResultsView(generic.ListView):
     context_object_name = 'terms'
     template_name = 'dictionary/search.html'
     paginate_by = 20
+    paginate_orphans = 5
 
     def get_queryset(self):
         search_key = self.request.GET.get('term')
@@ -71,6 +73,7 @@ class SportIndexView(generic.ListView):
     context_object_name = 'terms'
     template_name = 'dictionary/sport_index.html'
     paginate_by = 20
+    paginate_orphans = 5
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
