@@ -1,0 +1,17 @@
+{% extends 'dictionary/base.html' %}
+
+{% block content %}
+<div class="row">
+    <!-- Sidebar Column -->
+    <div class="col-md-4">
+        <div id="sidebar">
+            {% block sidebar %}{% endblock %}
+        </div>
+    </div>
+
+    <!-- Main Column -->
+    <div class="col-md-8">
+        {% block maincolumn %}{% endblock %}
+    </div>
+</div>
+{% endblock %}

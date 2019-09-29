@@ -1,0 +1,15 @@
+<!-- Profile Widget -->
+<div class="card my-4">
+    <div class="card-body">
+        <h1>{{ user.get_username }}</h1>
+        <p><strong>Joined</strong>: {{ user.date_joined|date:"F j, Y" }}</p>
+        {% if user.profile.favourite_sport %}
+        <p>
+            Favourite Sport: <span class="badge badge-sport badge-{{ user.profile.favourite_sport.slug }}">{{ user.profile.favourite_sport.emoji }}  {{ user.profile.favourite_sport.name }}</span>
+        </p>
+        <!-- TODO: make favourite sport editable so users can update this as they wish -->
+        {% endif %}
+        <hr>
+        <p>Definitions Posted: {{ definitions.count }}</p>
+    </div>
+</div>

@@ -79,7 +79,7 @@ def generate_json(input_file, output_path):
         sport_name = 'Hockey'
     else:
         print(f'Skipping input file ({input_file}) as the file name does provide a match with the known list of sports '
-              f'which would break the relation field in the term model to a sport row in the db as it requires a '
+              f'which would break the relation field in the category model to a sport row in the db as it requires a '
               f'valid natural key')
         return
 
@@ -96,14 +96,10 @@ def generate_json(input_file, output_path):
     while line:
         unaccented_string = unidecode.unidecode(line[:-1]) if line.endswith('\n') else unidecode.unidecode(line)
         term = {
-            'model': 'dictionary.term',
+            'model': 'dictionary.category',
             'pk': pk,
             'fields': {
-                'text': unaccented_string,
-                'slug': slugify(unaccented_string),
-                'created': date,
-                'last_updated': date,
-                'approvedFl': True,
+                'name': unaccented_string,
                 'sport': (sport_name,)
             }
         }

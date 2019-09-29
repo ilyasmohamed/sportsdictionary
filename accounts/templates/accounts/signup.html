@@ -1,0 +1,29 @@
+{% extends 'accounts/base_authorisation.html' %}
+
+{% block title %}Sign up - Sports Dictionary{% endblock %}
+
+{% block content %}
+<main class="signup-form">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10 col-sm-12">
+                <div class="card">
+                    <div class="card-header">Register</div>
+                    <div class="card-body">
+                        <form method="post" novalidate>
+                            {% csrf_token %}
+                            {% include 'accounts/form.html' %}
+                            <button type="submit" class="btn btn-outline-dark btn-block">Sign up</button>
+                        </form>
+                    </div>
+                    <div class="card-footer text-muted text-center">
+                        Already have an account? <a href="{% url 'login' %}">Log in</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</main>
+{% endblock %}

@@ -1,0 +1,48 @@
+{% extends 'dictionary/layouts/main_column_with_left_sidebar.html' %}
+
+{% block title %}
+    {{ request.user.username }} - Sports Dictionary
+{% endblock %}
+
+{% block sidebar %}
+    {% include "accounts/sidebar/profile.html" %}
+{% endblock %}
+
+{% block maincolumn %}
+<div class="row mb-3 my-4">
+    <div class="col-sm-12">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+                   aria-selected="true">Overview</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="definitions-tab" data-toggle="tab" href="#definitions" role="tab"
+                   aria-controls="profile" aria-selected="false">Definitions  <span class="badge badge-pill badge-secondary">{{ definitions.count }}</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="upvotes-tab" data-toggle="tab" href="#upvotes" role="tab"
+                   aria-controls="contact" aria-selected="false">Upvotes  <span class="badge badge-pill badge-secondary">{{ upvotes.count }}</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" id="downvotes-tab" data-toggle="tab" href="#downvotes" role="tab"
+                   aria-controls="contact" aria-selected="false">Downvotes  <span class="badge badge-pill badge-secondary">{{ downvotes.count }}</span></a>
+            </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+
+            </div>
+            <div class="tab-pane fade" id="definitions" role="tabpanel" aria-labelledby="definitions-tab">
+            {% include "accounts/includes/definitions_profile_tab_rows.html" with list=definitions %}
+            </div>
+            <div class="tab-pane fade" id="upvotes" role="tabpanel" aria-labelledby="upvotes-tab">
+            {% include "accounts/includes/votes_profile_tab_rows.html" with votes=upvotes %}
+            </div>
+            <div class="tab-pane fade" id="downvotes" role="tabpanel" aria-labelledby="downvotes-tab">
+            {% include "accounts/includes/votes_profile_tab_rows.html" with votes=downvotes %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,106 +1,91 @@
-{% load static %}
-<!doctype html>
-<html lang="en">
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+{% extends 'dictionary/base_site.html' %}
 
-    <title>{% block title %}{% endblock %}</title>
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-
-    <!-- CSS CUSTOM -->
-    <link rel="stylesheet" href="{% static 'dictionary/base_style.css' %}" type="text/css">
-    <link rel="stylesheet" href="{% static 'dictionary/sports.css' %}" type="text/css">
-
-    <!-- Font Awesome -->
-    <script data-search-pseudo-elements src="https://kit.fontawesome.com/688c1ce446.js"></script>
-
-    {% block extrastyles %}{% endblock %}
-    {% block extrascripts %}{% endblock %}
-</head>
-<body>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-
-            <a class="navbar-brand" href="{% url 'index' %}">Sports Dictionary</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'index' %}">Home<span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Sports
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{% url 'sport_index' 'football' %}">Football <i class="fas fa-futbol navbarDropdown-icon"></i> </a>
-                            <a class="dropdown-item" href="{% url 'sport_index' 'basketball' %}">Basketball <i class="fas fa-basketball-ball navbarDropdown-icon"></i> </a>
-                            <a class="dropdown-item" href="{% url 'sport_index' 'american-football' %}">American Football <i class="fas fa-football-ball navbarDropdown-icon"></i> </a>
-                            <a class="dropdown-item" href="{% url 'sport_index' 'tennis' %}">Tennis <i class="fas fa-trophy navbarDropdown-icon"> </i></a>
-
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'random_term' %}"><i class="fas fa-random"></i> Random Term</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{% url 'random_term' %}"><i class="fas fa-plus"></i> Add a term</a>
-                    </li>
-                </ul>
-                <form action="{% url 'search' %}" class="form-inline my-2 my-lg-0" method="get">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search for a term"
-                           aria-label="Search" name="term">
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-
+{% block body %}
+<div id="sports-dictionary-top-bar" class="container-fluid bg-dark">
     <div class="container">
         <div class="row">
-            <!-- Main Column -->
-            <div class="col-md-8">
-                {% block maincolumn %}{% endblock %}
-            </div>
+            <div class="col-md-8 align-self-end">
+                <!-- Navigation -->
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-nav">
+                    <div class="container">
 
-            <!-- Sidebar Widgets Column -->
-            <div class="col-md-4">
-                <div id="sidebar">
-                    {% block sidebar %}{% endblock %}
+                        <a class="navbar-brand" href="{% url 'index' %}">Sports Dictionary</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent"
+                                aria-controls="navbarSupportedContent" aria-expanded="false"
+                                aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="{% url 'index' %}">Home<span
+                                            class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Sports
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        {% for sport in all_sports %}
+                                            <a class="dropdown-item" href="{{ sport.get_absolute_url }}">{{ sport.emoji }} {{ sport.name }}</a>
+                                        {% endfor %}
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-md-4 align-self-end">
+                <div class="float-right">
+                    {% if request.user.is_authenticated == False %}
+                        <a class="btn btn-outline-light" href="{% url 'login' %}" role="button">Sign In</a>
+                        <a class="btn btn-outline-light" href="{% url 'signup' %}" role="button">Sign Up</a>
+                    {% endif %}
                 </div>
             </div>
-
         </div>
-
     </div>
-    <!-- /.container -->
+    <div class="container h-100">
+        <div class="row h-100 justify-content-center align-items-center">
+            <div class="col-md-8">
+                <div id="main_search">
+                    <form action="{% url 'search' %}" class="form-inline my-2 my-lg-0" method="get">
+                        <input class="form-control" type="search" placeholder="Search for a term"
+                               aria-label="Search" name="term">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="main-actions">
+                    <a class="btn btn-light btn-circle btn-circle-lg m-1" href="{% url 'random_term' %}"
+                       title="Random term">
+                        <i class="fas fa-random"></i>
+                    </a>
+                    <a class="btn btn-light btn-circle btn-circle-lg m-1" href="#" title="Add a term">
+                        <i class="fas fa-plus"></i>
+                    </a>
+                    {% if request.user.is_authenticated %}
+                    <a class="btn btn-light btn-circle btn-circle-lg m-1" href="{% url 'profile' %}"
+                       title="Profile">
+                        <i class="fas fa-user"></i>
+                    </a>
+                    <a class="btn btn-light btn-circle btn-circle-lg m-1" href="{% url 'logout' %}"
+                       title="Log out">
+                        <i class="fas fa-sign-out-alt"></i>
+                    </a>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-            crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-            crossorigin="anonymous"></script>
-</body>
-</html>
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+<!-- /.container -->
+{% endblock %}

@@ -11,6 +11,8 @@ DATABASES = {
     }
 }
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
 try:
     from sportsdictionary.settings.local import *
 except:

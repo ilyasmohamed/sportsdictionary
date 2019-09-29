@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django import forms
-from .models import Term, SuggestedTerm, Sport, Definition, Vote
+from .models import Term, Category, SuggestedTerm, Sport, Definition, Vote
 
 
 # region admin config
@@ -13,13 +13,14 @@ admin.site.site_header = 'Sports Dictionary Administration'
 class SportAdminForm(forms.ModelForm):
     class Meta:
         model = Sport
-        fields = ['name', 'slug']
+        fields = ['name', 'slug', 'emoji', 'active']
 
 
 @admin.register(Sport)
 class SportAdmin(admin.ModelAdmin):
     form = SportAdminForm
-    list_display = ['name', 'slug']
+    list_display = ['name', 'slug', 'emoji', 'active']
+    list_editable = ('emoji', 'active')
     readonly_fields = ['slug']
 # endregion
 
@@ -33,7 +34,13 @@ class DefinitionInline(admin.TabularInline):
 class TermAdminForm(forms.ModelForm):
     class Meta:
         model = Term
-        fields = ['text', 'slug', 'sport', 'user', 'approvedFl']
+        fields = ['text', 'slug', 'sport', 'categories', 'user', 'approvedFl']
+
+    def __init__(self, *args, **kwargs):
+        super(TermAdminForm, self).__init__(*args, **kwargs)
+        if 'instance' in kwargs and kwargs['instance']:
+            sport = kwargs['instance'].sport
+            self.fields['categories'].queryset = Category.objects.filter(sport=sport)
 
 
 @admin.register(Term)
@@ -81,12 +88,26 @@ class DefinitionAdmin(admin.ModelAdmin):
 class VoteAdminForm(forms.ModelForm):
     class Meta:
         model = Vote
-        fields = ['user', 'definition', 'downvote']
+        fields = ['user', 'definition', 'vote_type']
 
 
 @admin.register(Vote)
 class VoteAdmin(admin.ModelAdmin):
     # form = VoteAdminForm
-    list_display = ['created', 'downvote']
-    # readonly_fields = ['created', 'downvote']
+    list_display = ['__str__', 'vote_type', 'user', 'created']
+    list_filter = ('vote_type',)
+# endregion
+
+
+# region Category
+class CategoryAdminForm(forms.ModelForm):
+    class Meta:
+        model = Category
+        fields = ['name', 'sport']
+
+
+@admin.register(Category)
+class CategoryAdmin(admin.ModelAdmin):
+    form = CategoryAdminForm
+    list_display = ['name', 'sport']
 # endregion

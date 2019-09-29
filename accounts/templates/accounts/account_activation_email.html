@@ -1,0 +1,12 @@
+{% autoescape off %}
+Hi {{ user.username }},
+
+Welcome to Sports Dictionary!
+
+Please click on the link below to confirm your registration:
+
+{{ protocol }}://{{ domain }}{% url 'account_activation' uidb64=uid token=token %}
+
+Best wishes,
+The Sports Dictionary Team
+{% endautoescape %}

@@ -1,0 +1,17 @@
+{% load custom_urlize %}
+
+{% for definition in definitions %}
+<div class="row mb-3 my-4">
+    <div class="col-sm-12">
+        <div class="card">
+            <div class="card-body">
+                <p>
+                    {{ definition.text|customUrlize:definition.term.sport|truncatewords_html:20 }}<br>
+                    <small class="text-muted">Definition by {{ definition.user }}</small><br>
+                    <a href="{{ definition.term.get_absolute_url }}">{{ SITE }}{{ definition.term.get_absolute_url }}</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endfor %}

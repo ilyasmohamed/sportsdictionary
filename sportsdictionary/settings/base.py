@@ -20,6 +20,9 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'dictionary',
+    'qurl_templatetag',
+    'accounts',
+    'widget_tweaks',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -52,6 +55,8 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'dictionary.context_processors.from_settings',
+                'dictionary.context_processors.all_sports',
+                'dictionary.context_processors.site',
             ],
         },
     },
@@ -96,3 +101,12 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+AUTHENTICATION_BACKENDS = ('accounts.backends.CaseInsensitiveModelBackend', )
+
+LOGIN_URL = 'login'
+LOGIN_REDIRECT_URL = 'index'
+LOGOUT_REDIRECT_URL = 'index'
+
+SITE_URL = 'sportsdictionary'

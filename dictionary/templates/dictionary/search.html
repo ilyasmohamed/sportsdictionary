@@ -1,15 +1,15 @@
-{% extends 'dictionary/base.html' %}
+{% extends 'dictionary/layouts/main_column_with_right_sidebar.html' %}
 
 {% block title %}
     {{search_term}} - Sports Dictionary
 {% endblock %}
 
 {% block maincolumn %}
-    {% include "dictionary/render_term_rows.html" %}
-    {% include "dictionary/pagination.html" %}
+    {% include "dictionary/includes/render_term_rows.html" %}
+    {% include "dictionary/includes/pagination.html" %}
 {% endblock %}
 
 {% block sidebar %}
-    {% include "dictionary/new_term_sidebar_widget.html" %}
-    {% include "dictionary/sidebar_widgets.html" %}
+    {% include "dictionary/sidebar/widgets/add_new_term.html" %}
+    {% include "dictionary/sidebar/widgets/footer.html" %}
 {% endblock %}

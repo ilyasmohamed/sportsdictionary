@@ -1,8 +1,9 @@
+from django.db.models import Count
 from django.shortcuts import get_object_or_404
 from django.shortcuts import redirect
 from django.views import generic
 
-from .models import Term, Definition, Sport
+from .models import Term, Category, Definition, Sport
 
 
 def get_page_range_to_display_for_pagination(page_obj):
@@ -74,16 +75,34 @@ class SportIndexView(generic.ListView):
     paginate_by = 20
     paginate_orphans = 5
 
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.categories_filtered_by = []
+
     def get_queryset(self):
         sport_slug = self.kwargs['sport_slug']
         sport = get_object_or_404(Sport, slug=sport_slug)
-        return Term.approved_terms.filter(sport=sport)
+
+        category_list = self.request.GET.getlist('category')
+
+        if not category_list:
+            return Term.approved_terms.filter(sport=sport)
+        else:
+            categories = []
+            for category_name in category_list:
+                category = get_object_or_404(Category, sport=sport, name=category_name)
+                categories.append(category)
+            self.categories_filtered_by = categories
+            return Term.approved_terms.filter(sport=sport, categories__in=categories)\
+                .annotate(num_catgories=Count('categories')).filter(num_catgories=len(categories))
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         sport_slug = self.kwargs['sport_slug']
         sport = get_object_or_404(Sport, slug=sport_slug)
         context['sport'] = sport
+        context['categories'] = sport.categories.all()
+        context['categories_filtered_by'] = self.categories_filtered_by
 
         page_obj = context['page_obj']
         page_range_to_display = get_page_range_to_display_for_pagination(page_obj)

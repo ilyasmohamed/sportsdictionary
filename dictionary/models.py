@@ -2,12 +2,12 @@ import re
 
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
-from django.db import models as models
+from django.db import models as models, IntegrityError
 from django.template.defaultfilters import slugify
 from django.urls import reverse
 
-from dictionary.managers import SportManager, ApprovedTermManager, PendingSuggestedTermManager,\
-    ApprovedDefinitionManager
+from dictionary.managers import SportManager, ApprovedTermManager, PendingSuggestedTermManager, \
+    ApprovedDefinitionManager, ActiveSportsManager
 
 
 def unique_slugify(instance, value, slug_field_name='slug', queryset=None,
@@ -83,14 +83,17 @@ def _slug_strip(value, separator='-'):
 # region Sport Model
 class Sport(models.Model):
     # Fields
-    name = models.CharField(max_length=50, unique=True)
+    name = models.CharField(max_length=100, unique=True)
     slug = models.SlugField()
+    emoji = models.CharField(max_length=10, blank=True)
+    active = models.BooleanField(default=True)
 
     # Managers
     objects = SportManager()
+    active_sports = ActiveSportsManager()
 
     class Meta:
-        ordering = ('-pk',)
+        ordering = ('name',)
 
     # Methods
     def save(self, *args, **kwargs):
@@ -110,17 +113,44 @@ class Sport(models.Model):
 
     def natural_key(self):
         return (self.name,)
+# endregion
 
 
+# region Definition Model
+class Category(models.Model):
+    name = models.CharField(max_length=50)
+
+    # Relationship Fields
+    sport = models.ForeignKey(
+        'dictionary.Sport',
+        on_delete=models.CASCADE, related_name="categories",
+    )
+
+    class Meta:
+        ordering = ('name',)
+        verbose_name_plural = "categories"
+        constraints = [
+            models.UniqueConstraint(fields=['name', 'sport'],
+                                    name='unique_category_per_sport'),
+        ]
+
+    # Methods
+    def __str__(self):
+        return f'{self.name}'
+
+    def get_absolute_url(self):
+        base_url = reverse('sport_index', args=(self.sport.slug,))
+        return f'{base_url}?category={self.name}'
 # endregion
 
 
 # region Suggested Term & Term Models
 class AbstractTerm(models.Model):
     # Fields
-    text = models.CharField(max_length=50)
+    text = models.CharField(max_length=100)
     created = models.DateTimeField(auto_now_add=True)
     last_updated = models.DateTimeField(auto_now=True)
+    categories = models.ManyToManyField(Category, related_name='%(class)ss', blank=True)
 
     # Relationship Fields
     sport = models.ForeignKey(
@@ -251,8 +281,6 @@ class SuggestedTerm(AbstractTerm):
 
     def is_rejected(self):
         return self.review_status == self.REJECTED
-
-
 # endregion
 
 
@@ -264,6 +292,7 @@ class Definition(models.Model):
     created = models.DateTimeField(auto_now_add=True, editable=False)
     last_updated = models.DateTimeField(auto_now=True, editable=False)
     approvedFl = models.BooleanField(default=True)
+    net_votes = models.IntegerField(default=0)
 
     # Relationship Fields
     term = models.ForeignKey(
@@ -291,16 +320,33 @@ class Definition(models.Model):
         return f'{self.text}'
 
     def num_upvotes(self):
-        return self.votes.filter(downvote=False).count()
+        return self.votes.filter(vote_type=Vote.UPVOTE).count()
     num_upvotes.short_description = 'Upvotes'
 
     def num_downvotes(self):
-        return self.votes.filter(downvote=True).count()
+        return self.votes.filter(vote_type=Vote.DOWNVOTE).count()
     num_downvotes.short_description = 'Downvotes'
 
-    def net_votes(self):
-        return self.num_upvotes() - self.num_downvotes()
-    net_votes.short_description = 'Net Votes'
+    def num_net_votes(self):
+        return self.net_votes
+    num_net_votes.short_description = 'Net Votes'
+
+    # Voting methods
+    def upvote(self, user):
+        try:
+            self.votes.create(user=user, definition=self, vote_type=Vote.UPVOTE)
+            self.net_votes += 1
+            self.save()
+        except IntegrityError:
+            return 'already_upvoted'
+
+    def downvote(self, user):
+        try:
+            self.votes.create(user=user, definition=self, vote_type=Vote.DOWNVOTE)
+            self.net_votes -= 1
+            self.save()
+        except IntegrityError:
+            return 'already_downvoted'
 # endregion
 
 
@@ -308,7 +354,14 @@ class Definition(models.Model):
 class Vote(models.Model):
     # Fields
     created = models.DateTimeField(auto_now_add=True, editable=False)
-    downvote = models.BooleanField(default=False)
+
+    UPVOTE = 1
+    DOWNVOTE = -1
+    VOTE_TYPES = (
+        (UPVOTE, 'Upvote'),
+        (DOWNVOTE, 'Downvote'),
+    )
+    vote_type = models.IntegerField(choices=VOTE_TYPES, default=UPVOTE)
 
     # Relationship Fields
     user = models.ForeignKey(
@@ -322,9 +375,14 @@ class Vote(models.Model):
 
     class Meta:
         ordering = ('-created',)
+        constraints = [
+            models.UniqueConstraint(fields=['user', 'definition'],
+                                    name='unique_vote_by_user_for_definition'),
+        ]
 
     # Methods
     def __str__(self):
-        vote_type = 'Down' if self.downvote else 'Up'
-        return f'{vote_type}vote on definition for {self.definition.term} by {self.user}'
+        vote_type = 'Up' if self.vote_type == Vote.UPVOTE else 'Down'
+        definition_text = (self.definition.text[:40] + '...') if len(self.definition.text) > 40 else self.definition.text
+        return f'{vote_type}vote by {self.user} on definition [{definition_text}] for term [{self.definition.term.text}]'
 # endregion
