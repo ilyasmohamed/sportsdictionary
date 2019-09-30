@@ -328,6 +328,8 @@ class Definition(models.Model):
     last_updated = models.DateTimeField(auto_now=True, editable=False)
     approvedFl = models.BooleanField(default=True)
     net_votes = models.IntegerField(default=0)
+    num_upvotes = models.IntegerField(default=0)
+    num_downvotes = models.IntegerField(default=0)
 
     # Relationship Fields
     term = models.ForeignKey(
@@ -351,37 +353,52 @@ class Definition(models.Model):
         ]
 
     # Methods
+    def save(self, *args, **kwargs):
+        self.net_votes = self.num_upvotes - self.num_downvotes
+        super().save(*args, **kwargs)
+
     def __str__(self):
         return f'{self.text}'
 
-    def num_upvotes(self):
-        return self.votes.filter(vote_type=Vote.UPVOTE).count()
-    num_upvotes.short_description = 'Upvotes'
-
-    def num_downvotes(self):
-        return self.votes.filter(vote_type=Vote.DOWNVOTE).count()
-    num_downvotes.short_description = 'Downvotes'
-
-    def num_net_votes(self):
-        return self.net_votes
-    num_net_votes.short_description = 'Net Votes'
-
     # Voting methods
+    # TODO: ensure any concurrency issues are sorted out
     def upvote(self, user):
         try:
+            if self.votes.filter(user=user).filter(vote_type=Vote.DOWNVOTE).exists():
+                self.delete_downvote(user=user)
             self.votes.create(user=user, definition=self, vote_type=Vote.UPVOTE)
-            self.net_votes += 1
+            self.num_upvotes += 1
             self.save()
         except IntegrityError:
-            return 'already_upvoted'
+            return 'already_voted'
+
+    def delete_upvote(self, user):
+        try:
+            v = self.votes.get(user=user, definition=self, vote_type=Vote.UPVOTE)
+            self.num_upvotes -= 1
+            self.save()
+            v.delete()
+        except IntegrityError:
+            return 'error'
 
     def downvote(self, user):
         try:
+            if self.votes.filter(user=user).filter(vote_type=Vote.UPVOTE).exists():
+                self.delete_upvote(user=user)
             self.votes.create(user=user, definition=self, vote_type=Vote.DOWNVOTE)
-            self.net_votes -= 1
+            self.num_downvotes += 1
             self.save()
         except IntegrityError:
-            return 'already_downvoted'
+            return 'already_voted'
+
+    def delete_downvote(self, user):
+        try:
+            v = self.votes.get(user=user, definition=self, vote_type=Vote.DOWNVOTE)
+            self.num_downvotes -= 1
+            self.save()
+            v.delete()
+        except IntegrityError:
+            return 'error'
 # endregion
 
 

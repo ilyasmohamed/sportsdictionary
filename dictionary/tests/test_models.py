@@ -150,7 +150,7 @@ class DefinitionModelTest(BaseModelTest):
         definition.upvote(user=user2)
         definition.upvote(user=user3)
 
-        self.assertEqual(definition.num_upvotes(), 3)
+        self.assertEqual(definition.num_upvotes, 3)
 
     def test_num_downvotes(self):
         definition = DefinitionFactory.create(term=self.term, user=self.user)
@@ -159,7 +159,7 @@ class DefinitionModelTest(BaseModelTest):
         definition.downvote(user=self.user)
         definition.downvote(user=user2)
 
-        self.assertEqual(definition.num_downvotes(), 2)
+        self.assertEqual(definition.num_downvotes, 2)
 
     def test_net_votes(self):
         definition = DefinitionFactory.create(term=self.term, user=self.user)
@@ -175,8 +175,8 @@ class DefinitionModelTest(BaseModelTest):
         definition.downvote(user=user4)
         definition.downvote(user=user5)
 
-        self.assertEqual(definition.num_net_votes(), 1)
-        self.assertEqual(definition.num_upvotes() - definition.num_downvotes(),
+        self.assertEqual(definition.net_votes, 1)
+        self.assertEqual(definition.num_upvotes - definition.num_downvotes,
                          definition.net_votes)
 # endregion
 

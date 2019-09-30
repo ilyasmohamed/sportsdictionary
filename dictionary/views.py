@@ -1,10 +1,18 @@
+from django.contrib.auth.decorators import login_required
 from django.db.models import Count
+from django.http import HttpResponse
 from django.shortcuts import get_object_or_404
 from django.shortcuts import redirect
 from django.views import generic
 from django.views.generic.list import MultipleObjectMixin
+from django.views.decorators.http import require_POST
 
-from .models import Term, Category, Definition, Sport, TermOfTheDay
+from .models import Term, Category, Definition, Sport, TermOfTheDay, Vote
+
+try:
+    from django.utils import simplejson as json
+except ImportError:
+    import json
 
 
 def get_page_range_to_display_for_pagination(page_obj):
@@ -134,3 +142,39 @@ class TermDetailView(generic.DetailView, MultipleObjectMixin):
 def random_term(request):
     term = Term.approved_terms.random()
     return redirect(term)
+
+
+@login_required
+@require_POST
+def upvote(request, definition_pk):
+    user = request.user
+    definition = Definition.objects.get(pk=definition_pk)
+
+    if definition.votes.filter(user=user).filter(vote_type=Vote.UPVOTE).exists():
+        definition.delete_upvote(user)
+    else:
+        definition.upvote(user)
+
+    response = {
+        'net_votes': definition.net_votes,
+    }
+
+    return HttpResponse(json.dumps(response), content_type='application/json')
+
+
+@login_required
+@require_POST
+def downvote(request, definition_pk):
+    user = request.user
+    definition = Definition.objects.get(pk=definition_pk)
+
+    if definition.votes.filter(user=user).filter(vote_type=Vote.DOWNVOTE).exists():
+        definition.delete_downvote(user)
+    else:
+        definition.downvote(user)
+
+    response = {
+        'net_votes': definition.net_votes,
+    }
+
+    return HttpResponse(json.dumps(response), content_type='application/json')

@@ -2,10 +2,32 @@
 
 {% load static %}
 {% load custom_urlize %}
+{% load vote_status %}
 
 {% block title %}{{ term.text }} - Sports Dictionary{% endblock %}
 
 {% block maincolumn %}
+<!-- Login Prompt Modal -->
+<div class="modal fade" id="loginPromptModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login to vote</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        You must be logged in to vote on definitions.
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-dark" href="{% url 'login' %}?next={% firstof request.path '/' %}" role="button">Sign In</a>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="row mb-3 my-4">
     <div class="col-sm-12">
         <div class="card">
@@ -31,18 +53,63 @@
     </div>
 </div>
 
+{% csrf_token %}
 <div class="infinite-container">
     {% for definition in object_list %}
     <div class="row mb-3 infinite-item">
         <div class="col-sm-12">
             <div class="card">
                 <div class="card-body">
-                    <h6>
-                        <p class="card-text">{{ definition.text|customUrlize:definition.term.sport|linebreaks }}</p>
-                        <p class="mb-0">
-                            <small class="text-muted">by @{{ definition.user }}</small>
-                        </p>
-                    </h6>
+                    <div class="row">
+                        <div class="col-sm-1">
+                            <div class="mx-auto text-center">
+                                {% with definition|vote_status:user as vote_status %}
+
+                                {% if user.is_authenticated %}
+                                    {% if vote_status == "Upvoted" %}
+                                    <button class="voteButton upvoted" data-action="upvote" data-id="{{ definition.id }}">
+                                        <i class="fas fa-chevron-up fa-lg vote-icon upvote-icon upvoted"></i>
+                                    </button>
+                                    {% else %}
+                                    <button class="voteButton" data-action="upvote" data-id="{{ definition.id }}">
+                                        <i class="fas fa-chevron-up fa-lg vote-icon upvote-icon"></i>
+                                    </button>
+                                    {% endif %}
+
+                                    <div class="definition-netvote-count text-muted">{{ definition.net_votes }}</div>
+
+                                    {% if vote_status == "Downvoted" %}
+                                    <button class="voteButton downvoted" data-action="downvote"
+                                            data-id="{{ definition.id }}">
+                                        <i class="fas fa-chevron-down fa-lg vote-icon downvote-icon downvoted"></i>
+                                    </button>
+                                    {% else %}
+                                    <button class="voteButton" data-action="downvote" data-id="{{ definition.id }}">
+                                        <i class="fas fa-chevron-down fa-lg vote-icon downvote-icon"></i>
+                                    </button>
+                                    {% endif %}
+                                {% else %}
+                                    <button class="voteButton" data-toggle="modal" data-target="#loginPromptModal">
+                                        <i class="fas fa-chevron-up fa-lg vote-icon upvote-icon"></i>
+                                    </button>
+                                    <div class="definition-netvote-count text-muted">{{ definition.net_votes }}</div>
+                                    <button class="voteButton" data-toggle="modal" data-target="#loginPromptModal">
+                                        <i class="fas fa-chevron-down fa-lg vote-icon downvote-icon"></i>
+                                    </button>
+                                {% endif %}
+
+                                {% endwith %}
+                            </div>
+                        </div>
+                        <div class="col-sm-11">
+                            <h6>
+                                <p class="card-text">{{ definition.text|customUrlize:definition.term.sport|linebreaks }}</p>
+                                <p class="mb-0">
+                                    <small class="text-muted">by @{{ definition.user }}</small>
+                                </p>
+                            </h6>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -72,6 +139,7 @@
 <script src="{% static 'dictionary/js/jquery.waypoints.min.js' %}"></script>
 <script src="{% static 'dictionary/js/infinite.min.js' %}"></script>
 <script src="{% static 'dictionary/js/waypoints.debug.js' %}"></script>
+<script src="{% static 'dictionary/js/jq.js' %}"></script>
 
 <script>
     var infinite = new Waypoint.Infinite({

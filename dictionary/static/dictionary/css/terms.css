@@ -1,0 +1,38 @@
+.definition-netvote-count {
+    font-size: 1.5em;
+}
+
+.voteButton {
+    border: none;
+    border-radius: 2px;
+    margin: 0;
+    padding: 5px;
+    width: auto;
+    overflow: visible;
+    cursor: pointer;
+
+    background: transparent;
+}
+.voteButton:hover {
+    background-color: rgb(220, 220, 220, .2);
+}
+
+.upvote-icon.upvoted {
+    color: #1a8a1a;
+}
+.upvote-icon.upvoted:hover {
+    color: #1a8a1a;
+}
+.upvote-icon:hover {
+    color: #156e15;
+}
+
+.downvote-icon.downvoted {
+    color: red;
+}
+.downvote-icon.downvoted:hover {
+    color: red;
+}
+.downvote-icon:hover {
+    color: #b40000;
+}

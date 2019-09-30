@@ -9,3 +9,9 @@ urlpatterns = [
     path('term/random/', views.random_term, name='random_term'),
     path('term/<slug:sport_slug>/<slug:term_slug>', views.TermDetailView.as_view(), name='term_detail'),
 ]
+
+# Ajax
+urlpatterns += [
+    path('ajax/upvote/<int:definition_pk>', views.upvote),
+    path('ajax/downvote/<int:definition_pk>', views.downvote),
+]
