@@ -1,5 +1,7 @@
 import re
 
+from django.core.cache import cache
+
 from django.conf import settings
 from django.core.exceptions import ObjectDoesNotExist
 from django.db import models as models, IntegrityError
@@ -139,8 +141,15 @@ class Category(models.Model):
         return f'{self.name}'
 
     def get_absolute_url(self):
-        base_url = reverse('sport_index', args=(self.sport.slug,))
-        return f'{base_url}?category={self.name}'
+        name = self.name.replace(' ', '_')
+        cache_key = f'{self.id}-{name}'
+        cache_time = 86400
+        data = cache.get(cache_key)
+        if not data:
+            base_url = reverse('sport_index', args=(self.sport.slug,))
+            data = f'{base_url}?category={self.name}'
+            cache.set(cache_key, data, cache_time)
+        return data
 # endregion
 
 
