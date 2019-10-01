@@ -3,6 +3,10 @@ A crowd-sourced online sports dictionary written using the Django web framework
 
 🏈 🏸 ⚾ 🏀 🎱 🎳 🥊 ♟️ 🤼‍♂️ 🏏 🚴‍♂️ 🎣 ⚽ ⛳ 🏒 🏇 ⛸ 🏁 🏉 🛹 🏂 🏊‍♂️ 🏓 🎾 🥏 🏐
 
+<p align="center">
+<img align="center" width="100%" src="https://github.com/ilyasmohamed/sportsdictionary/blob/master/.github/README_ASSETS/IMAGES/SportsDictionary_SportIndex.png" />
+</p>
+
 ## Setup
 #### 1. Clone this repo
 ```Shell Session
