@@ -26,18 +26,17 @@ pip install -r requirements.txt
 
 #### 4. Initialize the database
 ```Shell Session
-python manage.py migrate --settings=sportsdictionary.settings.dev
-python manage.py makemigrations dictionary accounts --settings=sportsdictionary.settings.dev
-python manage.py migrate --settings=sportsdictionary.settings.dev
-python manage.py createcachetable --settings=sportsdictionary.settings.dev
+python manage.py makemigrations dictionary accounts --settings=sportsdictionary.settings.testing
+python manage.py migrate --settings=sportsdictionary.settings.testing
+python manage.py createcachetable --settings=sportsdictionary.settings.testing
 ```
 #### 5. Seed the db
 ```Shell Session
-python manage.py seeddb --settings=sportsdictionary.settings.dev
+python manage.py seeddb --settings=sportsdictionary.settings.testing
 ```
 #### 6. Run the development server to verify everything is working
 ```Shell Session
-python manage.py runserver --settings=sportsdictionary.settings.dev
+python manage.py runserver --settings=sportsdictionary.settings.testing
 ```
 #### 7. Login as the test user using the below credentials
 Username: testuser\
