@@ -2,6 +2,7 @@ from django.db.models import Count
 from django.shortcuts import get_object_or_404
 from django.shortcuts import redirect
 from django.views import generic
+from django.views.generic.list import MultipleObjectMixin
 
 from .models import Term, Category, Definition, Sport
 
@@ -110,26 +111,23 @@ class SportIndexView(generic.ListView):
         return context
 
 
-class TermDetailView(generic.DetailView):
+class TermDetailView(generic.DetailView, MultipleObjectMixin):
     context_object_name = 'term'
     slug_url_kwarg = 'term_slug'
     template_name = 'dictionary/term_detail.html'
+    paginate_by = 15
 
     def get_object(self):
         sport_slug = self.kwargs['sport_slug']
         term_slug = self.kwargs.get(self.slug_url_kwarg)
 
-        sport = get_object_or_404(Sport, slug=sport_slug)
-        term = get_object_or_404(Term, sport=sport, slug=term_slug)
+        term = get_object_or_404(Term, sport__slug=sport_slug, slug=term_slug)
 
         return term
 
     def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-
-        definitions = Definition.approved_definitions.filter(term=self.object)
-        context['definitions'] = definitions
-
+        definitions = Definition.approved_definitions.filter(term=self.object).order_by('text')
+        context = super(TermDetailView, self).get_context_data(object_list=definitions, **kwargs)
         return context
 
 

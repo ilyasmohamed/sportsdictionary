@@ -146,7 +146,7 @@ class TermDetailView(TestCase):
                                                    'term_slug': self.term.slug}
                                            ))
 
-        definitions_for_term = response.context['definitions']
+        definitions_for_term = response.context['object_list']
 
         self.assertEqual(response.status_code, 200)
         self.assertEqual(definitions_for_term.count(), 10)
@@ -166,5 +166,5 @@ class TermDetailView(TestCase):
                                                    'term_slug': self.term.slug}
                                            ))
 
-        self.assertEqual(response.context['definitions'].count(), 10)
+        self.assertEqual(response.context['object_list'].count(), 10)
         self.assertEqual(definitions_for_term.count(), 11)
