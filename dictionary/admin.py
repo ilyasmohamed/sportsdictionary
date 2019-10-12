@@ -1,7 +1,6 @@
 from django.contrib import admin
 from django import forms
-from .models import Term, Category, SuggestedTerm, Sport, Definition, Vote
-
+from .models import Term, Category, SuggestedTerm, Sport, Definition, Vote, TermOfTheDay
 
 # region admin config
 admin.site.site_title = 'Sports Dictionary Admin'
@@ -66,6 +65,23 @@ class SuggestedTermAdmin(admin.ModelAdmin):
     form = SuggestedTermAdminForm
     list_display = ['text', 'sport', 'review_status', 'created', 'last_updated']
     list_filter = ('review_status',)
+# endregion
+
+
+# region TermOfTheDay
+class TermOfTheDayAdminForm(forms.ModelForm):
+    class Meta:
+        model = TermOfTheDay
+        fields = ['day', 'term']
+
+
+@admin.register(TermOfTheDay)
+class TermOfTheDayAdmin(admin.ModelAdmin):
+    form = TermOfTheDayAdminForm
+    list_display = ['day', 'term']
+    list_filter = ('day',)
+    readonly_fields = ['day', 'term']
+    ordering = ('-day',)
 # endregion
 
 

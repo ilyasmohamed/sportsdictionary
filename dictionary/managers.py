@@ -1,3 +1,4 @@
+from datetime import date
 from random import randint
 
 from django.db import models as models
@@ -27,6 +28,15 @@ class ApprovedTermManager(models.Manager):
 class PendingSuggestedTermManager(models.Manager):
     def get_queryset(self):
         return super().get_queryset().filter(review_status='PEN')
+
+
+class TermOfTheDayManager(models.Manager):
+    def today(self):
+        today = date.today()
+        self.get(day=today)
+
+    def today_and_before(self):
+        return self.get_queryset().filter(day__lte=date.today()).order_by('-day')
 
 
 class ApprovedDefinitionManager(models.Manager):

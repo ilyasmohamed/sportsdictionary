@@ -5,7 +5,38 @@
 {% endblock %}
 
 {% block maincolumn %}
-    {% include "dictionary/includes/render_term_rows.html" %}
+    {% for totd in terms_of_the_day %}
+    <div class="row mb-3 my-4">
+        <div class="col-sm-12">
+            <div class="card">
+                <div class="card-header">
+                    {{ totd.day|date:"F jS" }}
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title mb-1">
+                        <div class="row">
+                            <div class="col-md-7">
+                                <a href="{{ totd.term.get_absolute_url }}">{{ totd.term.text }}</a>
+                            </div>
+                            <div class="col-md-5">
+                                <a href="{{ totd.term.sport.get_absolute_url }}"
+                                   class="badge badge-sport badge-{{ totd.term.sport.slug }} float-right">{{ totd.term.sport.emoji }} {{ totd.term.sport }}</a>
+                            </div>
+                        </div>
+                    </h5>
+                    <p class="mb-0">
+                        <small class="text-muted">{{ totd.term.definitions__count }} definition{{ totd.term.definitions__count|pluralize }}
+                        </small>
+                    </p>
+
+                    {% for category in totd.term.categories.all %}
+                    <a class="badge badge-dark" href="{{ category.get_absolute_url }}">{{ category.name }}</a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
     {% include "dictionary/includes/pagination.html" %}
 {% endblock %}
 

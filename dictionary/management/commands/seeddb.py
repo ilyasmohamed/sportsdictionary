@@ -8,7 +8,7 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.core.management.base import BaseCommand
 from faker import Faker
 
-from dictionary.models import Sport, Term, Definition, Vote, Category
+from dictionary.models import Sport, Term, Definition, Vote, Category, TermOfTheDay
 
 fake = Faker()
 
@@ -35,39 +35,53 @@ class Command(BaseCommand):
             '-nu',
             '--num-users',
             type=int,
+            default=3,
             help='the number of users to add',
         )
         parser.add_argument(
             '-ns',
             '--num-sports',
             type=int,
+            default=5,
             help='the number of sports to add',
         )
         parser.add_argument(
             '-nc',
             '--num-categories',
             type=int,
+            default=2,
             help='the number of categories to add for each sport',
         )
         parser.add_argument(
             '-nt',
             '--num-terms',
             type=int,
+            default=15,
             help='the number of terms to add for each sport',
         )
         parser.add_argument(
             '-mnd',
             '--max-num-definitions',
             type=int,
+            default=5,
             help='the maximum number of definitions to add for each term (number of definitions to add is random)',
+        )
+        parser.add_argument(
+            '-ntotd',
+            '--num-terms-of-the-day',
+            type=int,
+            default=14,
+            help='the number of terms of the day to add (if this is greater than the supplied num terms value it will '
+                 'instead match the number of terms',
         )
 
     def handle(self, *args, **options):
-        num_users = 3 if not options['num_users'] else options['num_users']
-        num_sports = 5 if not options['num_sports'] else options['num_sports']
-        num_categories = 2 if not options['num_categories'] else options['num_categories']
-        num_terms = 15 if not options['num_terms'] else options['num_terms']
-        max_num_definitions = 5 if not options['max_num_definitions'] else options['max_num_definitions']
+        num_users = options['num_users']
+        num_sports = options['num_sports']
+        num_categories = options['num_categories']
+        num_terms = options['num_terms']
+        max_num_definitions = options['max_num_definitions']
+        num_terms_of_the_day = options['num_terms_of_the_day']
 
         overwrite = options['overwrite']
         overwrite_superusers = options['overwrite_superusers']
@@ -85,10 +99,11 @@ class Command(BaseCommand):
         seed_sports(num_entries=num_sports, overwrite=overwrite)
         seed_categories_for_each_sport(num_entries=num_categories, overwrite=overwrite)
         seed_terms_for_each_sport(num_entries=num_terms, overwrite=overwrite)
+        seed_terms_of_the_day(num_entries=num_terms_of_the_day, overwrite=overwrite)
         seed_definitions_for_each_term(max_definitions_for_each_term=max_num_definitions, overwrite=overwrite)
         seed_votes_for_definitions(overwrite=overwrite)
-        # get time
 
+        # get time
         elapsed_time = time.time() - start_time
         minutes = int(elapsed_time // 60)
         seconds = int(elapsed_time % 60)
@@ -275,6 +290,34 @@ def seed_terms_for_each_sport(num_entries, overwrite):
         percent_complete = count / total_terms_to_add * 100
         print(
             "Adding {} new Terms: {:.2f}%".format(total_terms_to_add, percent_complete),
+            end='\r',
+            flush=True
+        )
+    print()
+
+
+def seed_terms_of_the_day(num_entries, overwrite):
+    if overwrite:
+        print("Overwriting Terms of the day")
+        TermOfTheDay.objects.all().delete()
+
+    count = 0
+
+    if num_entries > Term.objects.count():
+        num_entries = Term.objects.count()
+
+    today = datetime.date.today()
+
+    for i in range(num_entries):
+        day = today - datetime.timedelta(days=i)
+        random_term = Term.approved_terms.random()
+        totd = TermOfTheDay(day=day, term=random_term)
+        totd.save()
+        count += 1
+
+        percent_complete = count / num_entries * 100
+        print(
+            "Adding {} new Terms of the day: {:.2f}%".format(num_entries, percent_complete),
             end='\r',
             flush=True
         )

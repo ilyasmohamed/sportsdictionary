@@ -9,7 +9,7 @@ from django.template.defaultfilters import slugify
 from django.urls import reverse
 
 from dictionary.managers import SportManager, ApprovedTermManager, PendingSuggestedTermManager, \
-    ApprovedDefinitionManager, ActiveSportsManager
+    ApprovedDefinitionManager, ActiveSportsManager, TermOfTheDayManager
 
 
 def unique_slugify(instance, value, slug_field_name='slug', queryset=None,
@@ -290,6 +290,32 @@ class SuggestedTerm(AbstractTerm):
 
     def is_rejected(self):
         return self.review_status == self.REJECTED
+# endregion
+
+
+# region Definition Model
+class TermOfTheDay(models.Model):
+    # Fields
+    day = models.DateField(unique=True)
+
+    # Relationship Fields
+    term = models.ForeignKey(
+        'dictionary.Term',
+        on_delete=models.CASCADE, related_name="terms_of_the_day",
+    )
+
+    # Managers
+    objects = models.Manager()
+    terms = TermOfTheDayManager()
+
+    class Meta:
+        verbose_name_plural = "Terms of the day"
+
+    # Methods
+    def __str__(self):
+        term_text = self.term.text
+        term_text = (term_text[:40] + '...') if len(term_text) > 40 else term_text
+        return f'{self.day} - {term_text}'
 # endregion
 
 

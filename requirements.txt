@@ -4,6 +4,8 @@ django-qurl-templatetag==0.0.13
 django-widget-tweaks==1.4.5
 factory-boy==2.12.0
 Faker==2.0.1
+numpy==1.17.2
+pandas==0.25.1
 psycopg2==2.8.3
 python-dateutil==2.8.0
 pytz==2019.1

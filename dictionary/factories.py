@@ -1,8 +1,14 @@
+from datetime import date, timedelta
+
 import factory
 from factory.django import DjangoModelFactory
 
 from accounts.factories import UserFactory
-from dictionary.models import Sport, Category, SuggestedTerm, Term, Definition, Vote
+from dictionary.models import Sport, Category, SuggestedTerm, Term, Definition, Vote, TermOfTheDay
+
+from faker import Faker
+
+fake = Faker()
 
 
 class SportFactory(DjangoModelFactory):
@@ -39,6 +45,14 @@ class SuggestedTermFactory(DjangoModelFactory):
     text = factory.Sequence(lambda n: f'Suggested Term text {n}')
     example_usage = factory.Sequence(lambda n: f'Example usage for suggested term {n}')
     review_status = SuggestedTerm.PENDING
+
+
+class TermOfTheDayFactory(DjangoModelFactory):
+    class Meta:
+        model = TermOfTheDay
+
+    day = factory.Sequence(lambda n: date.today() - timedelta(n))
+    term = factory.SubFactory(TermFactory)
 
 
 class DefinitionFactory(DjangoModelFactory):

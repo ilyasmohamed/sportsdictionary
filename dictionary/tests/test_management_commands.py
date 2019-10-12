@@ -6,7 +6,7 @@ from django.core.management import call_command
 from django.test import TestCase
 
 from dictionary.factories import SportFactory, CategoryFactory, UserFactory, TermFactory, SuggestedTermFactory, DefinitionFactory, VoteFactory
-from dictionary.models import Sport, Category, Term, Definition, Vote, SuggestedTerm
+from dictionary.models import Sport, Category, Term, Definition, Vote, SuggestedTerm, TermOfTheDay
 
 
 class NukeDbTest(TestCase):
@@ -24,7 +24,7 @@ class NukeDbTest(TestCase):
     def test_num_rows(self):
         expected_num_entries = 1
 
-        self.assertEqual(User.objects.count(), expected_num_entries + 1)  # users will include the superuser
+        self.assertEqual(User.objects.count(), 2)  # users will include the superuser
         self.assertEqual(Sport.objects.count(), expected_num_entries)
         self.assertEqual(Term.objects.count(), expected_num_entries)
         self.assertEqual(SuggestedTerm.objects.count(), expected_num_entries)
@@ -92,3 +92,28 @@ class SeedDb(TestCase):
 
         total_objects = User.objects.count() + Sport.objects.count() + Term.objects.count() + Definition.objects.count()
         self.assertEqual(total_objects, 4)
+
+
+class AddFutureTermsOfTheDay(TestCase):
+    @classmethod
+    def setUpTestData(cls):
+        TermFactory.create_batch(15)
+
+    def test_command(self):
+        out = StringIO()
+        sys.stdout = out
+        call_command('addfuturetermsoftheday', days=7, stdout=out)
+
+        terms_of_the_day = TermOfTheDay.objects.count()
+        self.assertEqual(terms_of_the_day, 7)
+
+    def test_only_adds_for_days_not_existing(self):
+        out = StringIO()
+        sys.stdout = out
+        call_command('addfuturetermsoftheday', days=5)
+        call_command('addfuturetermsoftheday', days=7, stdout=out)
+
+        terms_of_the_day = TermOfTheDay.objects.count()
+        self.assertEqual(terms_of_the_day, 7)
+
+        self.assertIn(f'Added 2 new terms of the day', out.getvalue())

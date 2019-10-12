@@ -4,7 +4,7 @@ from django.shortcuts import redirect
 from django.views import generic
 from django.views.generic.list import MultipleObjectMixin
 
-from .models import Term, Category, Definition, Sport
+from .models import Term, Category, Definition, Sport, TermOfTheDay
 
 
 def get_page_range_to_display_for_pagination(page_obj):
@@ -30,11 +30,11 @@ def get_page_range_to_display_for_pagination(page_obj):
 
 
 class IndexView(generic.ListView):
-    context_object_name = 'terms'
+    context_object_name = 'terms_of_the_day'
     template_name = 'dictionary/index.html'
     paginate_by = 20
     paginate_orphans = 5
-    queryset = Term.approved_terms.select_related('sport').prefetch_related('categories').annotate(Count('definitions'))
+    queryset = TermOfTheDay.terms.today_and_before()
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)

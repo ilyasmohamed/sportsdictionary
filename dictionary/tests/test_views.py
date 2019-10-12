@@ -3,7 +3,8 @@ from django.test import TestCase
 from django.urls import reverse
 
 from dictionary.models import Term, Definition, Sport
-from dictionary.factories import SportFactory, UserFactory, TermFactory, DefinitionFactory, VoteFactory
+from dictionary.factories import SportFactory, UserFactory, TermFactory, DefinitionFactory, VoteFactory, \
+    TermOfTheDayFactory
 
 
 class IndexView(TestCase):
@@ -12,7 +13,7 @@ class IndexView(TestCase):
         # Create 200 Terms
         num_terms = 200
 
-        TermFactory.create_batch(num_terms)
+        TermOfTheDayFactory.create_batch(num_terms)
 
     def test_view_url_exists_at_desired_location(self):
         response = self.client.get('/')
@@ -34,7 +35,7 @@ class IndexView(TestCase):
         self.assertEqual(response.status_code, 200)
         self.assertTrue('is_paginated' in response.context)
         self.assertTrue(response.context['is_paginated'])
-        self.assertEqual(len(response.context['terms']), x)
+        self.assertEqual(len(response.context['terms_of_the_day']), x)
 
     def test_pagination_page_number(self):
         response = self.client.get(reverse('index') + '?page=2')

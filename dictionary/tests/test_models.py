@@ -1,8 +1,10 @@
+from datetime import date
+
 from django.test import TestCase
 from django.core.exceptions import ObjectDoesNotExist
 
-from dictionary.factories import SportFactory, CategoryFactory, UserFactory, TermFactory, SuggestedTermFactory,\
-    DefinitionFactory, VoteFactory
+from dictionary.factories import SportFactory, CategoryFactory, UserFactory, TermFactory, SuggestedTermFactory, \
+    DefinitionFactory, VoteFactory, TermOfTheDayFactory
 from dictionary.models import SuggestedTerm, Vote
 
 
@@ -116,6 +118,15 @@ class SuggestedTermModelTest(BaseModelTest):
         except ObjectDoesNotExist:
             # if we're here it means the term was not created
             self.fail('SuggestedTerm has no term')
+# endregion
+
+
+# region TermOfTheDay
+class TermOfTheDayModelTest(BaseModelTest):
+
+    def test_str_method(self):
+        todays_term = TermOfTheDayFactory.create(day=date.today())
+        self.assertEqual(str(todays_term), f'{todays_term.day} - {todays_term.term.text}')
 # endregion
 
 
