@@ -59,6 +59,11 @@
     <div class="row mb-3 infinite-item">
         <div class="col-sm-12">
             <div class="card">
+                {% if forloop.first and definition.valid_top_definition %}
+                    <div class="card-header">
+                        🏅 Top definition 🏅
+                    </div>
+                {% endif %}
                 <div class="card-body">
                     <div class="row">
                         <div class="col-sm-1">

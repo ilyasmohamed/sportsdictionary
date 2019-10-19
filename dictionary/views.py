@@ -134,7 +134,7 @@ class TermDetailView(generic.DetailView, MultipleObjectMixin):
         return term
 
     def get_context_data(self, **kwargs):
-        definitions = Definition.approved_definitions.filter(term=self.object).order_by('text')
+        definitions = Definition.approved_definitions.filter(term=self.object).order_by('-net_votes')
         context = super(TermDetailView, self).get_context_data(object_list=definitions, **kwargs)
         return context
 

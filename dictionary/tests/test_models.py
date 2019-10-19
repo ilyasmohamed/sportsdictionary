@@ -137,6 +137,15 @@ class DefinitionModelTest(BaseModelTest):
         definition = self.definition
         self.assertEqual(str(definition), definition.text)
 
+    def test_invalid_top_definition_method(self):
+        definition = self.definition
+        self.assertEqual(False, definition.valid_top_definition())
+
+    def test_valid_top_definition_method(self):
+        definition = self.definition
+        definition.upvote(user=self.user)
+        self.assertEqual(True, definition.valid_top_definition())
+
     def test_definition_approved_by_default(self):
         definition = self.definition
         self.assertTrue(definition.approvedFl)
