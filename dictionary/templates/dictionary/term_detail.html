@@ -28,6 +28,27 @@
   </div>
 </div>
 
+<!-- Delete Definition Confirmation Modal -->
+<div class="modal fade" id="deleteDefinitionConfirmationModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Delete Comment</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Are you sure you want to delete your comment?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Keep</button>
+        <a class="btn btn-outline-dark" role="button" data-dismiss="modal" id="delete">Delete</a>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="row mb-3 my-4">
     <div class="col-sm-12">
         <div class="card">
@@ -114,6 +135,13 @@
                                 </p>
                             </h6>
                         </div>
+                        {% if request.user == definition.user %}
+                        <div class="col-sm-12">
+                            <button class="btn btn-link" class="float-right" data-action="delete-definition" data-definition-id="{{ definition.id }}">
+                                <i class="far fa-trash-alt"></i> Delete
+                            </button>
+                        </div>
+                        {% endif %}
                     </div>
                 </div>
             </div>

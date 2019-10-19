@@ -89,7 +89,7 @@ class TermOfTheDayAdmin(admin.ModelAdmin):
 class DefinitionAdminForm(forms.ModelForm):
     class Meta:
         model = Definition
-        fields = ['term', 'text', 'example_usage', 'user', 'approvedFl']
+        fields = ['term', 'text', 'example_usage', 'user', 'approvedFl', 'deleteFl']
 
 
 @admin.register(Definition)
@@ -97,6 +97,7 @@ class DefinitionAdmin(admin.ModelAdmin):
     form = DefinitionAdminForm
     list_display = ['text', 'created',  'last_updated', 'approvedFl', 'num_upvotes', 'num_downvotes', 'net_votes']
     list_filter = ('created', 'approvedFl')
+    search_fields = ['text']
 # endregion
 
 

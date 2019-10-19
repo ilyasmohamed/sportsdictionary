@@ -56,9 +56,31 @@ function downvote() {
     });
 }
 
+function deleteDefinition() {
+    var deleteDefinitionButton = $(this);
+    var definition = deleteDefinitionButton.closest(".infinite-item")
+    var definitionPk = deleteDefinitionButton.data('definition-id');
+
+    $("#deleteDefinitionConfirmationModal").modal()
+    .on('click', '#delete', function(e) {
+        $.ajax({
+			type: 'POST',
+			url: "/ajax/delete-definition/" + definitionPk,
+			dataType: 'json',
+			data : {
+				'csrfmiddlewaretoken' : $("input[name=csrfmiddlewaretoken]").val()
+			},
+			success: function(response){
+				definition.remove();
+			},
+        });
+    });
+}
+
 
 // Connecting Handlers
 $(function() {
     $('[data-action="upvote"]').click(upvote);
     $('[data-action="downvote"]').click(downvote);
+    $('[data-action="delete-definition"]').click(deleteDefinition);
 });

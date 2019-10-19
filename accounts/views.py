@@ -18,9 +18,10 @@ from .tokens import account_activation_token
 
 @login_required
 def profile(request):
-    definitions = Definition.objects.filter(user=request.user).order_by('-created')
-    upvotes = Vote.objects.filter(user=request.user).filter(vote_type=Vote.UPVOTE).order_by('-created')
-    downvotes = Vote.objects.filter(user=request.user).filter(vote_type=Vote.DOWNVOTE).order_by('-created')
+    definitions = Definition.approved_definitions.filter(user=request.user).order_by('-created')
+    user_votes = Vote.objects.filter(user=request.user).filter(definition__deleteFl=False)
+    upvotes = user_votes.filter(vote_type=Vote.UPVOTE).order_by('-created')
+    downvotes = user_votes.filter(vote_type=Vote.DOWNVOTE).order_by('-created')
 
     context = {
         'definitions': definitions,

@@ -330,6 +330,7 @@ class Definition(models.Model):
     net_votes = models.IntegerField(default=0)
     num_upvotes = models.IntegerField(default=0)
     num_downvotes = models.IntegerField(default=0)
+    deleteFl = models.BooleanField(default=False)
 
     # Relationship Fields
     term = models.ForeignKey(

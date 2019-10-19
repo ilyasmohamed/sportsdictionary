@@ -178,3 +178,18 @@ def downvote(request, definition_pk):
     }
 
     return HttpResponse(json.dumps(response), content_type='application/json')
+
+
+@login_required
+@require_POST
+def delete_definition(request, definition_pk):
+    definition = Definition.objects.get(pk=definition_pk)
+
+    definition.deleteFl = True
+    definition.save()
+
+    response = {
+        'definition_deleted': definition.deleteFl,
+    }
+
+    return HttpResponse(json.dumps(response), content_type='application/json')

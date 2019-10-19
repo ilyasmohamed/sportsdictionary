@@ -14,4 +14,5 @@ urlpatterns = [
 urlpatterns += [
     path('ajax/upvote/<int:definition_pk>', views.upvote),
     path('ajax/downvote/<int:definition_pk>', views.downvote),
+    path('ajax/delete-definition/<int:definition_pk>', views.delete_definition),
 ]

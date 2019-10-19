@@ -41,4 +41,4 @@ class TermOfTheDayManager(models.Manager):
 
 class ApprovedDefinitionManager(models.Manager):
     def get_queryset(self):
-        return super().get_queryset().filter(approvedFl=True)
+        return super().get_queryset().filter(approvedFl=True).filter(deleteFl=False)
