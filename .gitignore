@@ -2,7 +2,9 @@
 sportsdictionary/settings/local.py
 
 #Migrations
-**/migrations/
+**/migrations/*.py
+**/migrations/*.pyc
+!**/migrations/__init__.py
 
 # User-specific stuff:
 .idea/workspace.xml
@@ -67,7 +69,6 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
-db.sqlite3
 
 # Flask stuff:
 instance/

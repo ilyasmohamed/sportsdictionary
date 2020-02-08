@@ -23,7 +23,7 @@ urlpatterns = [
     path('', include('dictionary.urls')),
 ]
 
-if settings.DEBUG:
+if settings.DEBUG and settings.ENVIRONMENT_NAME == 'Development':
     import debug_toolbar
 
     urlpatterns = [

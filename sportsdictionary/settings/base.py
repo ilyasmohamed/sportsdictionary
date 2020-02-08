@@ -7,8 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['SECRET_KEY']
+SECRET_KEY = os.environ.get('SECRET_KEY', 'n7ey2b)lrjk#*fyayy=-@hfi7^6cm__!$2vxsydb%r_8^p2t@%')
 
 ALLOWED_HOSTS = []
 
@@ -19,7 +18,6 @@ INSTALLED_APPS = [
     'dictionary',
     'accounts',
     'widget_tweaks',
-    'debug_toolbar',
     'qurl_templatetag',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -30,7 +28,6 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
-    'debug_toolbar.middleware.DebugToolbarMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
