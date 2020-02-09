@@ -1,5 +1,5 @@
 from django.contrib.auth.decorators import login_required
-from django.db.models import Count
+from django.db.models import Count, Q
 from django.http import HttpResponse
 from django.shortcuts import get_object_or_404
 from django.shortcuts import redirect
@@ -42,7 +42,8 @@ class IndexView(generic.ListView):
     template_name = 'dictionary/index.html'
     paginate_by = 20
     paginate_orphans = 5
-    queryset = TermOfTheDay.terms.today_and_before()
+    queryset = TermOfTheDay.terms.today_and_before()\
+        .annotate(num_definitions=Count('term__definitions', filter=Q(term__definitions__deleteFl=False)))
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -62,7 +63,9 @@ class SearchResultsView(generic.ListView):
 
     def get_queryset(self):
         search_key = self.request.GET.get('term')
-        terms = Term.approved_terms.select_related('sport').prefetch_related('categories').filter(text__icontains=search_key).annotate(Count('definitions'))
+        terms = Term.approved_terms.select_related('sport').prefetch_related('categories')\
+            .filter(text__icontains=search_key)\
+            .annotate(num_definitions=Count('definitions', filter=Q(definitions__deleteFl=False)))
         return terms
 
     def get_context_data(self, **kwargs):
@@ -95,7 +98,9 @@ class SportIndexView(generic.ListView):
         category_list = self.request.GET.getlist('category')
 
         if not category_list:
-            return Term.approved_terms.select_related('sport').prefetch_related('categories').filter(sport=self.sport).annotate(Count('definitions'))
+            return Term.approved_terms.select_related('sport').prefetch_related('categories')\
+                .filter(sport=self.sport)\
+                .annotate(num_definitions=Count('definitions', filter=Q(definitions__deleteFl=False)))
         else:
             categories = []
             for category_name in category_list:
