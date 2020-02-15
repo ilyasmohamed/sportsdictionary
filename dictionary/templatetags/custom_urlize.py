@@ -3,8 +3,8 @@ import re
 from django import template
 from django.core.exceptions import ObjectDoesNotExist
 from django.template.defaultfilters import stringfilter
-from django.utils.safestring import mark_safe
 from django.utils.html import escape
+from django.utils.safestring import mark_safe
 
 from dictionary.models import Sport, Term
 
@@ -55,6 +55,11 @@ def get_interlink_anchor(sport_ref, term_slug, label, definition_term_sport):
         label = term_slug
 
     if bad_link:
-        return f'<a href="#" class="bad-link">{label}</a>'
+        s = sport_ref if sport_ref else definition_term_sport
+        t = Term(
+            slug=term_slug,
+            sport=s
+        )
+        return f'<a href="{t.get_absolute_url()}" class="bad-link">{label}</a>'
     else:
         return f'<a href="{term.get_absolute_url()}" class="term-link-in-definition">{label}</a>'

@@ -36,3 +36,9 @@
 .downvote-icon:hover {
     color: #b40000;
 }
+.bad-link {
+color: #B20000;
+}
+.bad-link:hover {
+color: #8E0000;
+}

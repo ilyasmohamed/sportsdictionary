@@ -43,10 +43,14 @@ class CustomUrlizeTest(BaseTagsTest):
     def test_invalid_internal_link_no_label(self):
         term_slug = 'a-made-up-slug'
         result = custom_urlize(f'[[{term_slug}]]', self.term.sport)
-        self.assertEqual(result, f'<a href="#" class="bad-link">{term_slug}</a>')
+        surl = self.term.sport.get_absolute_url()
+        surl = surl.replace("terms", "term")
+        self.assertEqual(result, f'<a href="{surl + term_slug}" class="bad-link">{term_slug}</a>')
 
     def test_invalid_internal_link_with_label(self):
         term_slug = 'a-made-up-slug'
         label = 'a label'
         result = custom_urlize(f'[[{term_slug}|{label}]]', self.term.sport)
-        self.assertEqual(result, f'<a href="#" class="bad-link">{label.strip()}</a>')
+        surl = self.term.sport.get_absolute_url()
+        surl = surl.replace("terms", "term")
+        self.assertEqual(result, f'<a href="{surl + term_slug}" class="bad-link">{label.strip()}</a>')
