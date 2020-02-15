@@ -80,7 +80,7 @@ function deleteDefinition() {
 
 // Connecting Handlers
 $(function() {
-    $('[data-action="upvote"]').click(upvote);
-    $('[data-action="downvote"]').click(downvote);
-    $('[data-action="delete-definition"]').click(deleteDefinition);
+    $('.infinite-container').on('click', 'button[data-action="upvote"]', upvote);
+    $('.infinite-container').on('click', 'button[data-action="downvote"]', downvote);
+    $('.infinite-container').on('click', 'button[data-action="delete-definition"]', deleteDefinition);
 });
